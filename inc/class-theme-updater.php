@@ -25,7 +25,7 @@ class MIS360_Theme_Updater {
     public function __construct(string $theme_slug, string $current_version, string $update_json_url = '') {
         $this->theme_slug      = $theme_slug;
         $this->current_version = $current_version;
-        $this->update_json_url = $update_json_url ?: 'https://raw.githubusercontent.com/akkaya6611/mis360-theme/main/theme-update.json';
+        $this->update_json_url = $update_json_url ?: 'https://raw.githubusercontent.com/akkaya6611/mis360-kurumsal/main/theme-update.json';
 
         // 1. WordPress Standart Güncelleme Kancaları
         add_filter('pre_set_site_transient_update_themes', [$this, 'check_for_theme_update']);
@@ -304,7 +304,7 @@ class MIS360_Theme_Updater {
                             MİS360 Tema Güncelleme Merkezi
                         </h1>
                         <p style="color: #94a3b8; margin: 0; font-size: 14px;">
-                            Yazar: <strong style="color: #fff;">Serkan AKKAYA</strong> • GitHub Deposu: <a href="https://github.com/akkaya6611/mis360-theme" target="_blank" style="color: #05f9ff; text-decoration: underline;">akkaya6611/mis360-theme</a>
+                            Yazar: <strong style="color: #fff;">Serkan AKKAYA</strong> • GitHub Deposu: <a href="https://github.com/akkaya6611/mis360-kurumsal" target="_blank" style="color: #05f9ff; text-decoration: underline;">akkaya6611/mis360-kurumsal</a>
                         </p>
                     </div>
 

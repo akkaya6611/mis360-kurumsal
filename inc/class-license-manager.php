@@ -232,7 +232,7 @@ class MIS360_License_Manager {
      * licenses.json müşterinin tema dosyalarında YER ALMAZ; yalnızca uzak GitHub'da yaşar.
      */
     private static function verify_remote_server(string $key, string $domain): array {
-        $cloud_url = 'https://raw.githubusercontent.com/akkaya6611/mis360-theme/main/licenses.json';
+        $cloud_url = 'https://raw.githubusercontent.com/akkaya6611/mis360-kurumsal/main/licenses.json';
         $cloud_res = wp_remote_get(add_query_arg('t', time(), $cloud_url), [
             'timeout'   => 8,
             'sslverify' => false,
@@ -476,7 +476,7 @@ class MIS360_License_Manager {
             <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px 20px; font-size: 13px; color: #64748b;">
                 <strong><?php esc_html_e('Geliştirici & Telif Sahibi:', 'mis360'); ?></strong> Serkan AKKAYA — 
                 <a href="https://misteknoloji360.com.tr/" target="_blank" style="text-decoration: none; color: #2563eb;">misteknoloji360.com.tr</a> | 
-                <a href="https://github.com/akkaya6611/mis360-theme" target="_blank" style="text-decoration: none; color: #2563eb;">GitHub Deposu</a>
+                <a href="https://github.com/akkaya6611/mis360-kurumsal" target="_blank" style="text-decoration: none; color: #2563eb;">GitHub Deposu</a>
             </div>
         </div>
         <?php
