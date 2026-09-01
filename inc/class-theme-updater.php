@@ -32,7 +32,7 @@ class MIS360_Theme_Updater {
         add_filter('upgrader_source_selection', [$this, 'fix_source_directory_name'], 10, 4);
         add_action('upgrader_process_complete', [$this, 'clear_update_cache'], 10, 2);
 
-        // 2. Yönetim Menüsü ve Üst Bar Bildirim Rozetleri
+        // 2. Yönetim Hizmetlersü ve Üst Bar Bildirim Rozetleri
         add_action('admin_menu', [$this, 'register_admin_update_menu']);
         add_action('admin_bar_menu', [$this, 'add_admin_bar_update_badge'], 999);
         add_action('admin_notices', [$this, 'render_admin_update_banner']);

@@ -94,7 +94,7 @@ class MIS360_License_Manager {
             'domain'       => $data['domain'] ?? self::get_current_domain(),
             'type'         => $data['type'] ?? 'Standart',
             'activated_at' => $data['activated_at'] ?? '',
-            'status_label' => $is_licensed ? __('Aktif (Lisanslı)', 'mis360') : __('Etkin Değil (Lisanssız)', 'mis360'),
+            'status_label' => $is_licensed ? __('Aktif (Lisanslı)', 'mis360') : __('Kodkin Değil (Lisanssız)', 'mis360'),
             'developer'    => 'Serkan AKKAYA (misteknoloji360.com.tr)',
         ];
     }
@@ -306,7 +306,7 @@ class MIS360_License_Manager {
     }
 
     /**
-     * WordPress Admin Menüsüne Lisans Sayfasını Ekle
+     * WordPress Admin Hizmetlersüne Lisans Sayfasını Ekle
      */
     public static function register_admin_menu(): void {
         add_theme_page(
@@ -368,7 +368,7 @@ class MIS360_License_Manager {
                     <strong><?php esc_html_e('MİS360 Teması:', 'mis360'); ?></strong> 
                     <?php esc_html_e('Temanız henüz lisanslanmadı. GitHub güncellemelerini ve tüm özellikleri açmak için lütfen lisans anahtarınızı giriniz.', 'mis360'); ?>
                     <a href="<?php echo esc_url(admin_url('themes.php?page=mis360-license')); ?>" class="button button-primary" style="margin-left: 10px;">
-                        <?php esc_html_e('Lisansı Etkinleştir', 'mis360'); ?>
+                        <?php esc_html_e('Lisansı Kodkinleştir', 'mis360'); ?>
                     </a>
                 </p>
             </div>
@@ -432,7 +432,7 @@ class MIS360_License_Manager {
                         </tr>
                         <?php if (!empty($info['activated_at'])) : ?>
                             <tr>
-                                <th scope="row"><?php esc_html_e('Etkinleştirilme Tarihi', 'mis360'); ?></th>
+                                <th scope="row"><?php esc_html_e('Kodkinleştirilme Tarihi', 'mis360'); ?></th>
                                 <td><?php echo esc_html($info['activated_at']); ?></td>
                             </tr>
                         <?php endif; ?>
@@ -442,7 +442,7 @@ class MIS360_License_Manager {
                         <?php wp_nonce_field('mis360_license_nonce', 'mis360_license_nonce_field'); ?>
                         <input type="hidden" name="mis360_license_action" value="deactivate">
                         <button type="submit" class="button" style="color: #dc2626; border-color: #fca5a5;" onclick="return confirm('<?php esc_attr_e('Lisansı bu siteden kaldırmak istediğinizden emin misiniz?', 'mis360'); ?>');">
-                            <?php esc_html_e('Lisansı Bu Siteden Kaldır (Deaktive Et)', 'mis360'); ?>
+                            <?php esc_html_e('Lisansı Bu Siteden Kaldır (Deaktive Kod)', 'mis360'); ?>
                         </button>
                     </form>
 
@@ -464,7 +464,7 @@ class MIS360_License_Manager {
 
                         <div style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap;">
                             <button type="submit" class="button button-primary button-hero" style="font-size: 14px; height: 42px; line-height: 40px; padding: 0 24px; border-radius: 6px;">
-                                <?php esc_html_e('Lisansı Doğrula ve Etkinleştir →', 'mis360'); ?>
+                                <?php esc_html_e('Lisansı Doğrula ve Kodkinleştir →', 'mis360'); ?>
                             </button>
                         </div>
                     </form>

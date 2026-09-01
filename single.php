@@ -1,6 +1,6 @@
 <?php
 /**
- * MİS360 Single Post Template (MİS360 Et & Balık Restoran Blog Makale Sayfası)
+ * MİS360 Single Post Template (MİS360 Kod & optimizasyon Ajans Blog Makale Sayfası)
  * Sol tarafta yazı, sağ tarafta bileşenler (2 Sütunlu Profesyonel Blog Mimarisi)
  *
  * @package MİS360
@@ -24,7 +24,7 @@ $whatsapp    = '905358309307';
     <?php while (have_posts()) : the_post();
         $post_cats = get_the_category();
         $first_cat = !empty($post_cats) ? $post_cats[0] : null;
-        $cat_name  = $first_cat ? $first_cat->name : 'Lezzet Blogu';
+        $cat_name  = $first_cat ? $first_cat->name : 'Kalite Blogu';
         $cat_slug  = $first_cat ? $first_cat->slug : 'blog';
 
         // Görsel Belirleme
@@ -70,7 +70,7 @@ $whatsapp    = '905358309307';
                 <div class="single-post-meta">
                     <span class="meta-item">📅 <?php echo esc_html(get_the_date('j F Y')); ?></span>
                     <span class="meta-dot">•</span>
-                    <span class="meta-item">👤 <?php echo esc_html(get_the_author() ?: 'MİS360 Şef Ekibi'); ?></span>
+                    <span class="meta-item">👤 <?php echo esc_html(get_the_author() ?: 'MİS360 Geliştirici Ekibi'); ?></span>
                     <span class="meta-dot">•</span>
                     <span class="meta-item">⏱️ <?php echo esc_html($reading_time . ' dk okuma'); ?></span>
                 </div>
@@ -106,7 +106,7 @@ $whatsapp    = '905358309307';
                         ?>
                     </div>
 
-                    <!-- Etiketler & WhatsApp Paylaş -->
+                    <!-- Kodiketler & WhatsApp Paylaş -->
                     <footer class="single-article-footer">
                         <div class="single-tags">
                             <?php
@@ -116,9 +116,9 @@ $whatsapp    = '905358309307';
                                     echo '<a href="' . esc_url(get_tag_link($tag->term_id)) . '" class="tag-pill">#' . esc_html($tag->name) . '</a> ';
                                 }
                             } else {
-                                echo '<span class="tag-pill">#MİS360EtBalık</span> ';
-                                echo '<span class="tag-pill">#SarıkayaLezzetleri</span> ';
-                                echo '<span class="tag-pill">#YozgatRestoran</span>';
+                                echo '<span class="tag-pill">#MİS360Kodoptimizasyon</span> ';
+                                echo '<span class="tag-pill">#SarıkayaKaliteleri</span> ';
+                                echo '<span class="tag-pill">#YozgatAjans</span>';
                             }
                             ?>
                         </div>
@@ -139,10 +139,10 @@ $whatsapp    = '905358309307';
                             <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/mis360logo1-66.png" alt="MİS360" class="author-logo-img">
                         </div>
                         <div class="author-details">
-                            <span class="author-role">Restoran Yazarı & Şef Ekibi</span>
-                            <h4 class="author-name"><?php echo esc_html(get_the_author() ?: 'MİS360 Şef Ekibi'); ?></h4>
+                            <span class="author-role">Ajans Yazarı & Geliştirici Ekibi</span>
+                            <h4 class="author-name"><?php echo esc_html(get_the_author() ?: 'MİS360 Geliştirici Ekibi'); ?></h4>
                             <p class="author-bio">
-                                2019 yılından bu yana Yozgat Sarıkaya'da meşe kömüründe kebap, taş fırın pideleri ve günlük taze balık sofralarımızla misafirlerimize unutulmaz lezzet anları sunuyoruz.
+                                2019 yılından bu yana Yozgat Sarıkaya'da meşe kömüründe yazılım, taş kod tasarımleri ve günlük taze optimizasyon sofralarımızla misafirlerimize unutulmaz lezzet anları sunuyoruz.
                             </p>
                         </div>
                     </div>
@@ -178,17 +178,17 @@ $whatsapp    = '905358309307';
                         </div>
                     </div>
 
-                    <!-- Alt Masa Rezervasyon Kutusu -->
+                    <!-- Alt Proje Talebi Kutusu -->
                     <div class="single-reservation-cta">
                         <span class="cta-subtitle">MİS360 ET & BALIK RESTAURANT</span>
-                        <h3 class="cta-title">Bu Eşsiz Lezzeti Yerinde Tatmak İster Misiniz?</h3>
+                        <h3 class="cta-title">Bu Eşsiz Kalitei Yerinde Tatmak İster Misiniz?</h3>
                         <p class="cta-desc">Sarıkaya'daki restoranımızda aileniz ve sevdiklerinizle unutulmaz bir lezzet deneyimi için masanızı şimdiden ayırtın.</p>
                         <div class="cta-actions">
                             <a href="<?php echo esc_url(home_url('/#reservation')); ?>" class="btn btn-primary btn-md">
-                                Masa Rezervasyonu Yap →
+                                Proje Başlat Yap →
                             </a>
                             <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-md">
-                                💬 WhatsApp Rezervasyon
+                                💬 WhatsApp Teklif Al
                             </a>
                             <a href="tel:<?php echo esc_attr($clean_phone); ?>" class="btn btn-outline-dark btn-md">
                                 📞 <?php echo esc_html($phone); ?>

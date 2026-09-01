@@ -32,7 +32,7 @@ $mis360_includes = [
     '/inc/class-license-manager.php', // Serkan AKKAYA HMAC-SHA256 lisans ve aktivasyon sistemi
     '/inc/class-theme-updater.php',   // GitHub otomatik tema güncelleme motoru
     '/inc/customizer.php',            // Çok amaçlı sektör, telefon, WhatsApp ve renk ayarları
-    '/inc/custom-post-types.php',     // İlan, Menü ve Hizmet CPT & Taksonomi mimarisi
+    '/inc/custom-post-types.php',     // İlan, Hizmetler ve Hizmet CPT & Taksonomi mimarisi
     '/inc/meta-boxes.php',            // Fiyat, Rozet, Konum ve Buton meta alanları
     '/inc/elementor.php',             // Elementor & Elementor Pro Theme Builder tam uyum katmanı
     '/inc/demo-importer.php',         // Şık sektörel hazır demolar ve tek tıkla kurulum

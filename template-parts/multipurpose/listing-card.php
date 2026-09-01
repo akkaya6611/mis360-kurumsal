@@ -1,7 +1,7 @@
 <?php
 /**
  * MİS360 Multipurpose Listing / Menu / Service Card
- * Restoran Menü Öğesi, Yol Yardım Hizmeti ve İlanlar İçin Ortak Kart Bileşeni
+ * Ajans Hizmetler Öğesi, Yol Yardım Hizmeti ve İlanlar İçin Ortak Kart Bileşeni
  *
  * @package MİS360
  * @since 1.0.0

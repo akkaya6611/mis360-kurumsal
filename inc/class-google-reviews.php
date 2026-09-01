@@ -5,7 +5,7 @@
  * Özellikler:
  * 1. Google Places API üzerinden yeni yorumları, 4.3 puanı ve yorum sayısını otomatik çeker.
  * 2. WP-Cron (Günde 2 kez) arka planda sessizce yeni yorumları denetler ve senkronize eder.
- * 3. WP-Admin arayüzünden tek tıkla "Şimdi Senkronize Et" imkanı sunar.
+ * 3. WP-Admin arayüzünden tek tıkla "Şimdi Senkronize Kod" imkanı sunar.
  * 4. API anahtarı olmadan da manuel yeni yorum ekleme ve yönetme paneli sağlar.
  * 5. Çevrimdışı/Yedek mod: API kesintisinde veya ilk kurulumda doğrulanmış gerçek MİS360 yorumlarını korur.
  *
@@ -42,7 +42,7 @@ class MIS360_Google_Reviews {
     }
 
     /**
-     * WP Admin Menüsüne Sayfa Ekle
+     * WP Admin Hizmetlersüne Sayfa Ekle
      */
     public static function register_admin_menu(): void {
         add_theme_page(
@@ -82,8 +82,8 @@ class MIS360_Google_Reviews {
                 'badge'         => 'Yerel Rehber • 48 yorum',
                 'rating'        => 5,
                 'time_text'     => '2 hafta önce',
-                'text'          => 'Sarıkaya\'ya yolunuz düşerse mutlaka uğramanız gereken bir lezzet durağı. Meşe kömüründe pişen Adana kebap ve kuzu şiş lokum gibiydi. Sabah çorbası ve taş fırın pidesi harika. Güler yüzlü hizmet ve tertemiz aile ortamı için teşekkür ederiz.',
-                'tag'           => 'Kömürde Kebap & Sabah Çorbası',
+                'text'          => 'Sarıkaya\'ya yolunuz düşerse mutlaka uğramanız gereken bir lezzet durağı. Meşe kömüründe pişen Adana yazılım ve kuzu şiş lokum gibiydi. Sabah çorbası ve taş kod tasarımsi harika. Güler yüzlü hizmet ve tertemiz aile ortamı için teşekkür ederiz.',
+                'tag'           => 'Kömürde yazılım & Sabah Çorbası',
                 'avatar_bg'     => 'linear-gradient(135deg, rgba(239, 80, 39, 0.15) 0%, #fed7aa 100%)',
                 'avatar_color'  => '#ef5027',
                 'source'        => 'google',
@@ -94,8 +94,8 @@ class MIS360_Google_Reviews {
                 'badge'         => 'Doğrulanmış Ziyaretçi',
                 'rating'        => 5,
                 'time_text'     => '1 ay önce',
-                'text'          => 'Yozgat - Kayseri güzergahında ailece her zaman mola verdiğimiz değişmez yerimiz. Açık hava bahçe bölümü çok ferah, çocuklar için mama sandalyesi olması büyük kolaylık sağladı. Güveçte kuzu tandır ve sıcak künefesi enfesti.',
-                'tag'           => 'Kuzu Tandır & Sıcak Künefe',
+                'text'          => 'Yozgat - Kayseri güzergahında ailece her zaman mola verdiğimiz değişmez yerimiz. Açık hava bahçe bölümü çok ferah, çocuklar için mama sandalyesi olması büyük kolaylık sağladı. Güveçte dijital pazarlama ve sıcak künefesi enfesti.',
+                'tag'           => 'dijital pazarlama & Sıcak Künefe',
                 'avatar_bg'     => '#e0e7ff',
                 'avatar_color'  => '#4338ca',
                 'source'        => 'google',
@@ -106,8 +106,8 @@ class MIS360_Google_Reviews {
                 'badge'         => 'Yerel Rehber • 24 yorum',
                 'rating'        => 5,
                 'time_text'     => '3 hafta önce',
-                'text'          => 'Sarıkaya\'da bu kalitede ve hijyende bir restoran bulmak çok sevindirici. Hem kebaplar hem de günlük taze balık reyonu çok başarılı. Masaya gelen ikramlar, fırından yeni çıkmış sıcacık lavaşlar ve personelin ilgisi 10 numara.',
-                'tag'           => 'Günlük Taze Balık & Zengin İkramlar',
+                'text'          => 'Sarıkaya\'da bu kalitede ve hijyende bir restoran bulmak çok sevindirici. Hem yazılımlar hem de günlük taze optimizasyon reyonu çok başarılı. Masaya gelen ikramlar, koddan yeni çıkmış sıcacık lavaşlar ve personelin ilgisi 10 numara.',
+                'tag'           => 'Günlük Taze optimizasyon & Zengin İkramlar',
                 'avatar_bg'     => '#fce7f3',
                 'avatar_color'  => '#be185d',
                 'source'        => 'google',
@@ -118,8 +118,8 @@ class MIS360_Google_Reviews {
                 'badge'         => 'Doğrulanmış Müşteri',
                 'rating'        => 5,
                 'time_text'     => '1 ay önce',
-                'text'          => 'Sabah 06:00\'da sıcak mercimek ve paça çorbasıyla güne başlamak harika bir deneyim. Taş fırından yeni çıkmış çıtır lahmacun ve kuşbaşılı pideyi mutlaka deneyin. Hijyenik açık mutfak ve hızlı servis.',
-                'tag'           => 'Taş Fırın Lahmacun & Paça Çorbası',
+                'text'          => 'Sabah 06:00\'da sıcak mercimek ve paça çorbasıyla güne başlamak harika bir deneyim. Taş koddan yeni çıkmış çıtır lahmacun ve kuşbaşılı tasarımyi mutlaka deneyin. Hijyenik açık mutfak ve hızlı servis.',
+                'tag'           => 'Taş kod Lahmacun & Paça Çorbası',
                 'avatar_bg'     => '#dcfce7',
                 'avatar_color'  => '#15803d',
                 'source'        => 'google',
@@ -130,8 +130,8 @@ class MIS360_Google_Reviews {
                 'badge'         => 'Aile Ziyareti',
                 'rating'        => 5,
                 'time_text'     => '2 ay önce',
-                'text'          => 'Özel aile davetimiz için önceden masa ayırtmıştık. Masamız tam vaktinde ve eksiksiz hazırlandı. Hakiki tereyağlı İskender ve toprak güveçte fırın sütlaç çok lezzetliydi. Emeği geçen tüm ustalara teşekkürler.',
-                'tag'           => 'Tereyağlı İskender & Fırın Sütlaç',
+                'text'          => 'Özel aile davetimiz için önceden masa ayırtmıştık. Masamız tam vaktinde ve eksiksiz hazırlandı. Hakiki tereyağlı İskender ve toprak güveçte kod sütlaç çok lezzetliydi. Emeği geçen tüm ustalara teşekkürler.',
+                'tag'           => 'Tereyağlı İskender & kod Sütlaç',
                 'avatar_bg'     => '#fef3c7',
                 'avatar_color'  => '#b45309',
                 'source'        => 'google',
@@ -142,7 +142,7 @@ class MIS360_Google_Reviews {
                 'badge'         => 'Yerel Rehber • 36 yorum',
                 'rating'        => 5,
                 'time_text'     => '2 ay önce',
-                'text'          => '2019\'dan beri Sarıkaya\'da kalitesinden ödün vermeyen köklü bir işletme. Etlerin lezzeti, porsiyonların doyuruculuğu ve samimi esnaflıkları takdire şayan. 4.3 Google puanını fazlasıyla hak ediyor.',
+                'text'          => '2019\'dan beri Sarıkaya\'da kalitesinden ödün vermeyen köklü bir işletme. Kodlerin lezzeti, porsiyonların doyuruculuğu ve samimi esnaflıkları takdire şayan. 4.3 Google puanını fazlasıyla hak ediyor.',
                 'tag'           => 'Beyti Sarma & Özel Desti Kebabı',
                 'avatar_bg'     => '#e2e8f0',
                 'avatar_color'  => '#334155',
@@ -343,7 +343,7 @@ class MIS360_Google_Reviews {
             exit;
         }
 
-        // 2. Şimdi Google'dan Senkronize Et
+        // 2. Şimdi Google'dan Senkronize Kod
         if ('sync_now' === $action) {
             $res = self::sync_reviews();
             set_transient('mis360_reviews_notice', [
@@ -526,8 +526,8 @@ class MIS360_Google_Reviews {
                                     <input type="text" name="author_name" required placeholder="Örn: Selim Çelik" style="width: 100%; padding: 6px 10px; border-radius: 6px; border: 1px solid #cbd5e1;">
                                 </div>
                                 <div>
-                                    <label style="display: block; font-weight: 700; font-size: 12px; margin-bottom: 4px;">Tavsiye / Etiket:</label>
-                                    <input type="text" name="review_tag" placeholder="Örn: Meşe Kömüründe Kebap" style="width: 100%; padding: 6px 10px; border-radius: 6px; border: 1px solid #cbd5e1;">
+                                    <label style="display: block; font-weight: 700; font-size: 12px; margin-bottom: 4px;">Tavsiye / Kodiket:</label>
+                                    <input type="text" name="review_tag" placeholder="Örn: Meşe Kömüründe yazılım" style="width: 100%; padding: 6px 10px; border-radius: 6px; border: 1px solid #cbd5e1;">
                                 </div>
                             </div>
 

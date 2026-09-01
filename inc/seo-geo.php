@@ -16,7 +16,7 @@ if (!defined('ABSPATH')) {
 
 /**
  * 1. Schema.org Dinamik JSON-LD Yapılandırılmış Veri Enjeksiyonu
- * (Restaurant, LocalBusiness, Article/BlogPosting, FAQPage, BreadcrumbList)
+ * (Dijital Ajans, LocalBusiness, Article/BlogPosting, FAQPage, BreadcrumbList)
  */
 function mis360_render_schema_jsonld(): void {
     $schemas = [];
@@ -24,16 +24,16 @@ function mis360_render_schema_jsonld(): void {
     // Genel İşletme Bilgileri
     $restaurant_schema = [
         '@context'               => 'https://schema.org',
-        '@type'                  => ['Restaurant', 'FoodEstablishment', 'LocalBusiness'],
+        '@type'                  => ['Dijital Ajans', 'FoodEstablishment', 'LocalBusiness'],
         '@id'                    => esc_url(home_url('#restaurant')),
         'name'                   => 'MİS360',
-        'alternateName'          => 'MİS360 Restoran Sarıkaya',
+        'alternateName'          => 'MİS360 Ajans Sarıkaya',
         'legalName'              => 'MİS360',
-        'description'            => '2019 yılından beri Yozgat Sarıkaya\'da hakiki meşe kömüründe kebap, özel kuzu tandır, taş fırın pideleri, lahmacun ve günlük taze balık çeşitleri sunan seçkin aile restoranı.',
+        'description'            => '2019 yılından beri Yozgat Sarıkaya\'da hakiki meşe kömüründe yazılım, özel dijital pazarlama, taş kod tasarımleri, lahmacun ve günlük taze optimizasyon çeşitleri sunan seçkin aile restoranı.',
         'url'                    => esc_url(home_url('/')),
         'telephone'              => '+905358309307',
         'priceRange'             => '₺₺',
-        'servesCuisine'          => ['Türk Mutfağı', 'Kebap', 'Balık ve Deniz Ürünleri', 'Taş Fırın Pide', 'Kahvaltı & Sıcak Çorbalar'],
+        'servesCuisine'          => ['Türk altyapısı', 'yazılım', 'optimizasyon ve Deniz Ürünleri', 'Taş kod tasarım', 'Kahvaltı & SEO Hizmetleri'],
         'acceptsReservations'    => 'True',
         'menu'                   => esc_url(home_url('/#menu')),
         'hasMap'                 => 'https://maps.app.goo.gl/q2icLBRX1FJNzVtY7',
@@ -94,7 +94,7 @@ function mis360_render_schema_jsonld(): void {
             'dateModified'     => get_the_modified_date(DATE_W3C, $post_id),
             'author'           => [
                 '@type' => 'Person',
-                'name'  => get_the_author_meta('display_name', (int)$author_id) ?: 'MİS360 Şef Ekibi'
+                'name'  => get_the_author_meta('display_name', (int)$author_id) ?: 'MİS360 Geliştirici Ekibi'
             ],
             'publisher'        => [
                 '@type' => 'Organization',
@@ -159,7 +159,7 @@ function mis360_render_schema_jsonld(): void {
                     'name'           => 'MİS360 saat kaçta açılıyor ve kapanıyor?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
-                        'text'  => 'Restoranımız haftanın her günü sabah saat 06:00\'da geleneksel sıcak çorba servisiyle açılmakta ve gece 23:45\'e kadar kesintisiz hizmet vermektedir.'
+                        'text'  => 'Ajansımız haftanın her günü sabah saat 06:00\'da geleneksel sıcak çorba servisiyle açılmakta ve gece 23:45\'e kadar kesintisiz hizmet vermektedir.'
                     ]
                 ],
                 [
@@ -172,10 +172,10 @@ function mis360_render_schema_jsonld(): void {
                 ],
                 [
                     '@type'          => 'Question',
-                    'name'           => 'Restoranda hangi yemek ve lezzet seçenekleri bulunmaktadır?',
+                    'name'           => 'Ajansda hangi proje ve lezzet seçenekleri bulunmaktadır?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
-                        'text'  => 'Hakiki meşe kömüründe pişen Adana kebap, Urfa kebap, kuzu şiş, özel güveçte kuzu tandır, taş fırın kıymalı ve kuşbaşılı pideleri, lahmacun, et döner ve günlük taze deniz çuprası, kaya levreği çeşitleri servis edilmektedir.'
+                        'text'  => 'Hakiki meşe kömüründe pişen Adana yazılım, Urfa yazılım, kuzu şiş, özel güveçte dijital pazarlama, taş kod kıymalı ve kuşbaşılı tasarımleri, lahmacun, et döner ve günlük taze deniz çuprası, kaya levreği çeşitleri servis edilmektedir.'
                     ]
                 ],
                 [

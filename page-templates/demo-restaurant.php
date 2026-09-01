@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: MİS360 Demo - Gourmet Bistro & Restoran
+ * Template Name: MİS360 Demo - Gourmet Bistro & Ajans
  *
  * @package MİS360
  * @author  Serkan AKKAYA <https://misteknoloji360.com.tr/>
@@ -23,10 +23,10 @@ $whatsapp    = get_theme_mod('mis360_whatsapp', '905551234567');
 <main id="primary" class="mis-main-area mis-demo-restaurant">
     <div class="mis-container">
 
-        <!-- 1. Restoran Hero & Karşılama Vitrini -->
+        <!-- 1. Ajans Hero & Karşılama Vitrini -->
         <section class="mis-restaurant-hero" style="text-align: center; padding: 4rem 1rem; background: radial-gradient(circle at center, rgba(245, 158, 11, 0.08) 0%, transparent 70%); border-bottom: 1px solid var(--mis-border-color); margin-bottom: var(--mis-space-xl);">
             <span class="mis-listing-badge" style="position: static; display: inline-block; background: #d97706; margin-bottom: 1rem; font-size: var(--mis-text-sm);">
-                <?php esc_html_e('⭐ Gurme Mutfak & Seçkin Lezzetler', 'mis360'); ?>
+                <?php esc_html_e('⭐ Gurme Mutfak & Seçkin Kaliteler', 'mis360'); ?>
             </span>
 
             <h1 style="font-size: var(--mis-text-hero); font-weight: 900; line-height: 1.15; margin-bottom: 1rem;">
@@ -46,22 +46,22 @@ $whatsapp    = get_theme_mod('mis360_whatsapp', '905551234567');
                 </a>
 
                 <a href="tel:<?php echo esc_attr($clean_phone); ?>" class="mis-icon-btn" style="width: auto; padding: 0.85rem 2rem; font-weight: 700; border-radius: var(--mis-radius-full);">
-                    <?php esc_html_e('📞 Masa Rezervasyonu', 'mis360'); ?>
+                    <?php esc_html_e('📞 Proje Başlat', 'mis360'); ?>
                 </a>
             </div>
         </section>
 
-        <!-- 2. Menü Kategorileri -->
+        <!-- 2. Hizmetler Kategorileri -->
         <section style="margin-bottom: var(--mis-space-xl);">
             <div style="text-align: center; margin-bottom: var(--mis-space-lg);">
                 <h2 style="font-size: var(--mis-text-3xl); font-weight: 800;"><?php esc_html_e('Öne Çıkan Spesiyallerimiz', 'mis360'); ?></h2>
-                <p style="color: var(--mis-text-secondary);"><?php esc_html_e('Her damak tadına hitap eden zengin menümüzden seçtiklerimiz.', 'mis360'); ?></p>
+                <p style="color: var(--mis-text-secondary);"><?php esc_html_e('Her damak tadına hitap eden zengin Hizmetlerimizden seçtiklerimiz.', 'mis360'); ?></p>
             </div>
 
-            <!-- Menü Kartları Izgarası -->
+            <!-- Hizmetler Kartları Izgarası -->
             <div class="mis-cards-grid">
                 
-                <!-- Lezzet Kartı 1 -->
+                <!-- Kalite Kartı 1 -->
                 <article class="mis-card mis-listing-card">
                     <div class="mis-listing-thumb-wrap" style="background: linear-gradient(135deg, #1e293b, #0f172a); display: flex; align-items: center; justify-content: center; min-height: 220px;">
                         <span class="mis-listing-badge"><?php esc_html_e('Şefin Spesiyali', 'mis360'); ?></span>
@@ -70,17 +70,17 @@ $whatsapp    = get_theme_mod('mis360_whatsapp', '905551234567');
                     </div>
                     <div class="mis-card-body">
                         <div class="mis-listing-location"><?php esc_html_e('12 Saat Ağır Pişirme • Firik Pilavı', 'mis360'); ?></div>
-                        <h3 class="mis-card-title"><?php esc_html_e('Fırınlanmış Kuzu Gerdan', 'mis360'); ?></h3>
+                        <h3 class="mis-card-title"><?php esc_html_e('kodlanmış Kuzu Gerdan', 'mis360'); ?></h3>
                         <p class="mis-card-excerpt"><?php esc_html_e('Közlenmiş arpacık soğan, taze biberiye ve özel kemik iliği sosu ile marine edilmiş yumuşacık kuzu eti.', 'mis360'); ?></p>
                         <div class="mis-card-footer">
-                            <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('1 Porsiyon Fırınlanmış Kuzu Gerdan sipariş vermek istiyorum.'); ?>" target="_blank" class="mis-btn-action">
+                            <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('1 Porsiyon kodlanmış Kuzu Gerdan sipariş vermek istiyorum.'); ?>" target="_blank" class="mis-btn-action">
                                 <?php esc_html_e('WhatsApp Sipariş Ver', 'mis360'); ?> →
                             </a>
                         </div>
                     </div>
                 </article>
 
-                <!-- Lezzet Kartı 2 -->
+                <!-- Kalite Kartı 2 -->
                 <article class="mis-card mis-listing-card">
                     <div class="mis-listing-thumb-wrap" style="background: linear-gradient(135deg, #1e293b, #0f172a); display: flex; align-items: center; justify-content: center; min-height: 220px;">
                         <span class="mis-listing-badge" style="background: #2563eb;"><?php esc_html_e('İtalyan Mutfak', 'mis360'); ?></span>
@@ -99,7 +99,7 @@ $whatsapp    = get_theme_mod('mis360_whatsapp', '905551234567');
                     </div>
                 </article>
 
-                <!-- Lezzet Kartı 3 -->
+                <!-- Kalite Kartı 3 -->
                 <article class="mis-card mis-listing-card">
                     <div class="mis-listing-thumb-wrap" style="background: linear-gradient(135deg, #1e293b, #0f172a); display: flex; align-items: center; justify-content: center; min-height: 220px;">
                         <span class="mis-listing-badge" style="background: #dc2626;"><?php esc_html_e('Odun Ateşinde', 'mis360'); ?></span>
@@ -107,7 +107,7 @@ $whatsapp    = get_theme_mod('mis360_whatsapp', '905551234567');
                         <span style="font-size: 3.5rem;">🍔</span>
                     </div>
                     <div class="mis-card-body">
-                        <div class="mis-listing-location"><?php esc_html_e('200g Dry-Aged Dana Eti • Brioche', 'mis360'); ?></div>
+                        <div class="mis-listing-location"><?php esc_html_e('200g Dry-Aged Dana Kodi • Brioche', 'mis360'); ?></div>
                         <h3 class="mis-card-title"><?php esc_html_e('MİS360 Black Angus Burger', 'mis360'); ?></h3>
                         <p class="mis-card-excerpt"><?php esc_html_e('Karamelize soğan reçeli, eritilmiş tütsülü gravyer peyniri, trüflü mayonez ve baharatlı patates kızartması.', 'mis360'); ?></p>
                         <div class="mis-card-footer">
@@ -121,9 +121,9 @@ $whatsapp    = get_theme_mod('mis360_whatsapp', '905551234567');
             </div>
         </section>
 
-        <!-- 3. Çalışma Saatleri & Rezervasyon Kutusu -->
+        <!-- 3. Çalışma Saatleri & Teklif Al Kutusu -->
         <section class="mis-card" style="padding: 3rem 2rem; text-align: center; background: var(--mis-bg-surface-elevated); margin-bottom: var(--mis-space-xl); border-radius: var(--mis-radius-lg);">
-            <h2 style="font-size: var(--mis-text-2xl); font-weight: 800; margin-bottom: 0.5rem;"><?php esc_html_e('Özel Davetler ve Masa Rezervasyonu', 'mis360'); ?></h2>
+            <h2 style="font-size: var(--mis-text-2xl); font-weight: 800; margin-bottom: 0.5rem;"><?php esc_html_e('Özel Davetler ve Proje Başlat', 'mis360'); ?></h2>
             <p style="color: var(--mis-text-secondary); max-width: 600px; margin: 0 auto 1.5rem;">
                 <?php esc_html_e('Hafta içi & Hafta sonu 11:30 - 23:30 saatleri arasında hizmetinizdeyiz. Doğum günü, iş toplantısı ve özel kutlamalarınız için masanızı ayırtın.', 'mis360'); ?>
             </p>

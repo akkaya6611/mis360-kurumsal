@@ -135,7 +135,7 @@ $whatsapp    = get_theme_mod('mis360_whatsapp', '905551234567');
                     <div style="font-size: 2rem; font-weight: 900; color: var(--mis-primary); margin-bottom: 1rem;">₺24.500 <small style="font-size: 13px; color: var(--mis-text-muted); font-weight: normal;">/ tek sefer</small></div>
                     <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem 0; display: flex; flex-direction: column; gap: 8px; font-size: 14px; color: var(--mis-text-secondary);">
                         <li>✓ Özel UI/UX Tasarım ve Kodlama</li>
-                        <li>✓ Gelişmiş İlan / Menü / CPT Modülü</li>
+                        <li>✓ Gelişmiş İlan / Hizmetler / CPT Modülü</li>
                         <li>✓ WhatsApp Entegrasyonu & Yapışkan Bar</li>
                         <li>✓ 100/100 Core Web Vitals Skoru</li>
                         <li>✓ Öncelikli 7/24 VIP Destek</li>
@@ -153,7 +153,7 @@ $whatsapp    = get_theme_mod('mis360_whatsapp', '905551234567');
                         <li>✓ Yüksek Trafikli Sunucu Mimarisi</li>
                         <li>✓ Özel Danışman ve SLA Garantisi</li>
                     </ul>
-                    <a href="tel:<?php echo esc_attr($clean_phone); ?>" class="mis-btn-action"><?php esc_html_e('Görüşme Talep Et', 'mis360'); ?></a>
+                    <a href="tel:<?php echo esc_attr($clean_phone); ?>" class="mis-btn-action"><?php esc_html_e('Görüşme Talep Kod', 'mis360'); ?></a>
                 </div>
 
             </div>

@@ -54,7 +54,7 @@ $blog_query = new WP_Query($query_args);
                 </div>
 
                 <h1 class="page-hero-title">
-                    Haberler, Lezzet Blogu & Fotoğraf Galerisi
+                    Haberler, Kalite Blogu & Fotoğraf Galerisi
                 </h1>
 
                 <p class="page-hero-subtitle">
@@ -86,7 +86,7 @@ $blog_query = new WP_Query($query_args);
                         📰 Haberler & Duyurular
                     </a>
                     <a href="<?php echo esc_url(add_query_arg('kategori', 'blog')); ?>" class="gallery-tab-btn <?php echo ($current_cat === 'blog') ? 'active' : ''; ?>" data-filter="blog">
-                        🥩 Lezzet Blogu
+                        🥩 Kalite Blogu
                     </a>
                     <a href="<?php echo esc_url(add_query_arg('kategori', 'galeri')); ?>" class="gallery-tab-btn <?php echo ($current_cat === 'galeri') ? 'active' : ''; ?>" data-filter="galeri">
                         📸 Fotoğraf Galerisi
@@ -223,23 +223,23 @@ $blog_query = new WP_Query($query_args);
                 </div>
             <?php endif; ?>
 
-            <!-- Alt CTA: Rezervasyon ve İletişim -->
+            <!-- Alt CTA: Teklif Al ve İletişim -->
             <div class="blog-gallery-cta mt-16 text-center" style="background: #ffffff; border: 1px solid var(--color-gray-200); border-radius: 16px; padding: 36px 24px; max-width: 780px; margin: 60px auto 0;">
                 <span style="font-size: 12px; font-weight: 800; color: var(--color-primary); letter-spacing: 0.15em; text-transform: uppercase;">
                     MİS360 ET & BALIK RESTAURANT
                 </span>
                 <h3 style="font-size: 24px; font-weight: 800; color: var(--color-black); margin: 6px 0 10px;">
-                    Bu Eşsiz Lezzetleri Yerinde Tatmak İster Misiniz?
+                    Bu Eşsiz Kaliteleri Yerinde Tatmak İster Misiniz?
                 </h3>
                 <p style="color: var(--color-gray-600); font-size: 14px; margin-bottom: 24px;">
-                    Sarıkaya'da meşe kömürü ateşi ve usta ellerce hazırlanan özel menümüz için masanızı şimdiden ayırtın.
+                    Sarıkaya'da meşe kömürü ateşi ve usta ellerce hazırlanan özel Hizmetlerimiz için masanızı şimdiden ayırtın.
                 </p>
                 <div style="display: flex; justify-content: center; gap: 14px; flex-wrap: wrap;">
                     <a href="<?php echo esc_url(home_url('/#reservation')); ?>" class="btn btn-primary btn-md">
-                        Masa Rezervasyonu Yap →
+                        Proje Başlat Yap →
                     </a>
                     <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-md">
-                        💬 WhatsApp İle Rezervasyon
+                        💬 WhatsApp İle Teklif Al
                     </a>
                     <a href="tel:<?php echo esc_attr($clean_phone); ?>" class="btn btn-outline-dark btn-md">
                         📞 <?php echo esc_html($phone); ?>

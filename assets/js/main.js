@@ -50,7 +50,7 @@
         toggleBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
       });
 
-      // Menü dışına tıklandığında kapat
+      // Hizmetler dışına tıklandığında kapat
       document.addEventListener('click', (e) => {
         if (!this.container.contains(e.target)) {
           this.container.classList.remove('open');
@@ -91,7 +91,7 @@
         }
       });
 
-      // Menü içindeki linke tıklandığında çekmeceyi kapat
+      // Hizmetler içindeki linke tıklandığında çekmeceyi kapat
       if (this.drawer) {
         const links = this.drawer.querySelectorAll('a');
         links.forEach((link) => {

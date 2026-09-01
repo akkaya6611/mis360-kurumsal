@@ -1,7 +1,7 @@
 <?php
 /**
  * MİS360 Demo Showcase & One-Click Setup Engine
- * Şık Sektörel Demolar (Yol Yardım, Restoran, İlan, Kurumsal)
+ * Şık Sektörel Demolar (Yol Yardım, Ajans, İlan, Kurumsal)
  *
  * @package MİS360
  * @author  Serkan AKKAYA <https://misteknoloji360.com.tr/>
@@ -50,7 +50,7 @@ class MIS360_Demo_Manager {
                 'template' => 'page-templates/demo-emergency.php',
             ],
             'restaurant' => [
-                'title'    => 'Gourmet Bistro & Restoran Menü Demo',
+                'title'    => 'Gourmet Bistro & Ajans Hizmetler Demo',
                 'template' => 'page-templates/demo-restaurant.php',
             ],
             'listing' => [
@@ -96,7 +96,7 @@ class MIS360_Demo_Manager {
     }
 
     /**
-     * Örnek CPT Verilerini Otomatik Üret (Yol Yardım, Yemek, İlan)
+     * Örnek CPT Verilerini Otomatik Üret (Yol Yardım, proje, İlan)
      */
     private static function seed_sample_items(): void {
         $existing = get_posts(['post_type' => 'mis360_listing', 'posts_per_page' => 1]);
@@ -122,10 +122,10 @@ class MIS360_Demo_Manager {
                 'content'  => 'Yolda kalan aracınız için 15 dakikada yerinde akü takviyesi ve test hizmeti.',
             ],
             [
-                'title'    => 'Şefin Özel Fırınlanmış Kuzu Gerdan',
+                'title'    => 'Şefin Özel kodlanmış Kuzu Gerdan',
                 'price'    => '₺480',
                 'badge'    => 'Şefin Spesiyali',
-                'location' => 'Ana Restoran',
+                'location' => 'Ana Ajans',
                 'btn_text' => 'WhatsApp Sipariş Ver',
                 'content'  => '12 saat ağır ateşte taze baharatlar eşliğinde pişirilmiş nefis kuzu gerdan, firik pilavı ile.',
             ],
@@ -133,7 +133,7 @@ class MIS360_Demo_Manager {
                 'title'    => 'İtalyan Trüf Mantarlı Ev Yapımı Makarna',
                 'price'    => '₺360',
                 'badge'    => 'Gurme Seçim',
-                'location' => 'İtalyan Mutfağı',
+                'location' => 'İtalyan altyapısı',
                 'btn_text' => 'Hızlı Sipariş',
                 'content'  => 'Taze el yapımı tagliatelle, siyah trüf ezmesi ve parmesan krema sosuyla.',
             ],
@@ -195,11 +195,11 @@ class MIS360_Demo_Manager {
             ],
             [
                 'id'          => 'restaurant',
-                'title'       => esc_html__('🍽️ Gourmet Bistro & Restoran Demo', 'mis360'),
-                'badge'       => esc_html__('Yemek & Menü Kataloğu', 'mis360'),
+                'title'       => esc_html__('🍽️ Gourmet Bistro & Ajans Demo', 'mis360'),
+                'badge'       => esc_html__('proje & Hizmetler Kataloğu', 'mis360'),
                 'badge_color' => '#f59e0b',
                 'desc'        => esc_html__('Dinamik kategori sekmeleri, fiyat etiketli spesiyaller, WhatsApp hızlı sipariş ve masa rezervasyonu.', 'mis360'),
-                'features'    => ['Fiyat & Rozet Etiketleri', 'WhatsApp Sipariş Hattı', 'Kategori Filtreleme', 'Masa Rezervasyonu'],
+                'features'    => ['Fiyat & Rozet Kodiketleri', 'WhatsApp Sipariş Hattı', 'Kategori Filtreleme', 'Proje Başlat'],
                 'accent'      => 'linear-gradient(135deg, #f59e0b, #d97706)',
             ],
             [
@@ -216,7 +216,7 @@ class MIS360_Demo_Manager {
                 'title'       => esc_html__('🏢 Modern Kurumsal & 360 Ajans Demo', 'mis360'),
                 'badge'       => esc_html__('Kurumsal Marka & SaaS', 'mis360'),
                 'badge_color' => '#3b82f6',
-                'desc'        => esc_html__('İstatistik sayaçları, modern kart ızgaraları, interaktif hizmet kartları ve müşteri yorumları.', 'mis360'),
+                'desc'        => esc_html__('İstatistik sayaçları, modern kart SEOları, interaktif hizmet kartları ve müşteri yorumları.', 'mis360'),
                 'features'    => ['Sayaç & İstatistik Grid', 'Hizmet Kartları', 'Müşteri Güven Rozetleri', 'İletişim & Teklif Formu'],
                 'accent'      => 'linear-gradient(135deg, #3b82f6, #8b5cf6)',
             ],

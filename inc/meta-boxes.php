@@ -48,7 +48,7 @@ function mis360_render_listing_meta_box(WP_Post $post): void {
                 <?php esc_html_e('Fiyat (Ürün / Hizmet / İlan):', 'mis360'); ?>
             </label>
             <input type="text" id="mis360_price" name="mis360_price" value="<?php echo esc_attr($price); ?>" placeholder="Örn: ₺350 veya ₺1.250.000" style="width: 100%; padding: 8px;">
-            <p class="description"><?php esc_html_e('Yemek fiyatı, çekici başlangıç ücreti veya ilan fiyatı.', 'mis360'); ?></p>
+            <p class="description"><?php esc_html_e('proje fiyatı, çekici başlangıç ücreti veya ilan fiyatı.', 'mis360'); ?></p>
         </div>
 
         <div>

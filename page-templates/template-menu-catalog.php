@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: MİS360 Restoran Menü & Sipariş
+ * Template Name: MİS360 Ajans Hizmetler & Sipariş
  *
  * @package MİS360
  * @since 1.0.0
@@ -16,13 +16,13 @@ get_header();
 
 $phone    = get_theme_mod('mis360_phone', '+90 555 123 4567');
 $whatsapp = get_theme_mod('mis360_whatsapp', '905551234567');
-$badge    = get_theme_mod('mis360_header_badge', 'Şefin Özel Menüsü');
+$badge    = get_theme_mod('mis360_header_badge', 'Şefin Özel Hizmetlersü');
 ?>
 
 <main id="primary" class="mis-main-area mis-menu-landing">
     <div class="mis-container">
 
-        <!-- Restoran Başlık Vitrini -->
+        <!-- Ajans Başlık Vitrini -->
         <section class="mis-restaurant-hero" style="text-align: center; margin-bottom: var(--mis-space-xl);">
             <span class="mis-listing-badge" style="position: static; display: inline-block; margin-bottom: 1rem; font-size: var(--mis-text-sm);">
                 <?php echo esc_html($badge); ?>
@@ -39,7 +39,7 @@ $badge    = get_theme_mod('mis360_header_badge', 'Şefin Özel Menüsü');
                     <?php esc_html_e('💬 WhatsApp ile Kolay Sipariş', 'mis360'); ?>
                 </a>
                 <a href="tel:<?php echo esc_attr(preg_replace('/[^0-9+]/', '', $phone)); ?>" class="mis-icon-btn" style="width: auto; padding: 0.75rem 1.75rem; font-weight: 700; border-radius: var(--mis-radius-full);">
-                    <?php esc_html_e('📞 Masa Rezervasyonu', 'mis360'); ?>
+                    <?php esc_html_e('📞 Proje Başlat', 'mis360'); ?>
                 </a>
             </div>
         </section>
@@ -55,7 +55,7 @@ $badge    = get_theme_mod('mis360_header_badge', 'Şefin Özel Menüsü');
             ?>
             <div class="mis-menu-filters" style="display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: var(--mis-space-lg);">
                 <span class="mis-filter-pill active" style="padding: 0.5rem 1.25rem; border-radius: var(--mis-radius-full); background: var(--mis-primary); color: #fff; font-weight: 600; font-size: var(--mis-text-sm); cursor: pointer;">
-                    <?php esc_html_e('Tüm Menü', 'mis360'); ?>
+                    <?php esc_html_e('Tüm Hizmetler', 'mis360'); ?>
                 </span>
                 <?php foreach ($categories as $cat) : ?>
                     <a href="<?php echo esc_url(get_term_link($cat)); ?>" class="mis-filter-pill" style="padding: 0.5rem 1.25rem; border-radius: var(--mis-radius-full); background: var(--mis-bg-surface); border: 1px solid var(--mis-border-color); color: var(--mis-text-secondary); font-weight: 600; font-size: var(--mis-text-sm); text-decoration: none;">
@@ -65,7 +65,7 @@ $badge    = get_theme_mod('mis360_header_badge', 'Şefin Özel Menüsü');
             </div>
         <?php endif; ?>
 
-        <!-- Menü Kartları Izgarası -->
+        <!-- Hizmetler Kartları Izgarası -->
         <div class="mis-cards-grid">
             <?php
             $menu_query = new WP_Query([

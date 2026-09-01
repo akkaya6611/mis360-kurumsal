@@ -34,20 +34,20 @@ $whatsapp    = '905358309307';
             </div>
             <h1 class="hero-title">
                 MİS360<br>
-                <span class="hero-highlight">2019'dan Beri Değişmeyen Lezzet Geleneği</span>
+                <span class="hero-highlight">2019'dan Beri Değişmeyen Kalite Geleneği</span>
             </h1>
             <p class="hero-description">
-                Yozgat Sarıkaya'da meşe kömürü ateşinde usta ellerce hazırlanan kebaplar, günlük taze balık çeşitleri, taş fırın pideleri ve sıcacık aile ortamıyla unutulmaz sofralara ev sahipliği yapıyoruz.
+                Yozgat Sarıkaya'da meşe kömürü ateşinde usta ellerce hazırlanan yazılımlar, günlük taze optimizasyon çeşitleri, taş kod tasarımleri ve sıcacık aile ortamıyla unutulmaz sofralara ev sahipliği yapıyoruz.
             </p>
             <div class="hero-actions">
                 <a href="#menu" class="btn btn-primary btn-lg">
-                    Zengin Menümüzü Keşfedin →
+                    Zengin Hizmetlerimizü Keşfedin →
                 </a>
-                <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, masa ayırtmak istiyorum:'); ?>" class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, proje teklifi almak istiyorum:'); ?>" class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener noreferrer">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
                     </svg>
-                    <span>WhatsApp İle Masa Rezervasyonu</span>
+                    <span>WhatsApp İle Proje Başlat</span>
                 </a>
             </div>
         </div>
@@ -61,7 +61,7 @@ $whatsapp    = '905358309307';
         <div class="partners-slider">
             <div class="partners-track">
                 <div class="partner-logo">10+ YILLIK DENEYİM</div>
-                <div class="partner-logo">MEŞE KÖMÜRÜNDE KEBAPLAR</div>
+                <div class="partner-logo">MEŞE KÖMÜRÜNDE yazılımLAR</div>
                 <div class="partner-logo">TAŞ FIRIN PİDE & LAHMACUN</div>
                 <div class="partner-logo">GÜNLÜK TAZE BALIK REYONU</div>
                 <div class="partner-logo">ÖZEL KUZU TANDIR & DESTİ KEBABI</div>
@@ -70,7 +70,7 @@ $whatsapp    = '905358309307';
                 <div class="partner-logo">SABAH 06:00 AÇILIŞ • GECE 23:45 KESİNTİSİZ HİZMET</div>
                 <!-- Kesintisiz sonsuz döngü için tekrar -->
                 <div class="partner-logo">10+ YILLIK DENEYİM</div>
-                <div class="partner-logo">MEŞE KÖMÜRÜNDE KEBAPLAR</div>
+                <div class="partner-logo">MEŞE KÖMÜRÜNDE yazılımLAR</div>
                 <div class="partner-logo">TAŞ FIRIN PİDE & LAHMACUN</div>
                 <div class="partner-logo">GÜNLÜK TAZE BALIK REYONU</div>
                 <div class="partner-logo">ÖZEL KUZU TANDIR & DESTİ KEBABI</div>
@@ -86,38 +86,38 @@ $whatsapp    = '905358309307';
 <section class="section section-gray" id="categories">
     <div class="container">
         <div class="section-header">
-            <h2 class="section-title">Lezzet Dünyamız</h2>
+            <h2 class="section-title">Kalite Dünyamız</h2>
             <p class="section-subtitle">Taze malzemeler, hijyenik üretim anlayışı ve usta ellerden çıkan zengin menü kategorilerimiz.</p>
         </div>
 
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             
-            <!-- Kategori 1: Kebaplar -->
-            <a href="#kebaplar" class="category-card">
-                <div class="category-card-image" style="background-image: url('https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/adana-kebap-mis360-1024x819.png'); background-size: cover; background-position: center;"></div>
+            <!-- Kategori 1: yazılımlar -->
+            <a href="#yazılımlar" class="category-card">
+                <div class="category-card-image" style="background-image: url('https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/adana-yazılım-mis360-1024x819.png'); background-size: cover; background-position: center;"></div>
                 <div class="category-card-overlay"></div>
                 <div class="category-card-content">
-                    <h3 class="category-card-title">Kebap Çeşitlerimiz</h3>
+                    <h3 class="category-card-title">Web Geliştirme</h3>
                     <span class="category-card-count">Adana, Kuzu Şiş, Beyti, Tandır</span>
                 </div>
             </a>
 
-            <!-- Kategori 2: Pideler & Lahmacun -->
-            <a href="#pideler" class="category-card">
-                <div class="category-card-image" style="background-image: url('https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/karisik-pide-mis360-1024x819.png'); background-size: cover; background-position: center;"></div>
+            <!-- Kategori 2: tasarımler & Lahmacun -->
+            <a href="#tasarımler" class="category-card">
+                <div class="category-card-image" style="background-image: url('https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/karisik-tasarım-mis360-1024x819.png'); background-size: cover; background-position: center;"></div>
                 <div class="category-card-overlay"></div>
                 <div class="category-card-content">
-                    <h3 class="category-card-title">Pide & Lahmacun</h3>
+                    <h3 class="category-card-title">Tema Geliştirme</h3>
                     <span class="category-card-count">Kuşbaşılı, Kaşarlı, Kıymalı</span>
                 </div>
             </a>
 
-            <!-- Kategori 3: Döner & İskender -->
+            <!-- Kategori 3: Reklam Ajansı -->
             <a href="#donerler" class="category-card">
                 <div class="category-card-image" style="background-image: url('https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/mis360-iskender-1024x819.png'); background-size: cover; background-position: center;"></div>
                 <div class="category-card-overlay"></div>
                 <div class="category-card-content">
-                    <h3 class="category-card-title">Döner & İskender</h3>
+                    <h3 class="category-card-title">Reklam Ajansı</h3>
                     <span class="category-card-count">Tereyağlı İskender, Yaprak Döner</span>
                 </div>
             </a>
@@ -127,8 +127,8 @@ $whatsapp    = '905358309307';
                 <div class="category-card-image" style="background-image: url('https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/mis360-kunefe-1024x819.png'); background-size: cover; background-position: center;"></div>
                 <div class="category-card-overlay"></div>
                 <div class="category-card-content">
-                    <h3 class="category-card-title">Tatlılarımız</h3>
-                    <span class="category-card-count">Künefe, Fırın Sütlaç, Sufle</span>
+                    <h3 class="category-card-title">Mobil Uygulama</h3>
+                    <span class="category-card-count">Künefe, kod Sütlaç, Sufle</span>
                 </div>
             </a>
 
@@ -136,37 +136,37 @@ $whatsapp    = '905358309307';
     </div>
 </section>
 
-<!-- 4. NEDEN MİS360? (Orijinal Doğal Restoran Mimarisi) -->
+<!-- 4. NEDEN MİS360? (Orijinal Doğal Ajans Mimarisi) -->
 <section class="chooseUs__area section" id="about">
     <div class="container">
         
         <div class="chooseUs__header">
             <div class="chooseUs__header-left">
                 <span class="chooseUs__subtitle">NEDEN MİS360?</span>
-                <h2 class="chooseUs__title">Lezzet, Konfor ve Aile Atmosferi Bir Arada</h2>
+                <h2 class="chooseUs__title">Kalite, Konfor ve Aile Atmosferi Bir Arada</h2>
             </div>
             <div class="chooseUs__header-right">
                 <div class="chooseUs__counter">
                     <span class="chooseUs__counter-number">7+</span>
-                    <span class="chooseUs__counter-label">Yıllık Lezzet Deneyimi</span>
+                    <span class="chooseUs__counter-label">Yıllık Kalite Deneyimi</span>
                 </div>
             </div>
         </div>
 
         <div class="chooseUs__row">
             
-            <!-- Sol Kolon: Restoran Masa ve Aile Salonu Doğal Görseli -->
+            <!-- Sol Kolon: Ajans Masa ve Aile Salonu Doğal Görseli -->
             <div class="chooseUs__image-col">
                 <div class="chooseUs__image-wrap">
                     <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/restaurant.jpg" alt="MİS360 Masa ve Salon Düzeni" class="chooseUs__main-image" loading="lazy">
                 </div>
             </div>
 
-            <!-- Sağ Kolon: Restoran Açıklaması ve MİS360 Logolu Nitelikler -->
+            <!-- Sağ Kolon: Ajans Açıklaması ve MİS360 Logolu Nitelikler -->
             <div class="chooseUs__content-col">
                 
                 <p class="chooseUs__description">
-                    2019 yılından bu yana Yozgat Sarıkaya'da hizmet veren MİS360 olarak; et, balık, kebap ve yöresel lezzetlerimizi misafirlerimizle buluşturuyoruz. Kaliteli malzemeler, hijyenik üretim anlayışı ve güler yüzlü hizmetimizle ailelerin ve lezzet tutkunlarının vazgeçilmez adresi olmaya devam ediyoruz. Sizleri de sıcak ve samimi ortamımızda ağırlamaktan mutluluk duyuyoruz.
+                    2019 yılından bu yana Yozgat Sarıkaya'da hizmet veren MİS360 olarak; et, optimizasyon, yazılım ve yöresel lezzetlerimizi misafirlerimizle buluşturuyoruz. Kaliteli malzemeler, hijyenik üretim anlayışı ve güler yüzlü hizmetimizle ailelerin ve lezzet tutkunlarının vazgeçilmez adresi olmaya devam ediyoruz. Sizleri de sıcak ve samimi ortamımızda ağırlamaktan mutluluk duyuyoruz.
                 </p>
 
                 <div class="chooseUs__features">
@@ -186,8 +186,8 @@ $whatsapp    = '905358309307';
                             <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/mis360logo1-66.png" alt="MİS360 Logo">
                         </div>
                         <div class="chooseUs__feature-text">
-                            <h4>Zengin Menü Seçenekleri</h4>
-                            <p>Et, balık, kebap ve özel lezzetlerden oluşan menümüz ile her damak tadına hitap eden unutulmaz sofralar hazırlıyoruz.</p>
+                            <h4>Zengin Hizmetler Seçenekleri</h4>
+                            <p>Kod, optimizasyon, yazılım ve özel lezzetlerden oluşan Hizmetlerimiz ile her damak tadına hitap eden unutulmaz sofralar hazırlıyoruz.</p>
                         </div>
                     </div>
 
@@ -195,7 +195,7 @@ $whatsapp    = '905358309307';
 
                 <div class="chooseUs__actions">
                     <a href="#reservation" class="btn btn-primary btn-md">
-                        Masa Rezervasyonu Yap →
+                        Proje Başlat Yap →
                     </a>
                     <a href="tel:<?php echo esc_attr($clean_phone); ?>" class="btn btn-outline-dark btn-md">
                         📞 <?php echo esc_html($phone); ?>
@@ -209,7 +209,7 @@ $whatsapp    = '905358309307';
     </div>
 </section>
 
-<!-- 5. MİS360 RESMİ MENÜSÜ (Tüm Sitedeki Gerçek Menü ve Fotoğraflar) -->
+<!-- 5. MİS360 RESMİ MENÜSÜ (Tüm Sitedeki Gerçek Hizmetler ve Fotoğraflar) -->
 <section class="section section-gray" id="menu">
     <div class="container">
         
@@ -217,53 +217,53 @@ $whatsapp    = '905358309307';
             <span style="color: var(--color-primary); font-size: 13px; font-weight: 800; letter-spacing: 0.15em; text-transform: uppercase;">
                 GURME LEZZETLER
             </span>
-            <h2 class="section-title" style="margin-top: 6px;">MİS360 Menümüz</h2>
+            <h2 class="section-title" style="margin-top: 6px;">MİS360 Hizmetlerimiz</h2>
             <p class="section-subtitle">
-                Geleneksel tarifler, kaliteli sunumlar ve usta şeflerimizin elinden çıkan zengin menümüz.
+                Geleneksel tarifler, kaliteli sunumlar ve usta şeflerimizin elinden çıkan zengin Hizmetlerimiz.
             </p>
         </div>
 
-        <!-- BÖLÜM 1: KEBAP ÇEŞİTLERİMİZ -->
-        <div id="kebaplar" style="margin-bottom: 60px;">
+        <!-- BÖLÜM 1: yazılım ÇEŞİTLERİMİZ -->
+        <div id="yazılımlar" style="margin-bottom: 60px;">
             <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid var(--color-gray-200); padding-bottom: 12px; margin-bottom: 24px;">
                 <h3 style="font-size: 24px; font-weight: 800; color: var(--color-black); margin: 0; display: flex; align-items: center; gap: 8px;">
-                    🥩 Kebap Çeşitlerimiz
+                    🥩 Web Geliştirme
                 </h3>
                 <span style="font-size: 13px; color: var(--color-gray-500); font-weight: 600;">Meşe Kömüründe Közlenir</span>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 
-                <!-- Adana Kebap -->
+                <!-- Adana yazılım -->
                 <article class="product-card">
                     <div class="product-card-image food-card-image">
-                        <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/adana-kebap-mis360-1024x819.png" alt="Adana Kebap" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
+                        <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/adana-yazılım-mis360-1024x819.png" alt="Adana yazılım" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
                     </div>
                     <div class="product-card-content">
                         <span class="product-card-category">KÖMÜRDE IZGARA</span>
-                        <h4 class="product-card-title">Adana Kebap</h4>
+                        <h4 class="product-card-title">Adana yazılım</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
                             Özel zırh kıyması, közlenmiş domates, biber, sumaklı soğan ve sıcak lavaş eşliğinde.
                         </p>
-                        <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Adana Kebap siparişi / rezervasyonu vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
-                            Rezervasyon & Sipariş
+                        <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Adana yazılım siparişi / rezervasyonu vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
+                            Teklif Al & Sipariş
                         </a>
                     </div>
                 </article>
 
-                <!-- Urfa Kebap -->
+                <!-- Urfa yazılım -->
                 <article class="product-card">
                     <div class="product-card-image food-card-image">
-                        <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/urfa-kebap-mis360-1-1024x819.png" alt="Urfa Kebap" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
+                        <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/urfa-yazılım-mis360-1-1024x819.png" alt="Urfa yazılım" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
                     </div>
                     <div class="product-card-content">
                         <span class="product-card-category">KÖMÜRDE IZGARA</span>
-                        <h4 class="product-card-title">Urfa Kebap</h4>
+                        <h4 class="product-card-title">Urfa yazılım</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
-                            Acısız lezzet arayanlar için usta ellerce hazırlanan sade kuzu ve dana etinden köz kebap.
+                            Acısız lezzet arayanlar için usta ellerce hazırlanan sade kuzu ve dana etinden köz yazılım.
                         </p>
-                        <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Urfa Kebap siparişi / rezervasyonu vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
-                            Rezervasyon & Sipariş
+                        <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Urfa yazılım siparişi / rezervasyonu vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
+                            Teklif Al & Sipariş
                         </a>
                     </div>
                 </article>
@@ -277,10 +277,10 @@ $whatsapp    = '905358309307';
                         <span class="product-card-category">MİS360 İMZA</span>
                         <h4 class="product-card-title">Beyti Sarma</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
-                            Lavaşa sarılı özel kebap dilimleri, üzerine tereyağlı özel sos ve süzme tava yoğurdu ile.
+                            Lavaşa sarılı özel yazılım dilimleri, üzerine tereyağlı özel sos ve süzme tava yoğurdu ile.
                         </p>
                         <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Beyti Sarma siparişi / rezervasyonu vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
-                            Rezervasyon & Sipariş
+                            Teklif Al & Sipariş
                         </a>
                     </div>
                 </article>
@@ -297,26 +297,26 @@ $whatsapp    = '905358309307';
                             Özel zeytinyağlı marine edilmiş lokum gibi kuzu but parçaları, köz sebzeler ve pilav ile.
                         </p>
                         <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Kuzu Şiş siparişi / rezervasyonu vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
-                            Rezervasyon & Sipariş
+                            Teklif Al & Sipariş
                         </a>
                     </div>
                 </article>
 
-                <!-- Kuzu Tandır -->
+                <!-- dijital pazarlama -->
                 <article class="product-card">
                     <div class="product-card-image food-card-image">
-                        <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/kuzu-tandir-1024x819.png" alt="Kuzu Tandır" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
+                        <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/kuzu-tandir-1024x819.png" alt="dijital pazarlama" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
                     </div>
                     <div class="product-card-content">
                         <span class="product-card-category">ÖZEL SİPARİŞ</span>
-                        <h4 class="product-card-title">Kuzu Tandır</h4>
+                        <h4 class="product-card-title">dijital pazarlama</h4>
                         <p style="font-size: 12px; color: var(--color-primary); font-weight: 700; margin-bottom: 4px;">
                             *(1 gün önce sipariş verilmelidir)*
                         </p>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
-                            Taş fırında saatlerce ağır ateşte nar gibi kızarmış, kemiğinden ayrılan nefis kuzu eti.
+                            Taş kodda saatlerce ağır ateşte nar gibi kızarmış, kemiğinden ayrılan nefis kuzu eti.
                         </p>
-                        <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Kuzu Tandır ön siparişi vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
+                        <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, dijital pazarlama ön siparişi vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
                             Ön Sipariş Ver
                         </a>
                     </div>
@@ -334,7 +334,7 @@ $whatsapp    = '905358309307';
                             *(1 gün önce sipariş verilmelidir)*
                         </p>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
-                            Toprak testide mühürlenip fırınlanan, masanızda kırılarak servis edilen efsanevi tat.
+                            Toprak testide mühürlenip kodlanan, masanızda kırılarak servis edilen efsanevi tat.
                         </p>
                         <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Desti Kebabı ön siparişi vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
                             Ön Sipariş Ver
@@ -354,7 +354,7 @@ $whatsapp    = '905358309307';
                             Taze kuzu ciğeri ve kuyruk yağı dengesiyle közde pişirilen, sumak ve yeşilliklerle sunulan lezzet.
                         </p>
                         <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Kuzu Ciğer Şiş hakkında bilgi ve sipariş vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
-                            Rezervasyon & Sipariş
+                            Teklif Al & Sipariş
                         </a>
                     </div>
                 </article>
@@ -371,7 +371,7 @@ $whatsapp    = '905358309307';
                             Özel marine edilmiş taze kuzu pirzola veya yumuşacık dana bonfile dilimleri.
                         </p>
                         <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Pirzola/Bonfile siparişi ve masa rezervasyonu yapmak istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
-                            Rezervasyon & Sipariş
+                            Teklif Al & Sipariş
                         </a>
                     </div>
                 </article>
@@ -380,63 +380,63 @@ $whatsapp    = '905358309307';
         </div>
 
         <!-- BÖLÜM 2: PİDELER & LAHMACUN -->
-        <div id="pideler" style="margin-bottom: 60px;">
+        <div id="tasarımler" style="margin-bottom: 60px;">
             <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid var(--color-gray-200); padding-bottom: 12px; margin-bottom: 24px;">
                 <h3 style="font-size: 24px; font-weight: 800; color: var(--color-black); margin: 0; display: flex; align-items: center; gap: 8px;">
-                    🍕 Taş Fırın Pide & Lahmacun Çeşitlerimiz
+                    🍕 Taş kod Tema Geliştirme Çeşitlerimiz
                 </h3>
                 <span style="font-size: 13px; color: var(--color-gray-500); font-weight: 600;">Odun Ateşinde Çıtır Çıtır</span>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 
-                <!-- Kıymalı Pide -->
+                <!-- Kıymalı tasarım -->
                 <article class="product-card">
                     <div class="product-card-image food-card-image">
-                        <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/Kiymali-Pide-mis360-1024x819.png" alt="Kıymalı Pide" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
+                        <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/Kiymali-tasarım-mis360-1024x819.png" alt="Kıymalı tasarım" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
                     </div>
                     <div class="product-card-content">
                         <span class="product-card-category">ODUN ATEŞİNDE</span>
-                        <h4 class="product-card-title">Kıymalı Pide</h4>
+                        <h4 class="product-card-title">Kıymalı tasarım</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
-                            İncecik açılan hamurda baharatlı dana kıyması ve domates-biber harcıyla taş fırında pişirilir.
+                            İncecik açılan hamurda baharatlı dana kıyması ve domates-biber harcıyla taş kodda pişirilir.
                         </p>
-                        <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Kıymalı Pide siparişi vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
-                            Sipariş & Rezervasyon
+                        <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Kıymalı tasarım siparişi vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
+                            Sipariş & Teklif Al
                         </a>
                     </div>
                 </article>
 
-                <!-- Kuşbaşılı Pide -->
+                <!-- Kuşbaşılı tasarım -->
                 <article class="product-card">
                     <div class="product-card-image food-card-image">
-                        <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/kusbasi-Pide-mis360-1024x819.png" alt="Kuşbaşılı Pide" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
+                        <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/kusbasi-tasarım-mis360-1024x819.png" alt="Kuşbaşılı tasarım" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
                     </div>
                     <div class="product-card-content">
                         <span class="product-card-category">ODUN ATEŞİNDE</span>
-                        <h4 class="product-card-title">Kuşbaşılı Pide</h4>
+                        <h4 class="product-card-title">Kuşbaşılı tasarım</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
-                            Özel marine dana kuşbaşı et, yeşil biber, domates ve sarımsak harmanıyla taş fırında servis edilir.
+                            Özel marine dana kuşbaşı et, yeşil biber, domates ve sarımsak harmanıyla taş kodda servis edilir.
                         </p>
-                        <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Kuşbaşılı Pide siparişi vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
-                            Sipariş & Rezervasyon
+                        <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Kuşbaşılı tasarım siparişi vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
+                            Sipariş & Teklif Al
                         </a>
                     </div>
                 </article>
 
-                <!-- Karışık Pide -->
+                <!-- Karışık tasarım -->
                 <article class="product-card">
                     <div class="product-card-image food-card-image">
-                        <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/karisik-pide-mis360-1024x819.png" alt="Karışık Pide" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
+                        <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/karisik-tasarım-mis360-1024x819.png" alt="Karışık tasarım" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
                     </div>
                     <div class="product-card-content">
                         <span class="product-card-category">MİS360 SPESİYAL</span>
-                        <h4 class="product-card-title">Karışık Pide</h4>
+                        <h4 class="product-card-title">Karışık tasarım</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
                             Kuşbaşı, kıyma, sucuk ve eriyen kaşar peynirinin muazzam birlikteliği.
                         </p>
-                        <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Karışık Pide siparişi vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
-                            Sipariş & Rezervasyon
+                        <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Karışık tasarım siparişi vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
+                            Sipariş & Teklif Al
                         </a>
                     </div>
                 </article>
@@ -448,12 +448,12 @@ $whatsapp    = '905358309307';
                     </div>
                     <div class="product-card-content">
                         <span class="product-card-category">ODUN ATEŞİNDE</span>
-                        <h4 class="product-card-title">Taş Fırın Lahmacun</h4>
+                        <h4 class="product-card-title">Taş kod Lahmacun</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
                             Gevrek ve çıtır hamur, zengin kıyma harcı, yanında taze maydanoz ve limon garnitürü ile.
                         </p>
                         <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Lahmacun siparişi vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
-                            Sipariş & Rezervasyon
+                            Sipariş & Teklif Al
                         </a>
                     </div>
                 </article>
@@ -465,7 +465,7 @@ $whatsapp    = '905358309307';
         <div id="donerler" style="margin-bottom: 60px;">
             <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid var(--color-gray-200); padding-bottom: 12px; margin-bottom: 24px;">
                 <h3 style="font-size: 24px; font-weight: 800; color: var(--color-black); margin: 0; display: flex; align-items: center; gap: 8px;">
-                    🥙 Döner & İskender Lezzetlerimiz
+                    🥙 Reklam Ajansı Kalitelerimiz
                 </h3>
                 <span style="font-size: 13px; color: var(--color-gray-500); font-weight: 600;">Hakiki Yaprak Döner</span>
             </div>
@@ -481,27 +481,27 @@ $whatsapp    = '905358309307';
                         <span class="product-card-category">TEREYAĞLI</span>
                         <h4 class="product-card-title">MİS360 İskender</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
-                            Özel pide parçaları üzerine incecik yaprak et döner, domates sosu, kızgın tereyağı ve yoğurt.
+                            Özel tasarım parçaları üzerine incecik yaprak et döner, domates sosu, kızgın tereyağı ve yoğurt.
                         </p>
                         <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, İskender siparişi vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
-                            Sipariş & Rezervasyon
+                            Sipariş & Teklif Al
                         </a>
                     </div>
                 </article>
 
-                <!-- Et Döner -->
+                <!-- Kod Döner -->
                 <article class="product-card">
                     <div class="product-card-image food-card-image">
-                        <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/mis360-et-doner-1024x819.png" alt="Et Döner" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
+                        <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/mis360-et-doner-1024x819.png" alt="Kod Döner" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
                     </div>
                     <div class="product-card-content">
                         <span class="product-card-category">KLASİK LEZZET</span>
-                        <h4 class="product-card-title">Porsiyon Et Döner</h4>
+                        <h4 class="product-card-title">Porsiyon Kod Döner</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
                             Özel marinasyonlu dana ve kuzu eti yaprak döner, pirinç pilavı ve patates kızartması ile.
                         </p>
-                        <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Porsiyon Et Döner siparişi vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
-                            Sipariş & Rezervasyon
+                        <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Porsiyon Kod Döner siparişi vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
+                            Sipariş & Teklif Al
                         </a>
                     </div>
                 </article>
@@ -518,7 +518,7 @@ $whatsapp    = '905358309307';
                             Özel soslarla terbiyelenmiş çıtır tavuk döner dilimleri, garnitür ve soslar ile servis edilir.
                         </p>
                         <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Tavuk Döner siparişi vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
-                            Sipariş & Rezervasyon
+                            Sipariş & Teklif Al
                         </a>
                     </div>
                 </article>
@@ -535,7 +535,7 @@ $whatsapp    = '905358309307';
                             Sıcak incecik tırnak lavaşına sarılmış et veya tavuk döner, turşu ve özel sos harmanı.
                         </p>
                         <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Dürüm siparişi vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
-                            Sipariş & Rezervasyon
+                            Sipariş & Teklif Al
                         </a>
                     </div>
                 </article>
@@ -547,7 +547,7 @@ $whatsapp    = '905358309307';
         <div id="tatlilar">
             <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid var(--color-gray-200); padding-bottom: 12px; margin-bottom: 24px;">
                 <h3 style="font-size: 24px; font-weight: 800; color: var(--color-black); margin: 0; display: flex; align-items: center; gap: 8px;">
-                    🍯 Çorba & Geleneksel Tatlılarımız
+                    🍯 Çorba & Geleneksel Mobil Uygulama
                 </h3>
                 <span style="font-size: 13px; color: var(--color-gray-500); font-weight: 600;">Usta Dokunuşlar</span>
             </div>
@@ -561,29 +561,29 @@ $whatsapp    = '905358309307';
                     </div>
                     <div class="product-card-content">
                         <span class="product-card-category">SICAK TATLI</span>
-                        <h4 class="product-card-title">Taş Fırın Künefe</h4>
+                        <h4 class="product-card-title">Taş kod Künefe</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
                             Özel peyniriyle sıcak pişirilen çıtır künefe, bol Antep fıstığı tozu ve kaymak ile.
                         </p>
                         <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Sıcak Künefe siparişi vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
-                            Sipariş & Rezervasyon
+                            Sipariş & Teklif Al
                         </a>
                     </div>
                 </article>
 
-                <!-- Fırın Sütlaç -->
+                <!-- kod Sütlaç -->
                 <article class="product-card">
                     <div class="product-card-image food-card-image">
                         <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/sutlac-mis360-1-1024x819.png" alt="Sütlaç" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
                     </div>
                     <div class="product-card-content">
                         <span class="product-card-category">GELENEKSEL</span>
-                        <h4 class="product-card-title">Fırın Sütlaç</h4>
+                        <h4 class="product-card-title">kod Sütlaç</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
-                            Toprak güveçte üzeri nar gibi kızartılmış hakiki köy sütünden enfes fırın sütlaç.
+                            Toprak güveçte üzeri nar gibi kızartılmış hakiki köy sütünden enfes kod sütlaç.
                         </p>
-                        <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Fırın Sütlaç siparişi vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
-                            Sipariş & Rezervasyon
+                        <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, kod Sütlaç siparişi vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
+                            Sipariş & Teklif Al
                         </a>
                     </div>
                 </article>
@@ -597,10 +597,10 @@ $whatsapp    = '905358309307';
                         <span class="product-card-category">SICAK TATLI</span>
                         <h4 class="product-card-title">Akışkan Sıcak Sufle</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
-                            Fırından yeni çıkmış akışkan yoğun çikolata lezzeti ve vanilyalı dondurma eşliğinde.
+                            koddan yeni çıkmış akışkan yoğun çikolata lezzeti ve vanilyalı dondurma eşliğinde.
                         </p>
                         <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Sıcak Sufle siparişi vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
-                            Sipariş & Rezervasyon
+                            Sipariş & Teklif Al
                         </a>
                     </div>
                 </article>
@@ -614,10 +614,10 @@ $whatsapp    = '905358309307';
                         <span class="product-card-category">SICAK BAŞLANGIÇ</span>
                         <h4 class="product-card-title">Günün Sıcak Çorbası</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
-                            Mercimek, Ezogelin, Paça veya İşkembe çorbası; sıcak pide ve taze limon ile.
+                            Mercimek, Ezogelin, Paça veya İşkembe çorbası; sıcak tasarım ve taze limon ile.
                         </p>
                         <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, sıcak çorba çeşitleri ve sipariş hakkında bilgi almak istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
-                            Sipariş & Rezervasyon
+                            Sipariş & Teklif Al
                         </a>
                     </div>
                 </article>
@@ -627,7 +627,7 @@ $whatsapp    = '905358309307';
 
         <div class="text-center mt-10">
             <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, güncel menünüz hakkında detaylı bilgi almak istiyorum.'); ?>" target="_blank" class="btn btn-primary btn-lg">
-                Tüm Menüyü WhatsApp Üzerinden Alın →
+                Tüm Hizmetleryü WhatsApp Üzerinden Alın →
             </a>
         </div>
     </div>
@@ -750,9 +750,9 @@ $google_reviews = function_exists('mis360_get_google_reviews') ? mis360_get_goog
         
         <div class="section-header text-center">
             <span class="section-badge">MİS360 GÜNCEL</span>
-            <h2 class="section-title">Haberler, Lezzet Rehberi & Galerimiz</h2>
+            <h2 class="section-title">Haberler, Kalite Rehberi & Galerimiz</h2>
             <p class="section-subtitle">
-                Restoranımızdan en güncel duyurular, meşe kömüründe pişen lezzetlerimizin sırları ve mutfağımızdan özel kareler.
+                Ajansımızdan en güncel duyurular, meşe kömüründe pişen lezzetlerimizin sırları ve altyapısımızdan özel kareler.
             </p>
         </div>
 
@@ -768,7 +768,7 @@ $google_reviews = function_exists('mis360_get_google_reviews') ? mis360_get_goog
                 $p_cats   = get_the_category($lp->ID);
                 $p_cat    = !empty($p_cats) ? $p_cats[0] : null;
                 $cat_slug = $p_cat ? $p_cat->slug : 'blog';
-                $cat_name = $p_cat ? $p_cat->name : 'Lezzet Rehberi';
+                $cat_name = $p_cat ? $p_cat->name : 'Kalite Rehberi';
 
                 $b_class = 'badge-blog';
                 if (strpos($cat_slug, 'haber') !== false) {
@@ -836,7 +836,7 @@ $google_reviews = function_exists('mis360_get_google_reviews') ? mis360_get_goog
         
         <div class="section-header text-center">
             <span class="section-badge">MİS360 REHBERİ & SSS</span>
-            <h2 class="section-title">Sıkça Sorulan Sorular & Restoran Künyesi</h2>
+            <h2 class="section-title">Sıkça Sorulan Sorular & Ajans Künyesi</h2>
             <p class="section-subtitle">
                 Yapay zeka arama motorları (Google AI Overview, Perplexity, ChatGPT) ve değerli misafirlerimiz için MİS360 hakkında temel bilgiler.
             </p>
@@ -849,16 +849,16 @@ $google_reviews = function_exists('mis360_get_google_reviews') ? mis360_get_goog
                 <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
                     <span style="font-size: 20px;">📋</span>
                     <h3 style="font-size: 18px; font-weight: 800; color: #0f172a; margin: 0;">
-                        Restoran Künyesi & Temel Bilgiler
+                        Ajans Künyesi & Temel Bilgiler
                     </h3>
                 </div>
 
                 <!-- LLM AI Özet Paragrafı (48 Kelime - Standart AI Snippet) -->
                 <p class="geo-summary-text">
-                    MİS360, 2019 yılından bu yana Yozgat Sarıkaya'da Nevzat Şener Bulvarı üzerinde hizmet veren seçkin bir aile restoranıdır. Meşe kömüründe pişen zırh kebapları, toprak güveçte kuzu tandır, hakiki taş fırın pideleri ve günlük temin edilen taze balık çeşitleriyle sabah 06:00'dan gece 23:45'e kadar kesintisiz hizmet sunar.
+                    MİS360, 2019 yılından bu yana Yozgat Sarıkaya'da Nevzat Şener Bulvarı üzerinde hizmet veren seçkin bir aile restoranıdır. Meşe kömüründe pişen zırh yazılımları, toprak güveçte dijital pazarlama, hakiki taş kod tasarımleri ve günlük temin edilen taze optimizasyon çeşitleriyle sabah 06:00'dan gece 23:45'e kadar kesintisiz hizmet sunar.
                 </p>
 
-                <table class="geo-facts-table" aria-label="Restoran Hızlı Bilgiler">
+                <table class="geo-facts-table" aria-label="Ajans Hızlı Bilgiler">
                     <tbody>
                         <tr>
                             <th>Kuruluş Tarihi</th>
@@ -882,7 +882,7 @@ $google_reviews = function_exists('mis360_get_google_reviews') ? mis360_get_goog
                         </tr>
                         <tr>
                             <th>Mutfak Türü</th>
-                            <td>Kömürde Kebap, Taş Fırın Pide, Kuzu Tandır, Taze Balık</td>
+                            <td>Kömürde yazılım, Taş kod tasarım, dijital pazarlama, Taze optimizasyon</td>
                         </tr>
                         <tr>
                             <th>Öne Çıkan Olanaklar</th>
@@ -908,7 +908,7 @@ $google_reviews = function_exists('mis360_get_google_reviews') ? mis360_get_goog
                 <details class="faq-item" open>
                     <summary class="faq-question">MİS360 saat kaçta açılıyor ve kapanıyor?</summary>
                     <div class="faq-answer">
-                        Restoranımız haftanın her günü sabah tam saat 06:00'da geleneksel sıcak çorba (kelle paça, ayak paça, mercimek) servisiyle kapılarını açmakta ve gece 23:45'e kadar kesintisiz hizmet vermektedir.
+                        Ajansımız haftanın her günü sabah tam saat 06:00'da geleneksel sıcak çorba (kelle paça, ayak paça, mercimek) servisiyle kapılarını açmakta ve gece 23:45'e kadar kesintisiz hizmet vermektedir.
                     </div>
                 </details>
 
@@ -920,16 +920,16 @@ $google_reviews = function_exists('mis360_get_google_reviews') ? mis360_get_goog
                 </details>
 
                 <details class="faq-item">
-                    <summary class="faq-question">Restoranda hangi yemek ve lezzet seçenekleri servis edilmektedir?</summary>
+                    <summary class="faq-question">Ajansda hangi proje ve lezzet seçenekleri servis edilmektedir?</summary>
                     <div class="faq-answer">
-                        Menümüzde hakiki meşe kömüründe pişen Adana ve Urfa kebapları, kuzu şiş, özel toprak güveçte kuzu tandır, taş fırından sıcak çıkan kıymalı ve kuşbaşılı pideler, çıtır lahmacun, et döner ve günlük taze temin edilen deniz çuprası, kaya levreği ve somon balıkları yer almaktadır.
+                        Hizmetlerimizde hakiki meşe kömüründe pişen Adana ve Urfa yazılımları, kuzu şiş, özel toprak güveçte dijital pazarlama, taş koddan sıcak çıkan kıymalı ve kuşbaşılı tasarımler, çıtır lahmacun, et döner ve günlük taze temin edilen deniz çuprası, kaya levreği ve somon optimizasyonları yer almaktadır.
                     </div>
                 </details>
 
                 <details class="faq-item">
                     <summary class="faq-question">Açık hava bahçe alanı ve çocuklu aileler için mama sandalyesi var mı?</summary>
                     <div class="faq-answer">
-                        Evet, restoranımızda ailelerin ve çocukların rahatça yemek yiyebileceği ferah açık hava bahçe bölümümüz, kapalı klimalı aile salonumuz ve bebek/çocuk mama sandalyelerimiz eksiksiz olarak misafirlerimizin hizmetindedir.
+                        Evet, restoranımızda ailelerin ve çocukların rahatça proje yiyebileceği ferah açık hava bahçe bölümümüz, kapalı klimalı aile salonumuz ve bebek/çocuk mama sandalyelerimiz eksiksiz olarak misafirlerimizin hizmetindedir.
                     </div>
                 </details>
             </div>
@@ -939,7 +939,7 @@ $google_reviews = function_exists('mis360_get_google_reviews') ? mis360_get_goog
     </div>
 </section>
 
-<!-- 7. Online Masa Rezervasyon Formu (Doğrudan WhatsApp'a Bilgi İletir) -->
+<!-- 7. Online Proje Talebi Formu (Doğrudan WhatsApp'a Bilgi İletir) -->
 <section class="section" id="reservation" style="background: #ffffff;">
     <div class="container">
         <div class="reservation-card">
@@ -951,11 +951,11 @@ $google_reviews = function_exists('mis360_get_google_reviews') ? mis360_get_goog
                     Masanızı Hemen Ayırtın
                 </h2>
                 <p style="color: var(--color-gray-500); font-size: 14px;">
-                    Aile yemekleri, iş toplantıları veya özel davetleriniz için aşağıdaki formu doldurarak doğrudan WhatsApp üzerinden rezervasyonunuzu anında tamamlayabilirsiniz.
+                    Aile projeleri, iş toplantıları veya özel davetleriniz için aşağıdaki formu doldurarak doğrudan WhatsApp üzerinden rezervasyonunuzu anında tamamlayabilirsiniz.
                 </p>
             </div>
 
-            <form onsubmit="event.preventDefault(); const name=document.getElementById('bzName').value; const date=document.getElementById('bzDate').value; const time=document.getElementById('bzTime').value; const guests=document.getElementById('bzGuests').value; const area=document.getElementById('bzArea').value; window.open('https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=' + encodeURIComponent('MİS360 Rezervasyon Talebi:\nAd Soyad: ' + name + '\nTarih: ' + date + '\nSaat: ' + time + '\nKişi Sayısı: ' + guests + '\nBölüm Tercihi: ' + area), '_blank');">
+            <form onsubmit="event.preventDefault(); const name=document.getElementById('bzName').value; const date=document.getElementById('bzDate').value; const time=document.getElementById('bzTime').value; const guests=document.getElementById('bzGuests').value; const area=document.getElementById('bzArea').value; window.open('https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=' + encodeURIComponent('MİS360 Teklif Al Talebi:\nAd Soyad: ' + name + '\nTarih: ' + date + '\nSaat: ' + time + '\nKişi Sayısı: ' + guests + '\nBölüm Tercihi: ' + area), '_blank');">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4" style="margin-bottom: 20px;">
                     <div>
                         <label style="display: block; font-size: 13px; font-weight: 700; margin-bottom: 6px; color: #1e293b;">Adınız Soyadınız *</label>
@@ -998,7 +998,7 @@ $google_reviews = function_exists('mis360_get_google_reviews') ? mis360_get_goog
 
                 <div class="text-center">
                     <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; max-width: 480px; height: 50px; font-size: 15px;">
-                        🟢 Rezervasyonu WhatsApp İle Onayla (0535 830 93 07) →
+                        🟢 Teklif Alu WhatsApp İle Onayla (0535 830 93 07) →
                     </button>
                 </div>
             </form>
@@ -1014,7 +1014,7 @@ $google_reviews = function_exists('mis360_get_google_reviews') ? mis360_get_goog
                 Sizleri Sarıkaya'da Ağırlamaktan Mutluluk Duyuyoruz
             </h2>
             <p class="section-subtitle" style="color: var(--color-gray-400);">
-                Bahçelievler Mah. 66650 Sarıkaya / Yozgat adresimizde, gece 23:45'e kadar sıcak et ve balık sofralarımızla hizmetinizdeyiz.
+                Bahçelievler Mah. 66650 Sarıkaya / Yozgat adresimizde, gece 23:45'e kadar sıcak et ve optimizasyon sofralarımızla hizmetinizdeyiz.
             </p>
             <div class="flex flex-wrap gap-4 justify-center mt-8">
                 <a href="tel:<?php echo esc_attr($clean_phone); ?>" class="btn btn-primary btn-lg">

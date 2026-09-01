@@ -19,23 +19,23 @@ $whatsapp    = '905358309307';
 
 <aside id="secondary" class="widget-area single-sidebar" aria-label="<?php esc_attr_e('Kenar Çubuğu Bileşenleri', 'mis360'); ?>">
 
-    <!-- 1. Bileşen: Restoran Bilgi & Hızlı Rezervasyon -->
+    <!-- 1. Bileşen: Ajans Bilgi & Hızlı Teklif Al -->
     <div class="sidebar-widget widget-restaurant-card">
         <div class="widget-restaurant-header">
             <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/mis360logo1-66.png" alt="MİS360 Logo" class="widget-restaurant-logo">
             <div>
                 <span class="widget-restaurant-badge">2019'dan Beri</span>
-                <h3 class="widget-restaurant-name">MİS360 Et & Balık</h3>
+                <h3 class="widget-restaurant-name">MİS360 Kod & optimizasyon</h3>
             </div>
         </div>
         <p class="widget-restaurant-desc">
-            Sarıkaya'da meşe kömürü ateşi, taze et çeşitleri ve taş fırın pideleriyle lezzet durağınız.
+            Sarıkaya'da meşe kömürü ateşi, taze et çeşitleri ve taş kod tasarımleriyle lezzet durağınız.
         </p>
         <div class="widget-contact-list">
             <div class="widget-contact-item">
                 <span class="widget-contact-icon">📞</span>
                 <div>
-                    <span class="contact-label">Sipariş & Rezervasyon</span>
+                    <span class="contact-label">Sipariş & Teklif Al</span>
                     <a href="tel:<?php echo esc_attr($clean_phone); ?>" class="contact-val"><?php echo esc_html($phone); ?></a>
                 </div>
             </div>
@@ -54,12 +54,12 @@ $whatsapp    = '905358309307';
                 </div>
             </div>
         </div>
-        <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, masa ayırtmak istiyorum:'); ?>" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-full mt-3">
+        <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, proje teklifi almak istiyorum:'); ?>" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-full mt-3">
             💬 WhatsApp ile Masa Ayırt
         </a>
     </div>
 
-    <!-- 2. Bileşen: Son Eklenen Lezzet Yazıları -->
+    <!-- 2. Bileşen: Son Eklenen Kalite Yazıları -->
     <div class="sidebar-widget widget-recent-posts">
         <h3 class="sidebar-widget-title">
             <span>🔥 Son Eklenen Yazılar</span>
@@ -133,7 +133,7 @@ $whatsapp    = '905358309307';
             <span class="google-score">4.3 / 5.0</span>
         </div>
         <p class="google-card-text">
-            <strong>448 Doğrulanmış Google Yorumu</strong> ile Sarıkaya'nın en çok tercih edilen aile et & balık restoranı.
+            <strong>448 Doğrulanmış Google Yorumu</strong> ile Sarıkaya'nın en çok tercih edilen aile et & optimizasyon restoranı.
         </p>
         <a href="https://maps.app.goo.gl/q2icLBRX1FJNzVtY7" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark btn-sm btn-full">
             ⭐ Google Yorumlarını Oku

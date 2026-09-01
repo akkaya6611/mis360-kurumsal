@@ -57,8 +57,8 @@ function mis360_scripts(): void {
         'themeUri'  => MIS360_URI,
         'i18n'      => [
             'toggleDarkMode'  => esc_html__('Karanlık/Aydınlık modunu değiştir', 'mis360'),
-            'menuOpen'        => esc_html__('Menüyü Aç', 'mis360'),
-            'menuClose'       => esc_html__('Menüyü Kapat', 'mis360'),
+            'menuOpen'        => esc_html__('Hizmetleryü Aç', 'mis360'),
+            'menuClose'       => esc_html__('Hizmetleryü Kapat', 'mis360'),
         ],
     ]);
 

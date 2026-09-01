@@ -605,7 +605,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
 
-/* Mobil Alt Menü Stilleri */
+/* Mobil Alt Hizmetler Stilleri */
 .mobile-nav-submenu {
   padding-left: 16px;
   margin: 4px 0 12px 16px;
@@ -1458,7 +1458,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ==========================================================================
-   Restaurant Form & Reservation Enhancements
+   Dijital Ajans Form & Reservation Enhancements
    ========================================================================== */
 input[type="text"]:focus,
 input[type="date"]:focus,
@@ -2585,7 +2585,7 @@ select:focus {
   margin: 24px 0;
 }
 
-/* Makale Alt Bilgisi & Etiketler */
+/* Makale Alt Bilgisi & Kodiketler */
 .single-article-footer {
   display: flex;
   align-items: center;
@@ -2757,7 +2757,7 @@ select:focus {
   background: #e2e8f0;
 }
 
-/* Alt Rezervasyon CTA */
+/* Alt Teklif Al CTA */
 .single-reservation-cta {
   background: #f8fafc;
   border: 1px solid #e2e8f0;
@@ -2906,7 +2906,7 @@ select:focus {
   justify-content: space-between;
 }
 
-/* Restoran Bilgi Kartı Bileşeni */
+/* Ajans Bilgi Kartı Bileşeni */
 .widget-restaurant-header {
   display: flex;
   align-items: center;

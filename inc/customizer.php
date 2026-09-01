@@ -1,7 +1,7 @@
 <?php
 /**
  * MİS360 Customizer & Theme Options
- * Çok Amaçlı (Restoran, Yol Yardım, İlan, Kurumsal) Yönetim Paneli
+ * Çok Amaçlı (Ajans, Yol Yardım, İlan, Kurumsal) Yönetim Paneli
  *
  * @package MİS360
  * @author  Serkan AKKAYA <https://misteknoloji360.com.tr/>
@@ -23,7 +23,7 @@ function mis360_customize_register(WP_Customize_Manager $wp_customize): void {
     // -------------------------------------------------------------------------
     $wp_customize->add_section('mis360_multipurpose_section', [
         'title'       => esc_html__('MİS360 Sektör & İletişim Ayarları', 'mis360'),
-        'description' => esc_html__('Yol Yardım, Restoran, İlan ve Kurumsal siteler için acil çağrı, WhatsApp ve sektör ayarları.', 'mis360'),
+        'description' => esc_html__('Yol Yardım, Ajans, İlan ve Kurumsal siteler için acil çağrı, WhatsApp ve sektör ayarları.', 'mis360'),
         'priority'    => 30,
     ]);
 
@@ -77,7 +77,7 @@ function mis360_customize_register(WP_Customize_Manager $wp_customize): void {
         'type'    => 'text',
     ]);
 
-    // 5. Hizmet / Rozet Metni (Örn: "7/24 Kesintisiz Yol Yardım" veya "Özel Lezzetler")
+    // 5. Hizmet / Rozet Metni (Örn: "7/24 Kesintisiz Yol Yardım" veya "Özel Kaliteler")
     $wp_customize->add_setting('mis360_header_badge', [
         'default'           => '7/24 Kesintisiz Hizmet',
         'sanitize_callback' => 'sanitize_text_field',

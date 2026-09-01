@@ -1,7 +1,7 @@
 <?php
 /**
  * MİS360 Custom Post Types & Taxonomies
- * Çok Amaçlı (İlan, Restoran Menüsü, Hizmet/Yol Yardım) Dinamik Kayıtlar
+ * Çok Amaçlı (İlan, Ajans Hizmetlersü, Hizmet/Yol Yardım) Dinamik Kayıtlar
  *
  * @package MİS360
  * @author  Serkan AKKAYA <https://misteknoloji360.com.tr/>
@@ -18,18 +18,18 @@ if (!defined('ABSPATH')) {
  * 'mis360_listing' CPT ve Taksonomi Kaydı
  */
 function mis360_register_cpt(): void {
-    // 1. CPT: İlanlar, Menü Öğeleri ve Hizmetler
+    // 1. CPT: İlanlar, Hizmetler Öğeleri ve Hizmetler
     $labels = [
-        'name'                  => esc_html_x('İlanlar / Menü & Hizmetler', 'Post type general name', 'mis360'),
-        'singular_name'         => esc_html_x('İlan / Menü / Hizmet', 'Post type singular name', 'mis360'),
+        'name'                  => esc_html_x('İlanlar / Hizmetler & Hizmetler', 'Post type general name', 'mis360'),
+        'singular_name'         => esc_html_x('İlan / Hizmetler / Hizmet', 'Post type singular name', 'mis360'),
         'menu_name'             => esc_html__('İlan & Hizmetler', 'mis360'),
         'name_admin_bar'        => esc_html__('İlan / Hizmet Ekle', 'mis360'),
         'add_new'               => esc_html__('Yeni Ekle', 'mis360'),
-        'add_new_item'          => esc_html__('Yeni İlan / Menü Öğesi / Hizmet Ekle', 'mis360'),
+        'add_new_item'          => esc_html__('Yeni İlan / Hizmetler Öğesi / Hizmet Ekle', 'mis360'),
         'new_item'              => esc_html__('Yeni Öğe', 'mis360'),
         'edit_item'             => esc_html__('Öğeyi Düzenle', 'mis360'),
         'view_item'             => esc_html__('Öğeyi Görüntüle', 'mis360'),
-        'all_items'             => esc_html__('Tüm Liste (İlan/Menü/Hizmet)', 'mis360'),
+        'all_items'             => esc_html__('Tüm Liste (İlan/Hizmetler/Hizmet)', 'mis360'),
         'search_items'          => esc_html__('Öğelerde Ara', 'mis360'),
         'not_found'             => esc_html__('Kayıt bulunamadı.', 'mis360'),
         'not_found_in_trash'    => esc_html__('Çöp kutusunda kayıt bulunamadı.', 'mis360'),
@@ -54,7 +54,7 @@ function mis360_register_cpt(): void {
 
     register_post_type('mis360_listing', $args);
 
-    // 2. Taksonomi: Kategoriler (Örn: Çekici Hizmetleri, Ana Yemekler, Emlak İlanları vb.)
+    // 2. Taksonomi: Kategoriler (Örn: Çekici Hizmetleri, Ana projeler, Emlak İlanları vb.)
     $tax_labels = [
         'name'              => esc_html_x('Kategoriler', 'taxonomy general name', 'mis360'),
         'singular_name'     => esc_html_x('Kategori', 'taxonomy singular name', 'mis360'),
