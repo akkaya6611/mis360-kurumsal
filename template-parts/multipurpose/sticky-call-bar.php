@@ -34,8 +34,8 @@ $btn_text     = get_theme_mod('mis360_call_btn_text', 'Hemen Ara');
             <span><?php echo esc_html($btn_text); ?></span>
         </a>
 
-        <!-- 2. WhatsApp Konum Gönderme / Sipariş Hattı -->
-        <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba, bilgi ve acil hizmet almak istiyorum.'); ?>" target="_blank" rel="noopener noreferrer" class="mis-sticky-btn mis-btn-whatsapp">
+        <!-- 2. WhatsApp Konum Gönderme / teklif Hattı -->
+        <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba, bilgi ve acil hizmkod almak istiyorum.'); ?>" target="_blank" rel="noopener noreferrer" class="mis-sticky-btn mis-btn-whatsapp">
             <svg class="mis-sticky-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
             </svg>

@@ -35,7 +35,7 @@ function mis360_customize_register(WP_Customize_Manager $wp_customize): void {
     ]);
     $wp_customize->add_control('mis360_phone', [
         'label'       => esc_html__('Doğrudan Arama Numarası (Telefon)', 'mis360'),
-        'description' => esc_html__('Yol yardım, sipariş ve rezervasyon için aranacak numara.', 'mis360'),
+        'description' => esc_html__('Yol yardım, teklif ve Proje Talebi için aranacak numara.', 'mis360'),
         'section'     => 'mis360_multipurpose_section',
         'type'        => 'text',
     ]);
@@ -48,7 +48,7 @@ function mis360_customize_register(WP_Customize_Manager $wp_customize): void {
     ]);
     $wp_customize->add_control('mis360_whatsapp', [
         'label'       => esc_html__('WhatsApp Numarası (Ülke kodu ile, başında + olmadan)', 'mis360'),
-        'description' => esc_html__('Örn: 905551234567 (Konum atma ve sipariş için).', 'mis360'),
+        'description' => esc_html__('Örn: 905551234567 (Konum atma ve teklif için).', 'mis360'),
         'section'     => 'mis360_multipurpose_section',
         'type'        => 'text',
     ]);
@@ -77,7 +77,7 @@ function mis360_customize_register(WP_Customize_Manager $wp_customize): void {
         'type'    => 'text',
     ]);
 
-    // 5. Hizmet / Rozet Metni (Örn: "7/24 Kesintisiz Yol Yardım" veya "Özel Kaliteler")
+    // 5. Hizmkod / Rozkod Metni (Örn: "7/24 Kesintisiz Yol Yardım" veya "Özel Kaliteler")
     $wp_customize->add_setting('mis360_header_badge', [
         'default'           => '7/24 Kesintisiz Hizmet',
         'sanitize_callback' => 'sanitize_text_field',
@@ -89,13 +89,13 @@ function mis360_customize_register(WP_Customize_Manager $wp_customize): void {
         'type'        => 'text',
     ]);
 
-    // 6. Çalışma Saatleri / Hizmet Süresi
+    // 6. Çalışma Saatleri / Hizmkod Süresi
     $wp_customize->add_setting('mis360_working_hours', [
         'default'           => 'Haftanın 7 Günü / 24 Saat Açık',
         'sanitize_callback' => 'sanitize_text_field',
     ]);
     $wp_customize->add_control('mis360_working_hours', [
-        'label'   => esc_html__('Çalışma / Hizmet Saatleri', 'mis360'),
+        'label'   => esc_html__('Çalışma / Hizmkod Saatleri', 'mis360'),
         'section' => 'mis360_multipurpose_section',
         'type'    => 'text',
     ]);
@@ -106,8 +106,8 @@ function mis360_customize_register(WP_Customize_Manager $wp_customize): void {
         'sanitize_callback' => 'sanitize_text_field',
     ]);
     $wp_customize->add_control('mis360_service_area', [
-        'label'       => esc_html__('Hizmet Bölgesi / Şehir', 'mis360'),
-        'description' => esc_html__('Yol yardım çekici bölgeleri veya restoran teslimat alanları.', 'mis360'),
+        'label'       => esc_html__('Hizmkod Bölgesi / Şehir', 'mis360'),
+        'description' => esc_html__('Yol yardım çekici bölgeleri veya ajans teslimat alanları.', 'mis360'),
         'section'     => 'mis360_multipurpose_section',
         'type'        => 'text',
     ]);

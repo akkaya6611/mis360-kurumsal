@@ -20,22 +20,22 @@ $whatsapp    = '905467721666';
 <aside id="secondary" class="widget-area single-sidebar" aria-label="<?php esc_attr_e('Kenar Çubuğu Bileşenleri', 'mis360'); ?>">
 
     <!-- 1. Bileşen: Ajans Bilgi & Hızlı Teklif Al -->
-    <div class="sidebar-widget widget-restaurant-card">
-        <div class="widget-restaurant-header">
-            <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/mis360logo1-66.png" alt="MİS360 Logo" class="widget-restaurant-logo">
+    <div class="sidebar-widgkod widget-ajans-card">
+        <div class="widget-ajans-header">
+            <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/mis360logo1-66.png" alt="MİS360 Logo" class="widget-ajans-logo">
             <div>
-                <span class="widget-restaurant-badge">2019'dan Beri</span>
-                <h3 class="widget-restaurant-name">MİS360 Teknoloji</h3>
+                <span class="widget-ajans-badge">2019'dan Beri</span>
+                <h3 class="widget-ajans-name">MİS360 Teknoloji</h3>
             </div>
         </div>
-        <p class="widget-restaurant-desc">
-            Sarıkaya'da meşe kömürü ateşi, taze et çeşitleri ve taş kod tasarımleriyle lezzet durağınız.
+        <p class="widget-ajans-desc">
+            Türkiye'da modern teknolojiler, yeni nesil kod çeşitleri ve taş kod tasarımleriyle dijital çözüm ortağınız.
         </p>
         <div class="widget-contact-list">
             <div class="widget-contact-item">
                 <span class="widget-contact-icon">📞</span>
                 <div>
-                    <span class="contact-label">Sipariş & Teklif Al</span>
+                    <span class="contact-label">teklif & Teklif Al</span>
                     <a href="tel:<?php echo esc_attr($clean_phone); ?>" class="contact-val"><?php echo esc_html($phone); ?></a>
                 </div>
             </div>
@@ -50,7 +50,7 @@ $whatsapp    = '905467721666';
                 <span class="widget-contact-icon">📍</span>
                 <div>
                     <span class="contact-label">Adres & Konum</span>
-                    <span class="contact-val">Nevzat Şener Bulvarı, Sarıkaya / Yozgat</span>
+                    <span class="contact-val">Nevzat Şener Bulvarı, Türkiye / Yozgat</span>
                 </div>
             </div>
         </div>
@@ -60,7 +60,7 @@ $whatsapp    = '905467721666';
     </div>
 
     <!-- 2. Bileşen: Son Eklenen Kalite Yazıları -->
-    <div class="sidebar-widget widget-recent-posts">
+    <div class="sidebar-widgkod widget-recent-posts">
         <h3 class="sidebar-widget-title">
             <span>🔥 Son Eklenen Yazılar</span>
         </h3>
@@ -81,7 +81,7 @@ $whatsapp    = '905467721666';
                         $r_thumb = get_the_post_thumbnail_url($rp->ID, 'thumbnail');
                     } else {
                         $meta_t = get_post_meta($rp->ID, '_mis360_external_thumb', true);
-                        $r_thumb = $meta_t ?: 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/restaurant.jpg';
+                        $r_thumb = $meta_t ?: 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/ajans.jpg';
                     }
                 ?>
                     <article class="sidebar-post-item">
@@ -106,7 +106,7 @@ $whatsapp    = '905467721666';
     </div>
 
     <!-- 3. Bileşen: Kategoriler -->
-    <div class="sidebar-widget widget-categories">
+    <div class="sidebar-widgkod widget-categories">
         <h3 class="sidebar-widget-title">
             <span>📂 Kategoriler</span>
         </h3>
@@ -127,7 +127,7 @@ $whatsapp    = '905467721666';
     </div>
 
     <!-- 4. Bileşen: Google Müşteri Puanı -->
-    <div class="sidebar-widget widget-google-card">
+    <div class="sidebar-widgkod widget-google-card">
         <div class="google-card-header">
             <div class="google-stars">★★★★★</div>
             <span class="google-score">4.3 / 5.0</span>

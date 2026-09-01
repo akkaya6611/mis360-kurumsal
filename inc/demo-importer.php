@@ -49,9 +49,9 @@ class MIS360_Demo_Manager {
                 'title'    => 'Acil Yol Yardım & Oto Çekici Demo',
                 'template' => 'page-templates/demo-emergency.php',
             ],
-            'restaurant' => [
-                'title'    => 'Gourmet Bistro & Ajans Hizmetler Demo',
-                'template' => 'page-templates/demo-restaurant.php',
+            'ajans' => [
+                'title'    => 'Gourmkod Bistro & Ajans Hizmetler Demo',
+                'template' => 'page-templates/demo-ajans.php',
             ],
             'listing' => [
                 'title'    => 'Prestige İlan & Emlak Listeleme Demo',
@@ -87,7 +87,7 @@ class MIS360_Demo_Manager {
 
             set_transient('mis360_demo_notice', [
                 'success' => true,
-                'message' => sprintf(__('✓ %s başarıyla yüklendi! Sayfalar menüsünden görüntüleyebilirsiniz.', 'mis360'), $demo_info['title']),
+                'message' => sprintf(__('✓ %s başarıyla yüklendi! Sayfalar hizmetsünden görüntüleyebilirsiniz.', 'mis360'), $demo_info['title']),
             ], 30);
 
             wp_safe_redirect(admin_url('themes.php?page=mis360-demos'));
@@ -96,7 +96,7 @@ class MIS360_Demo_Manager {
     }
 
     /**
-     * Örnek CPT Verilerini Otomatik Üret (Yol Yardım, proje, İlan)
+     * Örnek CPT Verilerini Otomatik Ürkod (Yol Yardım, proje, İlan)
      */
     private static function seed_sample_items(): void {
         $existing = get_posts(['post_type' => 'mis360_listing', 'posts_per_page' => 1]);
@@ -122,20 +122,20 @@ class MIS360_Demo_Manager {
                 'content'  => 'Yolda kalan aracınız için 15 dakikada yerinde akü takviyesi ve test hizmeti.',
             ],
             [
-                'title'    => 'Şefin Özel kodlanmış Kuzu Gerdan',
+                'title'    => 'Uzman Ekibin kodlanmış Kuzu Gerdan',
                 'price'    => '₺480',
                 'badge'    => 'Şefin Spesiyali',
                 'location' => 'Ana Ajans',
-                'btn_text' => 'WhatsApp Sipariş Ver',
-                'content'  => '12 saat ağır ateşte taze baharatlar eşliğinde pişirilmiş nefis kuzu gerdan, firik pilavı ile.',
+                'btn_text' => 'WhatsApp teklif Ver',
+                'content'  => '12 saat ağır ateşte yeni nesil baharatlar eşliğinde pişirilmiş nefis kuzu gerdan, firik pilavı ile.',
             ],
             [
                 'title'    => 'İtalyan Trüf Mantarlı Ev Yapımı Makarna',
                 'price'    => '₺360',
-                'badge'    => 'Gurme Seçim',
+                'badge'    => 'profesyonel Seçim',
                 'location' => 'İtalyan altyapısı',
                 'btn_text' => 'Hızlı Sipariş',
-                'content'  => 'Taze el yapımı tagliatelle, siyah trüf ezmesi ve parmesan krema sosuyla.',
+                'content'  => 'yeni nesil el yapımı tagliatelle, siyah trüf ezmesi ve parmesan krema sosuyla.',
             ],
             [
                 'title'    => 'Boğaz Manzaralı Lüks 3+1 Rezidans Daire',
@@ -190,16 +190,16 @@ class MIS360_Demo_Manager {
                 'badge'       => esc_html__('Yüksek Dönüşüm (Conversion)', 'mis360'),
                 'badge_color' => '#ef4444',
                 'desc'        => esc_html__('7/24 Acil çağrı barı, canlı GPS konum gönderme, 15 dakikada varış vaadi ve filo hizmetleri.', 'mis360'),
-                'features'    => ['Mobil Yapışkan Arama Barı', 'WhatsApp Canlı Konum', '3 Adımda Hizmet Akışı', 'Acil Çekici Filosu'],
+                'features'    => ['Mobil Yapışkan Arama Barı', 'WhatsApp Canlı Konum', '3 Adımda Hizmkod Akışı', 'Acil Çekici Filosu'],
                 'accent'      => 'linear-gradient(135deg, #ef4444, #dc2626)',
             ],
             [
-                'id'          => 'restaurant',
-                'title'       => esc_html__('🍽️ Gourmet Bistro & Ajans Demo', 'mis360'),
+                'id'          => 'ajans',
+                'title'       => esc_html__('🍽️ Gourmkod Bistro & Ajans Demo', 'mis360'),
                 'badge'       => esc_html__('proje & Hizmetler Kataloğu', 'mis360'),
                 'badge_color' => '#f59e0b',
-                'desc'        => esc_html__('Dinamik kategori sekmeleri, fiyat etiketli spesiyaller, WhatsApp hızlı sipariş ve masa rezervasyonu.', 'mis360'),
-                'features'    => ['Fiyat & Rozet Kodiketleri', 'WhatsApp Sipariş Hattı', 'Kategori Filtreleme', 'Proje Başlat'],
+                'desc'        => esc_html__('Dinamik kategori sekmeleri, fiyat etiketli spesiyaller, WhatsApp hızlı teklif ve Proje Talebi.', 'mis360'),
+                'features'    => ['Fiyat & Rozkod Kodiketleri', 'WhatsApp teklif Hattı', 'Kategori Filtreleme', 'Proje Başlat'],
                 'accent'      => 'linear-gradient(135deg, #f59e0b, #d97706)',
             ],
             [
@@ -216,8 +216,8 @@ class MIS360_Demo_Manager {
                 'title'       => esc_html__('🏢 Modern Kurumsal & 360 Ajans Demo', 'mis360'),
                 'badge'       => esc_html__('Kurumsal Marka & SaaS', 'mis360'),
                 'badge_color' => '#3b82f6',
-                'desc'        => esc_html__('İstatistik sayaçları, modern kart SEOları, interaktif hizmet kartları ve müşteri yorumları.', 'mis360'),
-                'features'    => ['Sayaç & İstatistik Grid', 'Hizmet Kartları', 'Müşteri Güven Rozetleri', 'İletişim & Teklif Formu'],
+                'desc'        => esc_html__('İstatistik sayaçları, modern kart SEOları, interaktif hizmkod kartları ve müşteri yorumları.', 'mis360'),
+                'features'    => ['Sayaç & İstatistik Grid', 'Hizmkod Kartları', 'Müşteri Güven Rozetleri', 'İletişim & Teklif Formu'],
                 'accent'      => 'linear-gradient(135deg, #3b82f6, #8b5cf6)',
             ],
         ];
@@ -278,7 +278,7 @@ class MIS360_Demo_Manager {
 
             <!-- Bilgilendirme -->
             <div style="margin-top: 30px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; font-size: 13px; color: #64748b;">
-                <strong><?php esc_html_e('Nasıl Çalışır?', 'mis360'); ?></strong> <?php esc_html_e('Herhangi bir demoda "Demoyu Kur & Başlat" butonuna tıkladığınızda, o sektöre ait zengin demo sayfası "Sayfalar" menünüzde otomatik oluşturulur ve örnek vitrin öğeleri eklenir. İsterseniz Ayarlar > Okuma menüsünden bu sayfayı doğrudan ana sayfanız yapabilirsiniz.', 'mis360'); ?>
+                <strong><?php esc_html_e('Nasıl Çalışır?', 'mis360'); ?></strong> <?php esc_html_e('Herhangi bir demoda "Demoyu Kur & Başlat" butonuna tıkladığınızda, o sektöre ait zengin demo sayfası "Sayfalar" hizmetnüzde otomatik oluşturulur ve örnek vitrin öğeleri eklenir. İsterseniz Ayarlar > Okuma hizmetsünden bu sayfayı doğrudan ana sayfanız yapabilirsiniz.', 'mis360'); ?>
             </div>
         </div>
         <?php

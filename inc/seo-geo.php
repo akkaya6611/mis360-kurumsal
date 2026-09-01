@@ -22,14 +22,14 @@ function mis360_render_schema_jsonld(): void {
     $schemas = [];
 
     // Genel İşletme Bilgileri
-    $restaurant_schema = [
+    $ajans_schema = [
         '@context'               => 'https://schema.org',
         '@type'                  => ['Dijital Ajans', 'FoodEstablishment', 'LocalBusiness'],
-        '@id'                    => esc_url(home_url('#restaurant')),
+        '@id'                    => esc_url(home_url('#ajans')),
         'name'                   => 'MİS360',
-        'alternateName'          => 'MİS360 Ajans Sarıkaya',
+        'alternateName'          => 'MİS360 Ajans Türkiye',
         'legalName'              => 'MİS360',
-        'description'            => '2019 yılından beri Yozgat Sarıkaya\'da hakiki meşe kömüründe yazılım, özel dijital pazarlama, taş kod tasarımleri, lahmacun ve günlük taze optimizasyon çeşitleri sunan seçkin aile restoranı.',
+        'description'            => '2019 yılından beri Türkiye geneli\'da hakiki modern altyapılarda yazılım, özel dijital pazarlama, taş kod tasarımleri, lahmacun ve günlük yeni nesil optimizasyon çeşitleri sunan seçkin aile ajansı.',
         'url'                    => esc_url(home_url('/')),
         'telephone'              => '+905467721666',
         'priceRange'             => '₺₺',
@@ -39,14 +39,14 @@ function mis360_render_schema_jsonld(): void {
         'hasMap'                 => 'https://maps.app.goo.gl/q2icLBRX1FJNzVtY7',
         'image'                  => [
             'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/banner-4-MİS360.png',
-            'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/restaurant.jpg',
+            'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/ajans.jpg',
             'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/adana.jpg'
         ],
         'logo'                   => 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/cropped-Basliksiz-1-1.png',
         'address'                => [
             '@type'           => 'PostalAddress',
             'streetAddress'   => 'Bahçelievler Mah., Nevzat Şener Bulvarı',
-            'addressLocality' => 'Sarıkaya',
+            'addressLocality' => 'Türkiye',
             'addressRegion'   => 'Yozgat',
             'postalCode'      => '66650',
             'addressCountry'  => 'TR'
@@ -72,7 +72,7 @@ function mis360_render_schema_jsonld(): void {
             'worstRating' => '1'
         ]
     ];
-    $schemas[] = $restaurant_schema;
+    $schemas[] = $ajans_schema;
 
     // Tekil Makale Sayfaları İçin Article / BlogPosting Schema
     if (is_single()) {
@@ -89,7 +89,7 @@ function mis360_render_schema_jsonld(): void {
             ],
             'headline'         => wp_strip_all_tags(get_the_title($post_id)),
             'description'      => wp_strip_all_tags(get_the_excerpt($post_id)),
-            'image'            => $thumb ?: 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/restaurant.jpg',
+            'image'            => $thumb ?: 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/ajans.jpg',
             'datePublished'    => get_the_date(DATE_W3C, $post_id),
             'dateModified'     => get_the_modified_date(DATE_W3C, $post_id),
             'author'           => [
@@ -159,12 +159,12 @@ function mis360_render_schema_jsonld(): void {
                     'name'           => 'MİS360 saat kaçta açılıyor ve kapanıyor?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
-                        'text'  => 'Ajansımız haftanın her günü sabah saat 06:00\'da geleneksel sıcak çorba servisiyle açılmakta ve gece 23:45\'e kadar kesintisiz hizmet vermektedir.'
+                        'text'  => 'Ajansımız haftanın her günü sabah saat 06:00\'da geleneksel sıcak çorba servisiyle açılmakta ve gece 23:45\'e kadar kesintisiz hizmkod vermektedir.'
                     ]
                 ],
                 [
                     '@type'          => 'Question',
-                    'name'           => 'Sarıkaya MİS360 rezervasyon ve sipariş telefon numarası nedir?',
+                    'name'           => 'Türkiye MİS360 Proje Talebi ve teklif telefon numarası nedir?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text'  => 'Proje talebi ve teklif almak için +90 546 772 16 66 numaralı telefondan arayabilir veya doğrudan WhatsApp üzerinden bizimle iletişime geçebilirsiniz.'
@@ -172,10 +172,10 @@ function mis360_render_schema_jsonld(): void {
                 ],
                 [
                     '@type'          => 'Question',
-                    'name'           => 'Ajansda hangi proje ve lezzet seçenekleri bulunmaktadır?',
+                    'name'           => 'Ajansda hangi proje ve kalite seçenekleri bulunmaktadır?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
-                        'text'  => 'Hakiki meşe kömüründe pişen Adana yazılım, Urfa yazılım, kuzu şiş, özel güveçte dijital pazarlama, taş kod kıymalı ve kuşbaşılı tasarımleri, lahmacun, et döner ve günlük taze deniz çuprası, kaya levreği çeşitleri servis edilmektedir.'
+                        'text'  => 'Hakiki modern altyapılarda geliştirilen Adana yazılım, Urfa yazılım, kuzu şiş, özel güveçte dijital pazarlama, taş kod kıymalı ve kuşbaşılı tasarımleri, lahmacun, kod döner ve günlük yeni nesil deniz çuprası, kaya levreği çeşitleri servis edilmektedir.'
                     ]
                 ],
                 [
@@ -183,7 +183,7 @@ function mis360_render_schema_jsonld(): void {
                     'name'           => 'Açık hava bahçe alanı ve çocuklu aile olanakları mevcut mudur?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
-                        'text'  => 'Evet, 2019 yılından bu yana hizmet veren restoranımızda çocuklar için mama sandalyesi, geniş aile masaları ve ferah açık hava bahçe salonu mevcuttur.'
+                        'text'  => 'Evet, 2019 yılından bu yana hizmkod veren ajansımızda çocuklar için mama sandalyesi, geniş aile masaları ve ferah açık hava bahçe salonu mevcuttur.'
                     ]
                 ]
             ]

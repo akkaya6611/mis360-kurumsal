@@ -16,14 +16,14 @@ get_header();
 
 $phone    = get_theme_mod('mis360_phone', '+90 555 123 4567');
 $whatsapp = get_theme_mod('mis360_whatsapp', '905551234567');
-$badge    = get_theme_mod('mis360_header_badge', 'Şefin Özel Hizmetlersü');
+$badge    = get_theme_mod('mis360_header_badge', 'Uzman Ekibin Hizmetlersü');
 ?>
 
 <main id="primary" class="mis-main-area mis-menu-landing">
     <div class="mis-container">
 
         <!-- Ajans Başlık Vitrini -->
-        <section class="mis-restaurant-hero" style="text-align: center; margin-bottom: var(--mis-space-xl);">
+        <section class="mis-ajans-hero" style="text-align: center; margin-bottom: var(--mis-space-xl);">
             <span class="mis-listing-badge" style="position: static; display: inline-block; margin-bottom: 1rem; font-size: var(--mis-text-sm);">
                 <?php echo esc_html($badge); ?>
             </span>
@@ -31,11 +31,11 @@ $badge    = get_theme_mod('mis360_header_badge', 'Şefin Özel Hizmetlersü');
                 <?php the_title(); ?>
             </h1>
             <p style="font-size: var(--mis-text-lg); color: var(--mis-text-secondary); max-width: 640px; margin: 0 auto 2rem;">
-                <?php esc_html_e('En taze ve seçkin malzemelerle ustalarımız tarafından hazırlanan benzersiz lezzetlerimizi keşfedin.', 'mis360'); ?>
+                <?php esc_html_e('En yeni nesil ve seçkin malzemelerle ustalarımız tarafından hazırlanan benzersiz çözümlerimizi keşfedin.', 'mis360'); ?>
             </p>
 
             <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-                <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba, menünüzden sipariş vermek istiyorum:'); ?>" target="_blank" rel="noopener noreferrer" class="mis-icon-btn" style="width: auto; padding: 0.75rem 1.75rem; background-color: #25d366; color: #ffffff; border: none; font-weight: 700; border-radius: var(--mis-radius-full);">
+                <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba, hizmetnüzden teklif vermek istiyorum:'); ?>" target="_blank" rel="noopener noreferrer" class="mis-icon-btn" style="width: auto; padding: 0.75rem 1.75rem; background-color: #25d366; color: #ffffff; border: none; font-weight: 700; border-radius: var(--mis-radius-full);">
                     <?php esc_html_e('💬 WhatsApp ile Kolay Sipariş', 'mis360'); ?>
                 </a>
                 <a href="tel:<?php echo esc_attr(preg_replace('/[^0-9+]/', '', $phone)); ?>" class="mis-icon-btn" style="width: auto; padding: 0.75rem 1.75rem; font-weight: 700; border-radius: var(--mis-radius-full);">
@@ -82,8 +82,8 @@ $badge    = get_theme_mod('mis360_header_badge', 'Şefin Özel Hizmetlersü');
             else :
                 ?>
                 <div class="mis-card" style="grid-column: 1 / -1; padding: 3rem; text-align: center;">
-                    <h3><?php esc_html_e('Henüz menü öğesi eklenmemiş.', 'mis360'); ?></h3>
-                    <p style="color: var(--mis-text-secondary);"><?php esc_html_e('WordPress Paneli > İlan & Hizmetler menüsünden yeni lezzetler ekleyebilirsiniz.', 'mis360'); ?></p>
+                    <h3><?php esc_html_e('Henüz hizmkod öğesi eklenmemiş.', 'mis360'); ?></h3>
+                    <p style="color: var(--mis-text-secondary);"><?php esc_html_e('WordPress Paneli > İlan & Hizmetler hizmetsünden yeni kaliteler ekleyebilirsiniz.', 'mis360'); ?></p>
                 </div>
             <?php endif; ?>
         </div>

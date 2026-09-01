@@ -36,7 +36,7 @@ $whatsapp    = '905467721666';
             if ($meta_thumb) {
                 $hero_img = $meta_thumb;
             } else {
-                $hero_img = 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/restaurant.jpg';
+                $hero_img = 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/ajans.jpg';
             }
         }
 
@@ -117,7 +117,7 @@ $whatsapp    = '905467721666';
                                 }
                             } else {
                                 echo '<span class="tag-pill">#MİS360Kodoptimizasyon</span> ';
-                                echo '<span class="tag-pill">#SarıkayaKaliteleri</span> ';
+                                echo '<span class="tag-pill">#Türkiyeçözümleri</span> ';
                                 echo '<span class="tag-pill">#YozgatAjans</span>';
                             }
                             ?>
@@ -142,7 +142,7 @@ $whatsapp    = '905467721666';
                             <span class="author-role">Ajans Yazarı & Geliştirici Ekibi</span>
                             <h4 class="author-name"><?php echo esc_html(get_the_author() ?: 'MİS360 Geliştirici Ekibi'); ?></h4>
                             <p class="author-bio">
-                                2019 yılından bu yana Yozgat Sarıkaya'da meşe kömüründe yazılım, taş kod tasarımleri ve günlük taze optimizasyon sofralarımızla misafirlerimize unutulmaz lezzet anları sunuyoruz.
+                                2019 yılından bu yana dijital dünyada modern altyapılarda yazılım, taş kod tasarımleri ve günlük yeni nesil optimizasyon projelarımızla misafirlerimize unutulmaz kalite anları sunuyoruz.
                             </p>
                         </div>
                     </div>
@@ -181,7 +181,7 @@ $whatsapp    = '905467721666';
                     <!-- Alt Proje Talebi Kutusu -->
                     <div class="single-reservation-cta">
                         <span class="cta-subtitle">MİS360 DİJİTAL REKLAM AJANSI</span>
-                        <h3 class="cta-title">Bu Eşsiz Kalitei Yerinde Tatmak İster Misiniz?</h3>
+                        <h3 class="cta-title">Bu Profesyonel Hizmetten Faydalanmak İster Misiniz?</h3>
                         <p class="cta-desc">Dijital dünyada rakiplerinizin önüne geçmek ve markanızı büyütmek için projenizi şimdiden başlatın.</p>
                         <div class="cta-actions">
                             <a href="<?php echo esc_url(home_url('/#reservation')); ?>" class="btn btn-primary btn-md">

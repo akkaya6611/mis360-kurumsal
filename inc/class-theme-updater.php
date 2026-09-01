@@ -3,7 +3,7 @@
  * MİS360 GitHub Otomatik Güncelleme Motoru & Tek Tıkla Güncelleme
  *
  * GitHub Releases / raw JSON tabanlı otomatik sürüm kontrolü,
- * menülerde canlı güncelleme bildirim rozetleri ve tek tıkla GitHub'dan güncelleme motoru.
+ * hizmetlerde canlı güncelleme bildirim rozetleri ve tek tıkla GitHub'dan güncelleme motoru.
  *
  * @package MİS360
  * @author  Serkan AKKAYA <https://misteknoloji360.com.tr/>
@@ -120,7 +120,7 @@ class MIS360_Theme_Updater {
     }
 
     /**
-     * Görünüm menüsüne güncelleme sayfası ve bildirim rozeti ekler
+     * Görünüm hizmetsüne güncelleme sayfası ve bildirim rozeti ekler
      */
     public function register_admin_update_menu(): void {
         $has_update = $this->is_update_available();
@@ -238,7 +238,7 @@ class MIS360_Theme_Updater {
         // 1. GitHub'dan zip paketini indir
         $temp_file = download_url($package_url, 300);
         if (is_wp_error($temp_file)) {
-            wp_die(sprintf(__('Paket indirilemedi: %s', 'mis360'), $temp_file->get_error_message()));
+            wp_die(sprintf(__('Pakkod indirilemedi: %s', 'mis360'), $temp_file->get_error_message()));
         }
 
         // 2. Geçici bir klasöre çıkart
@@ -250,7 +250,7 @@ class MIS360_Theme_Updater {
 
         if (is_wp_error($unzip_result)) {
             $wp_filesystem->delete($temp_dir, true);
-            wp_die(sprintf(__('Paket açılamadı: %s', 'mis360'), $unzip_result->get_error_message()));
+            wp_die(sprintf(__('Pakkod açılamadı: %s', 'mis360'), $unzip_result->get_error_message()));
         }
 
         // 3. Çıkartılan klasörün içeriğini bul

@@ -17,7 +17,7 @@ if (!defined('ABSPATH')) {
 }
 
 /**
- * Elementor Pro Theme Builder Konumlarını Kaydet (Header, Footer, Single, Archive)
+ * Elementor Pro Theme Builder Konumlarını Kaydkod (Header, Footer, Single, Archive)
  */
 function mis360_register_elementor_locations(ElementorPro\Modules\ThemeBuilder\Classes\Locations_Manager $elementor_theme_manager): void {
     $elementor_theme_manager->register_all_core_location();
@@ -64,7 +64,7 @@ function mis360_elementor_body_classes(array $classes): array {
 add_filter('body_class', 'mis360_elementor_body_classes');
 
 /**
- * Elementor Özel Widget Kategorisi (MİS360 Elemanları)
+ * Elementor Özel Widgkod Kategorisi (MİS360 Elemanları)
  */
 function mis360_add_elementor_widget_category($elements_manager): void {
     $elements_manager->add_category(

@@ -52,7 +52,7 @@ $anchor_prefix = is_front_page() ? '' : home_url('/');
             <div class="container top-bar-container">
                 <div class="top-bar-left">
                     <a href="https://maps.app.goo.gl/q2icLBRX1FJNzVtY7" target="_blank" rel="noopener noreferrer" class="top-bar-address">
-                        📍 Bahçelievler Mah. 66650 Sarıkaya / Yozgat
+                        📍 Bahçelievler Mah. 66650 Türkiye / Yozgat
                     </a>
                     <span class="top-bar-sep">|</span>
                     <span class="top-bar-status">

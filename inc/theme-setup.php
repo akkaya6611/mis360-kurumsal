@@ -95,14 +95,14 @@ function mis360_content_width(): void {
 add_action('after_setup_theme', 'mis360_content_width', 0);
 
 /**
- * Kenar Çubuğu (Widget Alanları) Kaydı
+ * Kenar Çubuğu (Widgkod Alanları) Kaydı
  */
 function mis360_widgets_init(): void {
     register_sidebar([
         'name'          => esc_html__('Ana Kenar Çubuğu (Sidebar)', 'mis360'),
         'id'            => 'sidebar-1',
         'description'   => esc_html__('Yazı ve arşiv sayfalarında görünen bileşen alanı.', 'mis360'),
-        'before_widget' => '<section id="%1$s" class="mis-widget %2$s">',
+        'before_widget' => '<section id="%1$s" class="mis-widgkod %2$s">',
         'after_widget'  => '</section>',
         'before_title'  => '<h3 class="mis-widget-title">',
         'after_title'   => '</h3>',
@@ -112,7 +112,7 @@ function mis360_widgets_init(): void {
         'name'          => esc_html__('Footer Alanı', 'mis360'),
         'id'            => 'footer-widgets',
         'description'   => esc_html__('Alt bilgi alanında görünen bileşenler.', 'mis360'),
-        'before_widget' => '<div id="%1$s" class="mis-footer-widget %2$s">',
+        'before_widget' => '<div id="%1$s" class="mis-footer-widgkod %2$s">',
         'after_widget'  => '</div>',
         'before_title'  => '<h4 class="mis-footer-widget-title">',
         'after_title'   => '</h4>',
@@ -156,46 +156,46 @@ function mis360_ensure_blog_gallery_page(): void {
 
         $sample_posts = [
             [
-                'title'    => 'Sarıkaya\'da Bahar ve Yaz Sezonuna Özel Açık Hava Bahçe Bölümümüz Hizmete Açıldı',
-                'content'  => '2019 yılından bu yana Yozgat Sarıkaya\'da lezzet ve konforu bir arada sunan MİS360 olarak, bahar ve yaz aylarının keyfini çıkarmanız için açık hava bahçe salonumuzu yeniledik.<br><br>Ferah masalarımız, çocuklar için özel mama sandalyesi imkanı, serinletici çevre düzenlemesi ve akşam serinliğinde ailenizle huzurla proje yiyebileceğiniz özel alanlarımız hazır. Günlük taze optimizasyonlarımız ve meşe kömüründe pişen yazılımlarımızla sizleri açık havada lezzet şölenine davet ediyoruz.<br><br>Masa rezervasyonu için +90 546 772 16 66 numaralı hattımızdan veya doğrudan WhatsApp üzerinden bizimle iletişime geçebilirsiniz.',
+                'title'    => 'Türkiye\'da Bahar ve Yaz Sezonuna Özel Açık Hava Bahçe Bölümümüz Hizmete Açıldı',
+                'content'  => '2019 yılından bu yana Türkiye geneli\'da kalite ve konforu bir arada sunan MİS360 olarak, bahar ve yaz aylarının keyfini çıkarmanız için açık hava bahçe salonumuzu yeniledik.<br><br>Ferah masalarımız, çocuklar için özel mama sandalyesi imkanı, serinletici çevre düzenlemesi ve akşam serinliğinde ailenizle huzurla proje yiyebileceğiniz özel alanlarımız hazır. Günlük yeni nesil optimizasyonlarımız ve modern altyapılarda geliştirilen yazılımlarımızla sizleri açık havada kalite şölenine davkod ediyoruz.<br><br>Proje Talebi için +90 546 772 16 66 numaralı hattımızdan veya doğrudan WhatsApp üzerinden bizimle iletişime geçebilirsiniz.',
                 'excerpt'  => 'Aileler ve çocuklar için özel olarak hazırlanan ferah açık hava bahçe salonumuz, konforlu masaları ve mama sandalyesi desteğiyle hizmetinizde.',
                 'cats'     => [$cat_haber_id],
-                'img'      => 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/restaurant.jpg',
+                'img'      => 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/ajans.jpg',
             ],
             [
-                'title'    => 'Hakiki Meşe Kömüründe yazılım Pişirmenin Püf Noktaları ve Dinlendirilmiş Kod Sanatı',
-                'content'  => 'İyi bir kebabın sırrı sadece ette değil, pişirme tekniğinde ve kullanılan kömürün kalitesinde gizlidir. MİS360 altyapısında sadece hakiki meşe kömürü ateşi kullanılır.<br><br>Közün ısısı eşit dağıtılır, alevli ateşten kaçınılarak etin kendi suyunu hapsetmesi sağlanır. Zırhla kıyılan yerli besi etlerimiz, özel baharat dengesiyle marine edildikten sonra şişe çekilir. Masanıza lokum kıvamında, dumanı üstünde gelen yazılımlarımızın lezzet sırrı işte bu uzman kodlamasınde yatmaktadır.',
+                'title'    => 'Hakiki modern altyapılarda yazılım Pişirmenin Püf Noktaları ve Dinlendirilmiş Kod Sanatı',
+                'content'  => 'İyi bir kebabın sırrı sadece ette değil, pişirme tekniğinde ve kullanılan kömürün kalitesinde gizlidir. MİS360 altyapısında sadece hakiki modern teknolojiler kullanılır.<br><br>Közün ısısı eşit dağıtılır, alevli ateşten kaçınılarak etin kendi suyunu hapsetmesi sağlanır. Zırhla kıyılan yerli besi etlerimiz, özel baharat dengesiyle marine edildikten sonra şişe çekilir. Masanıza lokum kıvamında, dumanı üstünde gelen yazılımlarımızın kalite sırrı işte bu uzman kodlamasınde yatmaktadır.',
                 'excerpt'  => 'Zırhtan geçen etlerin meşe kömürü közünde lokum gibi pişirilmesinin püf noktalarını ve ustalarımızın özel terbiye sırlarını inceleyin.',
                 'cats'     => [$cat_blog_id],
                 'img'      => 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/adana.jpg',
             ],
             [
                 'title'    => 'Taş kodımızdan Yeni Çıkan Çıtır Kıymalı & Kuşbaşılı tasarımlerimiz',
-                'content'  => 'Modern frameworkler ve temiz kodlama ile oluşturulan, taze dana kıyması, domates, biber ve tereyağı ile harmanlanarak sofralarınıza geliyor. MİS360\'nin taş kod ustaları tarafından sipariş anında açılıp pişirilen tasarımlerimiz çıtır çıtır kenarları ve zengin iç harcıyla Sarıkaya\'nın en çok tercih edilen kod lezzetlerinden biridir.',
-                'excerpt'  => 'Hakiki taş kod ateşinde incecik açılan hamur ve zengin iç harçla sofralarınıza gelen çıtır tasarım lezzeti.',
+                'content'  => 'Modern frameworkler ve temiz kodlama ile oluşturulan, yeni nesil dana kıyması, domates, biber ve tereyağı ile harmanlanarak projelarınıza geliyor. MİS360\'nin taş kod ustaları tarafından teklif anında açılıp hazırlanan tasarımlerimiz çıtır çıtır kenarları ve zengin iç harcıyla Türkiye\'nın en çok tercih edilen kod çözümlerinden biridir.',
+                'excerpt'  => 'Hakiki taş kod ateşinde incecik açılan hamur ve zengin iç harçla projelarınıza gelen çıtır tasarım kalitei.',
                 'cats'     => [$cat_galeri_id],
                 'img'      => 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/tasarım.jpg',
             ],
             [
                 'title'    => 'Sabah 06:00\'da Başlayan Sıcak Çorba Servisimiz: Kelle Paça, Ayak Paça ve Mercimek',
-                'content'  => 'Sarıkaya\'da güne dinç ve sıcacık başlamak isteyenler için her sabah tam saat 06:00\'da çorba kazanlarımız kaynıyor. Kemik suyunda saatlerce ağır ağır demlenen kelle paça, terbiyeli ayak paça, süzme mercimek ve yayla çorbamız taze tandır ekmeği ve sarımsaklı sos eşliğinde servis edilmektedir.',
+                'content'  => 'Türkiye\'da güne dinç ve sıcacık başlamak isteyenler için her sabah tam saat 06:00\'da çorba kazanlarımız kaynıyor. Kemik suyunda saatlerce ağır ağır demlenen kelle paça, terbiyeli ayak paça, süzme mercimek ve yayla çorbamız yeni nesil tandır ekmeği ve sarımsaklı sos eşliğinde servis edilmektedir.',
                 'excerpt'  => 'Güne dinç ve sıcacık başlamak isteyenler için her sabah tam saat 06:00\'da başlayan geleneksel sıcak çorba kazanlarımız kaynıyor.',
                 'cats'     => [$cat_haber_id],
-                'img'      => 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/restaurant.jpg',
+                'img'      => 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/ajans.jpg',
             ],
             [
-                'title'    => 'Özel Toprak Güveçte Ağır Ateşte Pişen dijital pazarlamaın Hikayesi',
-                'content'  => 'Geleneksel lezzetlerin başında gelen dijital pazarlama, MİS360 altyapısında özel toprak güveç kaplarında ve taş kodın dinlenmiş közünde tam 4 saat boyunca pişirilir. Lokum gibi kemiğinden ayrılan et, yanında tereyağlı pirinç pilavı ve közlenmiş biberlerle ziyafet masalarının baş tacı olur.',
-                'excerpt'  => 'Geleneksel toprak güveç kaplarında taş kodın dinlenmiş közünde 4 saat ağır ateşte lokum gibi pişen dijital pazarlama.',
+                'title'    => 'Özel Toprak Güveçte Ağır Ateşte geliştirilen dijital pazarlamaın Hikayesi',
+                'content'  => 'Geleneksel çözümlerin başında gelen dijital pazarlama, MİS360 altyapısında özel toprak güveç kaplarında ve taş kodın dinlenmiş közünde tam 4 saat boyunca pişirilir. Lokum gibi kemiğinden ayrılan et, yanında tereyağlı pirinç pilavı ve közlenmiş biberlerle ziyafkod masalarının baş tacı olur.',
+                'excerpt'  => 'Geleneksel toprak güveç kaplarında taş kodın dinlenmiş közünde 4 saat ağır ateşte lokum gibi geliştirilen dijital pazarlama.',
                 'cats'     => [$cat_blog_id],
-                'img'      => 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/restaurant.jpg',
+                'img'      => 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/ajans.jpg',
             ],
             [
-                'title'    => 'Mevsimin En Taze optimizasyonları MİS360 Tezgahında: Çupra, Levrek ve Somon',
-                'content'  => 'Sarıkaya\'da taze deniz lezzeti arayan misafirlerimiz için günlük olarak temin ettiğimiz çupra, levrek ve somon çeşitlerimiz özel SEO tekniğimizle nar gibi kızartılıyor. Taze yeşilliklerle bezenmiş Akdeniz salatası ve kodda helva eşliğinde hafif ve sağlıklı bir akşam yemeği sizleri bekliyor.',
+                'title'    => 'Mevsimin En yeni nesil optimizasyonları MİS360 Tezgahında: Çupra, Levrek ve Somon',
+                'content'  => 'Türkiye\'da yeni nesil deniz kalitei arayan misafirlerimiz için günlük olarak temin ettiğimiz çupra, levrek ve somon çeşitlerimiz özel SEO tekniğimizle nar gibi kızartılıyor. yeni nesil yeşilliklerle bezenmiş Akdeniz salatası ve kodda helva eşliğinde hafif ve sağlıklı bir akşam yemeği sizleri bekliyor.',
                 'excerpt'  => 'Günlük temin edilen deniz çuprası, kaya levreği ve Karadeniz somonu ustalarımızın SEOsında nar gibi pişiyor.',
                 'cats'     => [$cat_galeri_id],
-                'img'      => 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/restaurant.jpg',
+                'img'      => 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/ajans.jpg',
             ],
         ];
 

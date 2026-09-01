@@ -45,7 +45,7 @@ function mis360_render_listing_meta_box(WP_Post $post): void {
         
         <div>
             <label for="mis360_price" style="display: block; font-weight: 600; margin-bottom: 6px;">
-                <?php esc_html_e('Fiyat (Ürün / Hizmet / İlan):', 'mis360'); ?>
+                <?php esc_html_e('Fiyat (Ürün / Hizmkod / İlan):', 'mis360'); ?>
             </label>
             <input type="text" id="mis360_price" name="mis360_price" value="<?php echo esc_attr($price); ?>" placeholder="Örn: ₺350 veya ₺1.250.000" style="width: 100%; padding: 8px;">
             <p class="description"><?php esc_html_e('proje fiyatı, çekici başlangıç ücreti veya ilan fiyatı.', 'mis360'); ?></p>
@@ -53,10 +53,10 @@ function mis360_render_listing_meta_box(WP_Post $post): void {
 
         <div>
             <label for="mis360_badge" style="display: block; font-weight: 600; margin-bottom: 6px;">
-                <?php esc_html_e('Öne Çıkan Rozet (Badge):', 'mis360'); ?>
+                <?php esc_html_e('Öne Çıkan Rozkod (Badge):', 'mis360'); ?>
             </label>
             <input type="text" id="mis360_badge" name="mis360_badge" value="<?php echo esc_attr($badge); ?>" placeholder="Örn: 7/24 Acil, Şefin Seçimi, Fırsat" style="width: 100%; padding: 8px;">
-            <p class="description"><?php esc_html_e('Kartın üzerinde renkli rozet olarak görüntülenir.', 'mis360'); ?></p>
+            <p class="description"><?php esc_html_e('Kartın üzerinde renkli rozkod olarak görüntülenir.', 'mis360'); ?></p>
         </div>
 
         <div>

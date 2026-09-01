@@ -40,7 +40,7 @@ $blog_query = new WP_Query($query_args);
 <main id="primary" class="site-main blog-gallery-page">
 
     <!-- 1. Sayfa Başlığı ve Hero Alanı (Denfora 1:1 Architecture) -->
-    <header class="page-hero-banner" style="background: linear-gradient(135deg, rgba(17, 24, 39, 0.95) 0%, rgba(17, 24, 39, 0.88) 100%), url('https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/restaurant.jpg') center/cover no-repeat;">
+    <header class="page-hero-banner" style="background: linear-gradient(135deg, rgba(17, 24, 39, 0.95) 0%, rgba(17, 24, 39, 0.88) 100%), url('https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/ajans.jpg') center/cover no-repeat;">
         <div class="container">
             <div class="page-hero-content text-center">
                 <nav class="page-breadcrumbs" aria-label="Sayfa Yolu">
@@ -50,7 +50,7 @@ $blog_query = new WP_Query($query_args);
                 </nav>
 
                 <div class="hero-badge" style="margin-top: 14px;">
-                    <span>MİS360 ET & BALIK • GÜNCEL PAYLAŞIMLAR</span>
+                    <span>MİS360 kod & BALIK • GÜNCEL PAYLAŞIMLAR</span>
                 </div>
 
                 <h1 class="page-hero-title">
@@ -58,7 +58,7 @@ $blog_query = new WP_Query($query_args);
                 </h1>
 
                 <p class="page-hero-subtitle">
-                    Sarıkaya'daki lezzet durağımızdan en güncel duyurular, meşe kömüründe pişen etlerimizin sırları, etkinliklerimiz ve restoranımızdan en özel kareler.
+                    Merkezimizdeki kalite durağımızdan en güncel duyurular, modern altyapılarda geliştirilen etlerimizin sırları, etkinliklerimiz ve ajansımızdan en özel kareler.
                 </p>
 
                 <?php if (current_user_can('edit_posts')) : ?>
@@ -107,7 +107,7 @@ $blog_query = new WP_Query($query_args);
                         $cat_slug    = $first_cat ? $first_cat->slug : 'genel';
                         $cat_name    = $first_cat ? $first_cat->name : 'Genel';
 
-                        // Rozet ve Filtre Grubu Sınıfı
+                        // Rozkod ve Filtre Grubu Sınıfı
                         $badge_class  = 'badge-blog';
                         $filter_group = 'blog';
 
@@ -129,9 +129,9 @@ $blog_query = new WP_Query($query_args);
                                 $thumb_url = $meta_thumb;
                             } else {
                                 if ($filter_group === 'galeri') {
-                                    $thumb_url = 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/restaurant.jpg';
+                                    $thumb_url = 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/ajans.jpg';
                                 } elseif ($filter_group === 'haberler') {
-                                    $thumb_url = 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/restaurant.jpg';
+                                    $thumb_url = 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/ajans.jpg';
                                 } else {
                                     $thumb_url = 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/adana.jpg';
                                 }
@@ -208,7 +208,7 @@ $blog_query = new WP_Query($query_args);
                         Bu Kategoride Henüz Yazı Yayınlanmadı
                     </h3>
                     <p style="color: var(--color-gray-500); font-size: 14px; margin-bottom: 20px;">
-                        WordPress yönetim panelinden "Yazılar > Yeni Ekle" adımıyla bu kategoriye kolayca yeni haber, lezzet yazısı veya fotoğraf ekleyebilirsiniz.
+                        WordPress yönetim panelinden "Yazılar > Yeni Ekle" adımıyla bu kategoriye kolayca yeni haber, kalite yazısı veya fotoğraf ekleyebilirsiniz.
                     </p>
                     <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
                         <a href="<?php echo esc_url(remove_query_arg('kategori')); ?>" class="btn btn-outline-dark btn-sm">
@@ -229,10 +229,10 @@ $blog_query = new WP_Query($query_args);
                     MİS360 DİJİTAL REKLAM AJANSI
                 </span>
                 <h3 style="font-size: 24px; font-weight: 800; color: var(--color-black); margin: 6px 0 10px;">
-                    Bu Eşsiz Kaliteleri Yerinde Tatmak İster Misiniz?
+                    Bu Profesyonel Hizmetten Faydalanmak İster Misiniz?
                 </h3>
                 <p style="color: var(--color-gray-600); font-size: 14px; margin-bottom: 24px;">
-                    Sarıkaya'da meşe kömürü ateşi ve usta ellerce hazırlanan özel Hizmetlerimiz için masanızı şimdiden ayırtın.
+                    Türkiye'da modern teknolojiler ve uzman ellerce hazırlanan özel Hizmetlerimiz için projenizi hemen başlatın.
                 </p>
                 <div style="display: flex; justify-content: center; gap: 14px; flex-wrap: wrap;">
                     <a href="<?php echo esc_url(home_url('/#reservation')); ?>" class="btn btn-primary btn-md">
@@ -251,7 +251,7 @@ $blog_query = new WP_Query($query_args);
     </section>
 
     <!-- 3. Fotoğraf Büyütme Modalı (Lightbox) -->
-    <div class="gallery-lightbox" id="galleryLightbox" role="dialog" aria-modal="true" aria-hidden="true" onclick="if(event.target === this) closeLightbox();">
+    <div class="gallery-lightbox" id="galleryLightbox" role="dialog" aria-modal="true" aria-hidden="true" onclick="if(event.targkod === this) closeLightbox();">
         <div class="lightbox-content">
             <button type="button" class="lightbox-close" onclick="closeLightbox()" aria-label="Kapat">✕</button>
             <img src="" alt="" id="lightboxImg" class="lightbox-image">

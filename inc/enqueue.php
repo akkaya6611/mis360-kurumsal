@@ -16,7 +16,7 @@ if (!defined('ABSPATH')) {
  * Tema Stillerini ve JavaScript Dosyalarını Kuyruğa Ekle
  */
 function mis360_scripts(): void {
-    // 1. Ana Tema Bilgi ve Reset Stili (style.css)
+    // 1. Ana Tema Bilgi ve Reskod Stili (style.css)
     wp_enqueue_style(
         'mis360-style',
         get_stylesheet_uri(),

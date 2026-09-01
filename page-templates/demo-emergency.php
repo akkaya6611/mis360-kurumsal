@@ -80,7 +80,7 @@ $area        = get_theme_mod('mis360_service_area', 'Tüm Şehir, Otoyol & Çevr
             </div>
         </section>
 
-        <!-- 3. Hizmet Filosu Kartları -->
+        <!-- 3. Hizmkod Filosu Kartları -->
         <section style="margin-bottom: var(--mis-space-xl);">
             <div style="text-align: center; margin-bottom: var(--mis-space-lg);">
                 <h2 style="font-size: var(--mis-text-2xl); font-weight: 800;"><?php esc_html_e('Yol Yardım & Çekici Hizmetlerimiz', 'mis360'); ?></h2>
@@ -135,7 +135,7 @@ $area        = get_theme_mod('mis360_service_area', 'Tüm Şehir, Otoyol & Çevr
                 <div class="mis-step-card mis-card">
                     <div class="mis-step-num">2</div>
                     <h3><?php esc_html_e('En Yakın Çekici Yönlensin', 'mis360'); ?></h3>
-                    <p><?php esc_html_e('Akıllı filo takip sistemimizle konumunuza en yakın aracımız 15 dakikada hareket etsin.', 'mis360'); ?></p>
+                    <p><?php esc_html_e('Akıllı filo takip sistemimizle konumunuza en yakın aracımız 15 dakikada harekkod etsin.', 'mis360'); ?></p>
                 </div>
                 <div class="mis-step-card mis-card">
                     <div class="mis-step-num">3</div>

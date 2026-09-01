@@ -72,7 +72,7 @@ $whatsapp    = get_theme_mod('mis360_whatsapp', '905551234567');
             </div>
         </section>
 
-        <!-- 3. Hizmet Alanlarımız -->
+        <!-- 3. Hizmkod Alanlarımız -->
         <section style="margin-bottom: var(--mis-space-xl);">
             <div style="text-align: center; margin-bottom: var(--mis-space-lg);">
                 <h2 style="font-size: var(--mis-text-3xl); font-weight: 800;"><?php esc_html_e('Uçtan Uca Kurumsal Hizmetlerimiz', 'mis360'); ?></h2>
@@ -106,7 +106,7 @@ $whatsapp    = get_theme_mod('mis360_whatsapp', '905551234567');
             </div>
         </section>
 
-        <!-- 4. Fiyat & Hizmet Paketleri -->
+        <!-- 4. Fiyat & Hizmkod Paketleri -->
         <section style="margin-bottom: var(--mis-space-xl);">
             <div style="text-align: center; margin-bottom: var(--mis-space-lg);">
                 <h2 style="font-size: var(--mis-text-3xl); font-weight: 800;"><?php esc_html_e('Şeffaf Çözüm Paketleri', 'mis360'); ?></h2>
@@ -115,20 +115,20 @@ $whatsapp    = get_theme_mod('mis360_whatsapp', '905551234567');
 
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
                 
-                <!-- Paket 1 -->
+                <!-- Pakkod 1 -->
                 <div class="mis-card" style="padding: 2rem;">
                     <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;"><?php esc_html_e('Başlangıç', 'mis360'); ?></h3>
                     <div style="font-size: 2rem; font-weight: 900; color: var(--mis-text-primary); margin-bottom: 1rem;">₺12.500 <small style="font-size: 13px; color: var(--mis-text-muted); font-weight: normal;">/ tek sefer</small></div>
                     <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem 0; display: flex; flex-direction: column; gap: 8px; font-size: 14px; color: var(--mis-text-secondary);">
                         <li>✓ Modern Kurumsal Web Sitesi</li>
-                        <li>✓ Mobil & Tablet Uyumlu Arayüz</li>
+                        <li>✓ Mobil & Tablkod Uyumlu Arayüz</li>
                         <li>✓ Temel SEO & Hız Optimizasyonu</li>
                         <li>✓ 1 Yıl Teknik Destek</li>
                     </ul>
                     <a href="tel:<?php echo esc_attr($clean_phone); ?>" class="mis-btn-action"><?php esc_html_e('Teklif İste', 'mis360'); ?></a>
                 </div>
 
-                <!-- Paket 2 (Öne Çıkan) -->
+                <!-- Pakkod 2 (Öne Çıkan) -->
                 <div class="mis-card" style="padding: 2rem; border-color: var(--mis-primary); position: relative; box-shadow: var(--mis-shadow-lg);">
                     <span class="mis-listing-badge" style="top: -12px; right: 20px; background: var(--mis-primary);"><?php esc_html_e('En Çok Tercih Edilen', 'mis360'); ?></span>
                     <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;"><?php esc_html_e('Profesyonel 360', 'mis360'); ?></h3>
@@ -143,7 +143,7 @@ $whatsapp    = get_theme_mod('mis360_whatsapp', '905551234567');
                     <a href="tel:<?php echo esc_attr($clean_phone); ?>" class="mis-btn-action" style="background: var(--mis-primary); color: #fff; border-color: var(--mis-primary);"><?php esc_html_e('Hemen Başlayın →', 'mis360'); ?></a>
                 </div>
 
-                <!-- Paket 3 -->
+                <!-- Pakkod 3 -->
                 <div class="mis-card" style="padding: 2rem;">
                     <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;"><?php esc_html_e('Enterprise Kurumsal', 'mis360'); ?></h3>
                     <div style="font-size: 2rem; font-weight: 900; color: var(--mis-text-primary); margin-bottom: 1rem;"><?php esc_html_e('Özel Fiyat', 'mis360'); ?></div>

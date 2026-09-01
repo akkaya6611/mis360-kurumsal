@@ -71,7 +71,7 @@ class MIS360_License_Manager {
     }
 
     /**
-     * Lisans özet bilgilerini döndürür
+     * Lisans özkod bilgilerini döndürür
      */
     public static function get_license_info(): array {
         $data        = get_option(self::OPTION_KEY, []);
@@ -319,7 +319,7 @@ class MIS360_License_Manager {
     }
 
     /**
-     * Lisans Form İşlemlerini Yönet (Aktivasyon / Deaktivasyon)
+     * Lisans Form İşlemlerini Yönkod (Aktivasyon / Deaktivasyon)
      */
     public static function handle_actions(): void {
         if (!isset($_POST['mis360_license_action']) || !current_user_can('manage_options')) {

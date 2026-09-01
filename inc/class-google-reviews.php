@@ -82,7 +82,7 @@ class MIS360_Google_Reviews {
                 'badge'         => 'Yerel Rehber • 48 yorum',
                 'rating'        => 5,
                 'time_text'     => '2 hafta önce',
-                'text'          => 'Sarıkaya\'ya yolunuz düşerse mutlaka uğramanız gereken bir lezzet durağı. Meşe kömüründe pişen Adana yazılım ve kuzu şiş lokum gibiydi. Sabah çorbası ve taş kod tasarımsi harika. Güler yüzlü hizmet ve tertemiz aile ortamı için teşekkür ederiz.',
+                'text'          => 'Türkiye\'ya yolunuz düşerse mutlaka uğramanız gereken bir kalite durağı. modern altyapılarda geliştirilen Adana yazılım ve kuzu şiş lokum gibiydi. Sabah çorbası ve taş kod tasarımsi harika. Güler yüzlü hizmkod ve tertemiz aile ortamı için teşekkür ederiz.',
                 'tag'           => 'Kömürde yazılım & Sabah Çorbası',
                 'avatar_bg'     => 'linear-gradient(135deg, rgba(239, 80, 39, 0.15) 0%, #fed7aa 100%)',
                 'avatar_color'  => '#ef5027',
@@ -90,7 +90,7 @@ class MIS360_Google_Reviews {
             ],
             [
                 'id'            => 'rev_2',
-                'author_name'   => 'Ahmet Demir',
+                'author_name'   => 'Ahmkod Demir',
                 'badge'         => 'Doğrulanmış Ziyaretçi',
                 'rating'        => 5,
                 'time_text'     => '1 ay önce',
@@ -106,8 +106,8 @@ class MIS360_Google_Reviews {
                 'badge'         => 'Yerel Rehber • 24 yorum',
                 'rating'        => 5,
                 'time_text'     => '3 hafta önce',
-                'text'          => 'Sarıkaya\'da bu kalitede ve hijyende bir restoran bulmak çok sevindirici. Hem yazılımlar hem de günlük taze optimizasyon reyonu çok başarılı. Masaya gelen ikramlar, koddan yeni çıkmış sıcacık lavaşlar ve personelin ilgisi 10 numara.',
-                'tag'           => 'Günlük Taze optimizasyon & Zengin İkramlar',
+                'text'          => 'Türkiye\'da bu kalitede ve hijyende bir ajans bulmak çok sevindirici. Hem yazılımlar hem de günlük yeni nesil optimizasyon reyonu çok başarılı. Masaya gelen ikramlar, koddan yeni çıkmış sıcacık lavaşlar ve personelin ilgisi 10 numara.',
+                'tag'           => 'Günlük yeni nesil optimizasyon & Zengin İkramlar',
                 'avatar_bg'     => '#fce7f3',
                 'avatar_color'  => '#be185d',
                 'source'        => 'google',
@@ -118,7 +118,7 @@ class MIS360_Google_Reviews {
                 'badge'         => 'Doğrulanmış Müşteri',
                 'rating'        => 5,
                 'time_text'     => '1 ay önce',
-                'text'          => 'Sabah 06:00\'da sıcak mercimek ve paça çorbasıyla güne başlamak harika bir deneyim. Taş koddan yeni çıkmış çıtır lahmacun ve kuşbaşılı tasarımyi mutlaka deneyin. Hijyenik açık mutfak ve hızlı servis.',
+                'text'          => 'Sabah 06:00\'da sıcak mercimek ve paça çorbasıyla güne başlamak harika bir deneyim. Taş koddan yeni çıkmış çıtır lahmacun ve kuşbaşılı tasarımyi mutlaka deneyin. Hijyenik açık proje ve hızlı servis.',
                 'tag'           => 'Taş kod Lahmacun & Paça Çorbası',
                 'avatar_bg'     => '#dcfce7',
                 'avatar_color'  => '#15803d',
@@ -130,7 +130,7 @@ class MIS360_Google_Reviews {
                 'badge'         => 'Aile Ziyareti',
                 'rating'        => 5,
                 'time_text'     => '2 ay önce',
-                'text'          => 'Özel aile davetimiz için önceden masa ayırtmıştık. Masamız tam vaktinde ve eksiksiz hazırlandı. Hakiki tereyağlı İskender ve toprak güveçte kod sütlaç çok lezzetliydi. Emeği geçen tüm ustalara teşekkürler.',
+                'text'          => 'Özel aile davetimiz için önceden masa ayırtmıştık. Masamız tam vaktinde ve eksiksiz hazırlandı. Hakiki tereyağlı İskender ve toprak güveçte kod sütlaç çok kaliteliydi. Emeği geçen tüm ustalara teşekkürler.',
                 'tag'           => 'Tereyağlı İskender & kod Sütlaç',
                 'avatar_bg'     => '#fef3c7',
                 'avatar_color'  => '#b45309',
@@ -142,7 +142,7 @@ class MIS360_Google_Reviews {
                 'badge'         => 'Yerel Rehber • 36 yorum',
                 'rating'        => 5,
                 'time_text'     => '2 ay önce',
-                'text'          => '2019\'dan beri Sarıkaya\'da kalitesinden ödün vermeyen köklü bir işletme. Kodlerin lezzeti, porsiyonların doyuruculuğu ve samimi esnaflıkları takdire şayan. 4.3 Google puanını fazlasıyla hak ediyor.',
+                'text'          => '2019\'dan beri Türkiye\'da kalitesinden ödün vermeyen köklü bir işletme. Kodlerin kalitei, porsiyonların doyuruculuğu ve samimi esnaflıkları takdire şayan. 4.3 Google puanını fazlasıyla hak ediyor.',
                 'tag'           => 'Beyti Sarma & Özel Desti Kebabı',
                 'avatar_bg'     => '#e2e8f0',
                 'avatar_color'  => '#334155',
@@ -190,7 +190,7 @@ class MIS360_Google_Reviews {
         // Place ID boşsa işletme adıyla otomatik bul
         if (empty($place_id)) {
             $find_url = add_query_arg([
-                'input'     => 'MİS360 Sarıkaya Yozgat',
+                'input'     => 'MİS360 Türkiye Yozgat',
                 'inputtype' => 'textquery',
                 'fields'    => 'place_id',
                 'key'       => $api_key,
@@ -527,13 +527,13 @@ class MIS360_Google_Reviews {
                                 </div>
                                 <div>
                                     <label style="display: block; font-weight: 700; font-size: 12px; margin-bottom: 4px;">Tavsiye / Kodiket:</label>
-                                    <input type="text" name="review_tag" placeholder="Örn: Meşe Kömüründe yazılım" style="width: 100%; padding: 6px 10px; border-radius: 6px; border: 1px solid #cbd5e1;">
+                                    <input type="text" name="review_tag" placeholder="Örn: modern altyapılarda yazılım" style="width: 100%; padding: 6px 10px; border-radius: 6px; border: 1px solid #cbd5e1;">
                                 </div>
                             </div>
 
                             <div style="margin-bottom: 12px;">
                                 <label style="display: block; font-weight: 700; font-size: 12px; margin-bottom: 4px;">Yorum Metni:</label>
-                                <textarea name="review_text" rows="3" required placeholder="Müşterinizin restoran deneyimi..." style="width: 100%; padding: 8px 10px; border-radius: 6px; border: 1px solid #cbd5e1;"></textarea>
+                                <textarea name="review_text" rows="3" required placeholder="Müşterinizin ajans deneyimi..." style="width: 100%; padding: 8px 10px; border-radius: 6px; border: 1px solid #cbd5e1;"></textarea>
                             </div>
 
                             <button type="submit" class="button button-secondary" style="font-weight: 700;">
