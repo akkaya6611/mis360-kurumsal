@@ -1,6 +1,6 @@
 <?php
 /**
- * MİS360 Single Post Template (MİS360 Kod & optimizasyon Ajans Blog Makale Sayfası)
+ * MİS360 Single Post Template (MİS360 Teknoloji Ajans Blog Makale Sayfası)
  * Sol tarafta yazı, sağ tarafta bileşenler (2 Sütunlu Profesyonel Blog Mimarisi)
  *
  * @package MİS360
@@ -180,9 +180,9 @@ $whatsapp    = '905467721666';
 
                     <!-- Alt Proje Talebi Kutusu -->
                     <div class="single-reservation-cta">
-                        <span class="cta-subtitle">MİS360 ET & BALIK RESTAURANT</span>
+                        <span class="cta-subtitle">MİS360 DİJİTAL REKLAM AJANSI</span>
                         <h3 class="cta-title">Bu Eşsiz Kalitei Yerinde Tatmak İster Misiniz?</h3>
-                        <p class="cta-desc">Sarıkaya'daki restoranımızda aileniz ve sevdiklerinizle unutulmaz bir lezzet deneyimi için masanızı şimdiden ayırtın.</p>
+                        <p class="cta-desc">Dijital dünyada rakiplerinizin önüne geçmek ve markanızı büyütmek için projenizi şimdiden başlatın.</p>
                         <div class="cta-actions">
                             <a href="<?php echo esc_url(home_url('/#reservation')); ?>" class="btn btn-primary btn-md">
                                 Proje Başlat Yap →

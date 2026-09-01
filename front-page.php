@@ -177,7 +177,7 @@ $whatsapp    = '905467721666';
                         </div>
                         <div class="chooseUs__feature-text">
                             <h4>Özenli Hizmet Anlayışı</h4>
-                            <p>Misafir memnuniyetini ön planda tutan profesyonel ekibimizle, sıcak ve kaliteli bir restoran deneyimi sunuyoruz.</p>
+                            <p>Müşteri memnuniyetini ön planda tutan profesyonel ekibimizle, kesintisiz ve kaliteli bir dijital ajans deneyimi sunuyoruz.</p>
                         </div>
                     </div>
 
@@ -187,7 +187,7 @@ $whatsapp    = '905467721666';
                         </div>
                         <div class="chooseUs__feature-text">
                             <h4>Zengin Hizmetler Seçenekleri</h4>
-                            <p>Kod, optimizasyon, yazılım ve özel lezzetlerden oluşan Hizmetlerimiz ile her damak tadına hitap eden unutulmaz sofralar hazırlıyoruz.</p>
+                            <p>Web tasarım, özel yazılım, SEO ve dijital pazarlamadan oluşan hizmetlerimiz ile her sektöre uygun yenilikçi projeler hazırlıyoruz.</p>
                         </div>
                     </div>
 
@@ -215,11 +215,11 @@ $whatsapp    = '905467721666';
         
         <div class="section-header text-center">
             <span style="color: var(--color-primary); font-size: 13px; font-weight: 800; letter-spacing: 0.15em; text-transform: uppercase;">
-                GURME LEZZETLER
+                PROFESYONEL ÇÖZÜMLER
             </span>
             <h2 class="section-title" style="margin-top: 6px;">MİS360 Hizmetlerimiz</h2>
             <p class="section-subtitle">
-                Geleneksel tarifler, kaliteli sunumlar ve usta şeflerimizin elinden çıkan zengin Hizmetlerimiz.
+                Yenilikçi teknolojiler, yaratıcı tasarımlar ve uzman ekibimizin elinden çıkan dijital çözümler.
             </p>
         </div>
 
@@ -240,7 +240,7 @@ $whatsapp    = '905467721666';
                         <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/adana-yazılım-mis360-1024x819.png" alt="Adana yazılım" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
                     </div>
                     <div class="product-card-content">
-                        <span class="product-card-category">KÖMÜRDE IZGARA</span>
+                        <span class="product-card-category">YAZILIM GELİŞTİRME</span>
                         <h4 class="product-card-title">Adana yazılım</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
                             Özel zırh kıyması, közlenmiş domates, biber, sumaklı soğan ve sıcak lavaş eşliğinde.
@@ -257,10 +257,10 @@ $whatsapp    = '905467721666';
                         <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/urfa-yazılım-mis360-1-1024x819.png" alt="Urfa yazılım" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
                     </div>
                     <div class="product-card-content">
-                        <span class="product-card-category">KÖMÜRDE IZGARA</span>
+                        <span class="product-card-category">YAZILIM GELİŞTİRME</span>
                         <h4 class="product-card-title">Urfa yazılım</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
-                            Acısız lezzet arayanlar için usta ellerce hazırlanan sade kuzu ve dana etinden köz yazılım.
+                            Kullanıcı odaklı (UI/UX) tasarımlarla markanızın dijital yüzünü yeniliyoruz.
                         </p>
                         <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Urfa yazılım siparişi / rezervasyonu vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
                             Teklif Al & Sipariş
@@ -291,7 +291,7 @@ $whatsapp    = '905467721666';
                         <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/Kuzu-Sis-mis360-1-1024x819.png" alt="Kuzu Şiş" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
                     </div>
                     <div class="product-card-content">
-                        <span class="product-card-category">KÖMÜRDE IZGARA</span>
+                        <span class="product-card-category">YAZILIM GELİŞTİRME</span>
                         <h4 class="product-card-title">Kuzu Şiş</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
                             Özel zeytinyağlı marine edilmiş lokum gibi kuzu but parçaları, köz sebzeler ve pilav ile.
@@ -348,10 +348,10 @@ $whatsapp    = '905467721666';
                         <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/Kuzu-Ciger-mis360-1-1024x819.png" alt="Kuzu Ciğer" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
                     </div>
                     <div class="product-card-content">
-                        <span class="product-card-category">KÖMÜRDE IZGARA</span>
+                        <span class="product-card-category">YAZILIM GELİŞTİRME</span>
                         <h4 class="product-card-title">Kuzu Ciğer Şiş</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
-                            Taze kuzu ciğeri ve kuyruk yağı dengesiyle közde pişirilen, sumak ve yeşilliklerle sunulan lezzet.
+                            Modern teknolojilerle oluşturulan, hızlı, güvenli ve ölçeklenebilir özel yazılım projeleri.
                         </p>
                         <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Kuzu Ciğer Şiş hakkında bilgi ve sipariş vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
                             Teklif Al & Sipariş
@@ -379,7 +379,7 @@ $whatsapp    = '905467721666';
             </div>
         </div>
 
-        <!-- BÖLÜM 2: PİDELER & LAHMACUN -->
+        <!-- BÖLÜM 2: GRAFİK TASARIM & MARKA -->
         <div id="tasarımler" style="margin-bottom: 60px;">
             <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid var(--color-gray-200); padding-bottom: 12px; margin-bottom: 24px;">
                 <h3 style="font-size: 24px; font-weight: 800; color: var(--color-black); margin: 0; display: flex; align-items: center; gap: 8px;">
@@ -399,7 +399,7 @@ $whatsapp    = '905467721666';
                         <span class="product-card-category">ODUN ATEŞİNDE</span>
                         <h4 class="product-card-title">Kıymalı tasarım</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
-                            İncecik açılan hamurda baharatlı dana kıyması ve domates-biber harcıyla taş kodda pişirilir.
+                            Sektörünüze uygun, akılda kalıcı kurumsal kimlik ve logo tasarımları.
                         </p>
                         <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Kıymalı tasarım siparişi vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
                             Sipariş & Teklif Al
@@ -495,7 +495,7 @@ $whatsapp    = '905467721666';
                         <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/mis360-et-doner-1024x819.png" alt="Kod Döner" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
                     </div>
                     <div class="product-card-content">
-                        <span class="product-card-category">KLASİK LEZZET</span>
+                        <span class="product-card-category">WEB TASARIM</span>
                         <h4 class="product-card-title">Porsiyon Kod Döner</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
                             Özel marinasyonlu dana ve kuzu eti yaprak döner, pirinç pilavı ve patates kızartması ile.
@@ -512,7 +512,7 @@ $whatsapp    = '905467721666';
                         <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/mis360-tavuk-doner-1024x819.png" alt="Tavuk Döner" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
                     </div>
                     <div class="product-card-content">
-                        <span class="product-card-category">KLASİK LEZZET</span>
+                        <span class="product-card-category">WEB TASARIM</span>
                         <h4 class="product-card-title">Porsiyon Tavuk Döner</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
                             Özel soslarla terbiyelenmiş çıtır tavuk döner dilimleri, garnitür ve soslar ile servis edilir.
@@ -543,7 +543,7 @@ $whatsapp    = '905467721666';
             </div>
         </div>
 
-        <!-- BÖLÜM 4: ÇORBALAR & TATLILAR -->
+        <!-- BÖLÜM 4: SEO & DİJİTAL PAZARLAMA -->
         <div id="tatlilar">
             <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid var(--color-gray-200); padding-bottom: 12px; margin-bottom: 24px;">
                 <h3 style="font-size: 24px; font-weight: 800; color: var(--color-black); margin: 0; display: flex; align-items: center; gap: 8px;">
@@ -560,7 +560,7 @@ $whatsapp    = '905467721666';
                         <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/mis360-kunefe-1024x819.png" alt="Künefe" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
                     </div>
                     <div class="product-card-content">
-                        <span class="product-card-category">SICAK TATLI</span>
+                        <span class="product-card-category">DİJİTAL PAZARLAMA</span>
                         <h4 class="product-card-title">Taş kod Künefe</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
                             Özel peyniriyle sıcak pişirilen çıtır künefe, bol Antep fıstığı tozu ve kaymak ile.
@@ -594,10 +594,10 @@ $whatsapp    = '905467721666';
                         <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/sufle-mis360-1-1024x819.png" alt="Sufle" loading="lazy" style="width: 100%; height: 200px; object-fit: cover;">
                     </div>
                     <div class="product-card-content">
-                        <span class="product-card-category">SICAK TATLI</span>
+                        <span class="product-card-category">DİJİTAL PAZARLAMA</span>
                         <h4 class="product-card-title">Akışkan Sıcak Sufle</h4>
                         <p style="font-size: 13px; color: var(--color-gray-500); line-height: 1.5; margin-bottom: 14px;">
-                            koddan yeni çıkmış akışkan yoğun çikolata lezzeti ve vanilyalı dondurma eşliğinde.
+                            Sosyal medya yönetimi ve performans odaklı reklam kampanyalarıyla büyümenizi hızlandırın.
                         </p>
                         <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, Sıcak Sufle siparişi vermek istiyorum.'); ?>" target="_blank" class="btn btn-outline-dark btn-sm btn-full" style="font-size: 13px;">
                             Sipariş & Teklif Al
@@ -626,7 +626,7 @@ $whatsapp    = '905467721666';
         </div>
 
         <div class="text-center mt-10">
-            <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, güncel menünüz hakkında detaylı bilgi almak istiyorum.'); ?>" target="_blank" class="btn btn-primary btn-lg">
+            <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>?text=<?php echo rawurlencode('Merhaba MİS360, hizmetleriniz hakkında detaylı bilgi almak istiyorum.'); ?>" target="_blank" class="btn btn-primary btn-lg">
                 Tüm Hizmetleryü WhatsApp Üzerinden Alın →
             </a>
         </div>
@@ -752,7 +752,7 @@ $google_reviews = function_exists('mis360_get_google_reviews') ? mis360_get_goog
             <span class="section-badge">MİS360 GÜNCEL</span>
             <h2 class="section-title">Haberler, Kalite Rehberi & Galerimiz</h2>
             <p class="section-subtitle">
-                Ajansımızdan en güncel duyurular, meşe kömüründe pişen lezzetlerimizin sırları ve altyapısımızdan özel kareler.
+                Ajansımızdan en güncel duyurular, yeni teknolojilerin ipuçları ve projelerimizden özel kareler.
             </p>
         </div>
 
@@ -881,7 +881,7 @@ $google_reviews = function_exists('mis360_get_google_reviews') ? mis360_get_goog
                             <td>Sabah 06:00 – 23:45 (Haftanın 7 Günü Açık)</td>
                         </tr>
                         <tr>
-                            <th>Mutfak Türü</th>
+                            <th>Proje Türü</th>
                             <td>Kömürde yazılım, Taş kod tasarım, dijital pazarlama, Taze optimizasyon</td>
                         </tr>
                         <tr>
@@ -915,12 +915,12 @@ $google_reviews = function_exists('mis360_get_google_reviews') ? mis360_get_goog
                 <details class="faq-item">
                     <summary class="faq-question">Sarıkaya MİS360 rezervasyon ve sipariş telefon numarası nedir?</summary>
                     <div class="faq-answer">
-                        Masa rezervasyonu ve paket siparişleriniz için <strong>+90 546 772 16 66</strong> numaralı telefon hattımızdan bizi doğrudan arayabilir veya aynı numara üzerinden 7/24 WhatsApp ile yazabilirsiniz.
+                        Proje talebi ve danışmanlık hizmetlerimiz için <strong>+90 546 772 16 66</strong> numaralı telefon hattımızdan bizi doğrudan arayabilir veya aynı numara üzerinden 7/24 WhatsApp ile yazabilirsiniz.
                     </div>
                 </details>
 
                 <details class="faq-item">
-                    <summary class="faq-question">Ajansda hangi proje ve lezzet seçenekleri servis edilmektedir?</summary>
+                    <summary class="faq-question">Ajansınızda hangi dijital hizmetler sunulmaktadır?</summary>
                     <div class="faq-answer">
                         Hizmetlerimizde hakiki meşe kömüründe pişen Adana ve Urfa yazılımları, kuzu şiş, özel toprak güveçte dijital pazarlama, taş koddan sıcak çıkan kıymalı ve kuşbaşılı tasarımler, çıtır lahmacun, et döner ve günlük taze temin edilen deniz çuprası, kaya levreği ve somon optimizasyonları yer almaktadır.
                     </div>
@@ -929,7 +929,7 @@ $google_reviews = function_exists('mis360_get_google_reviews') ? mis360_get_goog
                 <details class="faq-item">
                     <summary class="faq-question">Açık hava bahçe alanı ve çocuklu aileler için mama sandalyesi var mı?</summary>
                     <div class="faq-answer">
-                        Evet, restoranımızda ailelerin ve çocukların rahatça proje yiyebileceği ferah açık hava bahçe bölümümüz, kapalı klimalı aile salonumuz ve bebek/çocuk mama sandalyelerimiz eksiksiz olarak misafirlerimizin hizmetindedir.
+                        Evet, ajansımızda tüm dijital ihtiyaçlarınız için uçtan uca çözümler sunuyoruz. Web tasarımından mobil uygulamaya, SEO'dan sosyal medya yönetimine kadar uzman ekibimiz her adımda yanınızdadır.
                     </div>
                 </details>
             </div>

@@ -167,7 +167,7 @@ function mis360_render_schema_jsonld(): void {
                     'name'           => 'Sarıkaya MİS360 rezervasyon ve sipariş telefon numarası nedir?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
-                        'text'  => 'Masa rezervasyonu ve paket servis için +90 546 772 16 66 numaralı telefondan arayabilir veya doğrudan WhatsApp üzerinden bizimle iletişime geçebilirsiniz.'
+                        'text'  => 'Proje talebi ve teklif almak için +90 546 772 16 66 numaralı telefondan arayabilir veya doğrudan WhatsApp üzerinden bizimle iletişime geçebilirsiniz.'
                     ]
                 ],
                 [

@@ -81,7 +81,7 @@ $anchor_prefix = is_front_page() ? '' : home_url('/');
                         MİS360
                     </span>
                     <span style="font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.16em; color: var(--color-primary); display: block;">
-                        ET & BALIK RESTAURANT
+                        DİJİTAL REKLAM AJANSI
                     </span>
                 </div>
             </a>

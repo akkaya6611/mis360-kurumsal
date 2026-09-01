@@ -226,7 +226,7 @@ $blog_query = new WP_Query($query_args);
             <!-- Alt CTA: Teklif Al ve İletişim -->
             <div class="blog-gallery-cta mt-16 text-center" style="background: #ffffff; border: 1px solid var(--color-gray-200); border-radius: 16px; padding: 36px 24px; max-width: 780px; margin: 60px auto 0;">
                 <span style="font-size: 12px; font-weight: 800; color: var(--color-primary); letter-spacing: 0.15em; text-transform: uppercase;">
-                    MİS360 ET & BALIK RESTAURANT
+                    MİS360 DİJİTAL REKLAM AJANSI
                 </span>
                 <h3 style="font-size: 24px; font-weight: 800; color: var(--color-black); margin: 6px 0 10px;">
                     Bu Eşsiz Kaliteleri Yerinde Tatmak İster Misiniz?

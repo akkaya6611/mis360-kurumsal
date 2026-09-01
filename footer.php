@@ -39,7 +39,7 @@ $anchor_prefix = is_front_page() ? '' : home_url('/');
                     <div class="footer-logo">
                         <img src="<?php echo esc_url($logo_url); ?>" alt="MİS360 Logo" style="height: 48px; width: auto; object-fit: contain; margin-bottom: 8px;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
                         <div style="display: none;">
-                            MİS360 <span style="font-size: 14px; font-weight: 700; color: var(--color-primary); display: block; letter-spacing: 0.15em;">ET & BALIK RESTAURANT</span>
+                            MİS360 <span style="font-size: 14px; font-weight: 700; color: var(--color-primary); display: block; letter-spacing: 0.15em;">DİJİTAL REKLAM AJANSI</span>
                         </div>
                     </div>
                     <p class="footer-tagline">

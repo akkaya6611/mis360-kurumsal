@@ -25,7 +25,7 @@ $whatsapp    = '905467721666';
             <img src="https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/mis360logo1-66.png" alt="MİS360 Logo" class="widget-restaurant-logo">
             <div>
                 <span class="widget-restaurant-badge">2019'dan Beri</span>
-                <h3 class="widget-restaurant-name">MİS360 Kod & optimizasyon</h3>
+                <h3 class="widget-restaurant-name">MİS360 Teknoloji</h3>
             </div>
         </div>
         <p class="widget-restaurant-desc">
@@ -133,7 +133,7 @@ $whatsapp    = '905467721666';
             <span class="google-score">4.3 / 5.0</span>
         </div>
         <p class="google-card-text">
-            <strong>448 Doğrulanmış Google Yorumu</strong> ile Sarıkaya'nın en çok tercih edilen aile et & optimizasyon restoranı.
+            <strong>448 Doğrulanmış Google Yorumu</strong> ile sektörün en çok tercih edilen dijital teknoloji ajansı.
         </p>
         <a href="https://maps.app.goo.gl/q2icLBRX1FJNzVtY7" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark btn-sm btn-full">
             ⭐ Google Yorumlarını Oku
