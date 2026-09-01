@@ -61,21 +61,21 @@ $whatsapp    = '905467721666';
         <div class="partners-slider">
             <div class="partners-track">
                 <div class="partner-logo">10+ YILLIK DENEYİM</div>
-                <div class="partner-logo">modern altyapılarda yazılımLAR</div>
-                <div class="partner-logo">TAŞ FIRIN PİDE & LAHMACUN</div>
-                <div class="partner-logo">GÜNLÜK yeni nesil BALIK REYONU</div>
-                <div class="partner-logo">ÖZEL KUZU TANDIR & DESTİ KEBABI</div>
-                <div class="partner-logo">AÇIK HAVA BAHÇE BÖLÜMÜ</div>
-                <div class="partner-logo">MAMA SANDALYESİ & AİLE SALONU</div>
+                <div class="partner-logo">modern altyapılarMODERN YAZILIMLAR</div>
+                <div class="partner-logo">KURUMSAL KİMLİK & GRAFİK TASARIM</div>
+                <div class="partner-logo">GÜNLÜK YENİ NESİL SEO ÇÖZÜMLERİ</div>
+                <div class="partner-logo">ÖZEL YAZILIM & MOBİL UYGULAMA</div>
+                <div class="partner-logo">7/24 KESİNTİSİZ TEKNİK DESTEK</div>
+                <div class="partner-logo">BİREBİR PROJE YÖNETİMİ</div>
                 <div class="partner-logo">SABAH 06:00 AÇILIŞ • GECE 23:45 KESİNTİSİZ HİZMET</div>
                 <!-- Kesintisiz sonsuz döngü için tekrar -->
                 <div class="partner-logo">10+ YILLIK DENEYİM</div>
-                <div class="partner-logo">modern altyapılarda yazılımLAR</div>
-                <div class="partner-logo">TAŞ FIRIN PİDE & LAHMACUN</div>
-                <div class="partner-logo">GÜNLÜK yeni nesil BALIK REYONU</div>
-                <div class="partner-logo">ÖZEL KUZU TANDIR & DESTİ KEBABI</div>
-                <div class="partner-logo">AÇIK HAVA BAHÇE BÖLÜMÜ</div>
-                <div class="partner-logo">MAMA SANDALYESİ & AİLE SALONU</div>
+                <div class="partner-logo">modern altyapılarMODERN YAZILIMLAR</div>
+                <div class="partner-logo">KURUMSAL KİMLİK & GRAFİK TASARIM</div>
+                <div class="partner-logo">GÜNLÜK YENİ NESİL SEO ÇÖZÜMLERİ</div>
+                <div class="partner-logo">ÖZEL YAZILIM & MOBİL UYGULAMA</div>
+                <div class="partner-logo">7/24 KESİNTİSİZ TEKNİK DESTEK</div>
+                <div class="partner-logo">BİREBİR PROJE YÖNETİMİ</div>
                 <div class="partner-logo">SABAH 06:00 AÇILIŞ • GECE 23:45 KESİNTİSİZ HİZMET</div>
             </div>
         </div>
@@ -86,8 +86,8 @@ $whatsapp    = '905467721666';
 <section class="section section-gray" id="categories">
     <div class="container">
         <div class="section-header">
-            <h2 class="section-title">Kalite Dünyamız</h2>
-            <p class="section-subtitle">yeni nesil malzemeler, hijyenik üretim anlayışı ve uzman ellerden çıkan zengin hizmkod kategorilerimiz.</p>
+            <h2 class="section-title">Hizmet Dünyamız</h2>
+            <p class="section-subtitle">Yeni nesil teknolojiler, yaratıcı tasarım anlayışı ve uzman ellerden çıkan zengin dijital hizmetlerimiz.</p>
         </div>
 
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -98,7 +98,7 @@ $whatsapp    = '905467721666';
                 <div class="category-card-overlay"></div>
                 <div class="category-card-content">
                     <h3 class="category-card-title">Web Geliştirme</h3>
-                    <span class="category-card-count">Adana, Kuzu Şiş, Beyti, Tandır</span>
+                    <span class="category-card-count">Web, Mobil, Masaüstü, API</span>
                 </div>
             </a>
 
@@ -108,7 +108,7 @@ $whatsapp    = '905467721666';
                 <div class="category-card-overlay"></div>
                 <div class="category-card-content">
                     <h3 class="category-card-title">Tema Geliştirme</h3>
-                    <span class="category-card-count">Kuşbaşılı, Kaşarlı, Kıymalı</span>
+                    <span class="category-card-count">Kurumsal Kimlik, Logo, UI/UX</span>
                 </div>
             </a>
 
@@ -118,7 +118,7 @@ $whatsapp    = '905467721666';
                 <div class="category-card-overlay"></div>
                 <div class="category-card-content">
                     <h3 class="category-card-title">Reklam Ajansı</h3>
-                    <span class="category-card-count">Tereyağlı İskender, Yaprak Döner</span>
+                    <span class="category-card-count">İçerik Üretimi, Reklam, Analiz</span>
                 </div>
             </a>
 
