@@ -15,9 +15,9 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-$phone         = '0535 830 93 07';
-$clean_phone   = '+905358309307';
-$whatsapp      = '905358309307';
+$phone         = '+90 546 772 16 66';
+$clean_phone   = '+905467721666';
+$whatsapp      = '905467721666';
 $logo_url      = 'https://misteknoloji360.com.tr.tr/wp-content/uploads/2026/05/cropped-Basliksiz-1-1.png';
 $anchor_prefix = is_front_page() ? '' : home_url('/');
 ?>
@@ -123,7 +123,7 @@ $anchor_prefix = is_front_page() ? '' : home_url('/');
                         </svg>
                         <div class="footer-contact-text">
                             <a href="https://wa.me/<?php echo esc_attr($whatsapp); ?>" target="_blank" style="color: #25d366; font-weight: 700;">
-                                0535 830 93 07 (Cep & WhatsApp)
+                                +90 546 772 16 66 (Cep & WhatsApp)
                             </a>
                         </div>
                     </div>

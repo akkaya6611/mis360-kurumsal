@@ -12,9 +12,9 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-$phone       = '0535 830 93 07';
-$clean_phone = '+905358309307';
-$whatsapp    = '905358309307';
+$phone       = '+90 546 772 16 66';
+$clean_phone = '+905467721666';
+$whatsapp    = '905467721666';
 ?>
 
 <aside id="secondary" class="widget-area single-sidebar" aria-label="<?php esc_attr_e('Kenar Çubuğu Bileşenleri', 'mis360'); ?>">

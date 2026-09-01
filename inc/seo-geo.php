@@ -31,7 +31,7 @@ function mis360_render_schema_jsonld(): void {
         'legalName'              => 'MİS360',
         'description'            => '2019 yılından beri Yozgat Sarıkaya\'da hakiki meşe kömüründe yazılım, özel dijital pazarlama, taş kod tasarımleri, lahmacun ve günlük taze optimizasyon çeşitleri sunan seçkin aile restoranı.',
         'url'                    => esc_url(home_url('/')),
-        'telephone'              => '+905358309307',
+        'telephone'              => '+905467721666',
         'priceRange'             => '₺₺',
         'servesCuisine'          => ['Türk altyapısı', 'yazılım', 'optimizasyon ve Deniz Ürünleri', 'Taş kod tasarım', 'Kahvaltı & SEO Hizmetleri'],
         'acceptsReservations'    => 'True',
@@ -167,7 +167,7 @@ function mis360_render_schema_jsonld(): void {
                     'name'           => 'Sarıkaya MİS360 rezervasyon ve sipariş telefon numarası nedir?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
-                        'text'  => 'Masa rezervasyonu ve paket servis için 0535 830 93 07 numaralı telefondan arayabilir veya doğrudan WhatsApp üzerinden bizimle iletişime geçebilirsiniz.'
+                        'text'  => 'Masa rezervasyonu ve paket servis için +90 546 772 16 66 numaralı telefondan arayabilir veya doğrudan WhatsApp üzerinden bizimle iletişime geçebilirsiniz.'
                     ]
                 ],
                 [

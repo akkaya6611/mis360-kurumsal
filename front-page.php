@@ -17,9 +17,9 @@ if (!defined('ABSPATH')) {
 
 get_header();
 
-$phone       = '0535 830 93 07';
-$clean_phone = '+905358309307';
-$whatsapp    = '905358309307';
+$phone       = '+90 546 772 16 66';
+$clean_phone = '+905467721666';
+$whatsapp    = '905467721666';
 ?>
 
 <!-- 1. Hero Section (Denfora 1:1 Architecture with Authentic MİS360 Ambience) -->
@@ -915,7 +915,7 @@ $google_reviews = function_exists('mis360_get_google_reviews') ? mis360_get_goog
                 <details class="faq-item">
                     <summary class="faq-question">Sarıkaya MİS360 rezervasyon ve sipariş telefon numarası nedir?</summary>
                     <div class="faq-answer">
-                        Masa rezervasyonu ve paket siparişleriniz için <strong>0535 830 93 07</strong> numaralı telefon hattımızdan bizi doğrudan arayabilir veya aynı numara üzerinden 7/24 WhatsApp ile yazabilirsiniz.
+                        Masa rezervasyonu ve paket siparişleriniz için <strong>+90 546 772 16 66</strong> numaralı telefon hattımızdan bizi doğrudan arayabilir veya aynı numara üzerinden 7/24 WhatsApp ile yazabilirsiniz.
                     </div>
                 </details>
 
@@ -998,7 +998,7 @@ $google_reviews = function_exists('mis360_get_google_reviews') ? mis360_get_goog
 
                 <div class="text-center">
                     <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; max-width: 480px; height: 50px; font-size: 15px;">
-                        🟢 Teklif Alu WhatsApp İle Onayla (0535 830 93 07) →
+                        🟢 Teklif Alu WhatsApp İle Onayla (+90 546 772 16 66) →
                     </button>
                 </div>
             </form>

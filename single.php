@@ -15,9 +15,9 @@ if (!defined('ABSPATH')) {
 
 get_header();
 
-$phone       = '0535 830 93 07';
-$clean_phone = '+905358309307';
-$whatsapp    = '905358309307';
+$phone       = '+90 546 772 16 66';
+$clean_phone = '+905467721666';
+$whatsapp    = '905467721666';
 ?>
 
 <main id="primary" class="single-post-page">
