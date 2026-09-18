@@ -9,8 +9,8 @@
     <div class="mis360-360-hero-container">
         <div class="mis360-360-hero-content">
                 <div class="mis360-360-badge-wrapper">
-            <div class="mis360-360-badge">
-                <span class="mis360-360-badge-text">Yazılım Geliştirme, Web Tasarım, WordPress, Grafik Tasarım ve Daha Fazlası...</span>
+            <div class="mis360-360-ai-pill">
+                <i class="fas fa-magic"></i><span>Yapay Zeka Destekli</span> Dijital Çözümler
             </div>
         </div>
         
@@ -561,23 +561,35 @@
                     </div>
         
                 <div class="mis360-360-logos-container">
-            <div class="mis360-360-logos-track" id="logosTrack">
-                                <div class="mis360-360-logo-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ref1.webp" alt="Referans 1" title="Referans 1" width="195" height="65" loading="lazy">
+            
+            <div class="mis360-360-logos-track" id="logosTrack" style="animation: marquee 20s linear infinite;">
+                <div class="mis360-360-logo-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ref-beyzade.png" alt="Beyzade" height="65" loading="lazy">
                 </div>
-                                <div class="mis360-360-logo-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ref4.webp" alt="Referans 4" title="Referans 4" width="195" height="65" loading="lazy">
+                <div class="mis360-360-logo-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ref-emdief.png" alt="Emdief" height="65" loading="lazy">
                 </div>
-                                <div class="mis360-360-logo-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ref5.webp" alt="Referans 5" title="Referans 5" width="195" height="65" loading="lazy">
+                <div class="mis360-360-logo-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ref-yolyardim.png" alt="Yol Yardim" height="65" loading="lazy">
                 </div>
-                                <div class="mis360-360-logo-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ref6.webp" alt="Referans 6" title="Referans 6" width="195" height="65" loading="lazy">
+                <div class="mis360-360-logo-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ref-ratemo.png" alt="Ratemo" height="65" loading="lazy">
                 </div>
-                                <div class="mis360-360-logo-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ref7.webp" alt="Referans 7" title="Referans 7" width="195" height="65" loading="lazy">
+                <!-- Duplicate for seamless scroll -->
+                <div class="mis360-360-logo-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ref-beyzade.png" alt="Beyzade" height="65" loading="lazy">
                 </div>
-                            </div>
+                <div class="mis360-360-logo-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ref-emdief.png" alt="Emdief" height="65" loading="lazy">
+                </div>
+                <div class="mis360-360-logo-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ref-yolyardim.png" alt="Yol Yardim" height="65" loading="lazy">
+                </div>
+                <div class="mis360-360-logo-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ref-ratemo.png" alt="Ratemo" height="65" loading="lazy">
+                </div>
+            </div>
+          </div>
         </div>
             </div>
 </section>
