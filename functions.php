@@ -105,7 +105,7 @@ require_once( get_template_directory() . "/plugin-update-checker/plugin-update-c
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $myUpdateChecker = PucFactory::buildUpdateChecker(
-	"https://github.com/akkaya6611/mis360-360-theme/",
+	"https://github.com/akkaya6611/mis360-kurumsal/",
 	__FILE__,
 	"mis360-360"
 );
