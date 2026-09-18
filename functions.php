@@ -1,10 +1,10 @@
-<?php
+﻿<?php
 /**
  * Mis360-360 functions and definitions
  */
 
 if ( ! defined( "MIS360_360_VERSION" ) ) {
-	define( "MIS360_360_VERSION", "1.0.0" );
+	define( "MIS360_360_VERSION", time() );
 }
 
 function mis360_360_setup() {
@@ -62,18 +62,18 @@ function mis360_360_scripts() {
 add_action( "wp_enqueue_scripts", "mis360_360_scripts" );
 
 /**
- * Tema aktif edildiğinde gerekli sayfaları otomatik oluştur.
+ * Tema aktif edildiÄŸinde gerekli sayfalarÄ± otomatik oluÅŸtur.
  */
 function mis360_360_create_default_pages() {
     $pages = array(
-        "Hakkımızda" => "hakkimizda",
+        "HakkÄ±mÄ±zda" => "hakkimizda",
         "Banka Bilgileri" => "banka",
-        "Sık Sorulan Sorular" => "sss",
+        "SÄ±k Sorulan Sorular" => "sss",
         "Hizmetlerimiz" => "hizmetlerimiz",
         "Projeler" => "projeler",
-        "İletişim" => "iletisim",
+        "Ä°letiÅŸim" => "iletisim",
         "Teklif" => "teklif",
-        "Müşteri Paneli" => "musteri-paneli"
+        "MÃ¼ÅŸteri Paneli" => "musteri-paneli"
     );
 
     foreach ( $pages as $title => $slug ) {
@@ -99,7 +99,7 @@ add_action( "init", function() {
 } );
 
 /**
- * GitHub üzerinden otomatik tema güncellemelerini kontrol et
+ * GitHub Ã¼zerinden otomatik tema gÃ¼ncellemelerini kontrol et
  */
 require_once( get_template_directory() . "/plugin-update-checker/plugin-update-checker.php" );
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
@@ -110,20 +110,20 @@ $myUpdateChecker = PucFactory::buildUpdateChecker(
 	"mis360-360"
 );
 
-// Sadece main (ana) dalındaki güncellemeleri çek
+// Sadece main (ana) dalÄ±ndaki gÃ¼ncellemeleri Ã§ek
 $myUpdateChecker->setBranch("main");
 
 add_action( 'init', function() {
     if ( ! get_option( 'mis360_360_db_pages_fixed_v2' ) ) {
         $fixes = array(
-            'hakkimizda' => 'Hakkımızda',
+            'hakkimizda' => 'HakkÄ±mÄ±zda',
             'banka' => 'Banka Bilgileri',
-            'sss' => 'Sık Sorulan Sorular',
+            'sss' => 'SÄ±k Sorulan Sorular',
             'hizmetlerimiz' => 'Hizmetlerimiz',
             'projeler' => 'Projeler',
-            'iletisim' => 'İletişim',
+            'iletisim' => 'Ä°letiÅŸim',
             'teklif' => 'Teklif',
-            'musteri-paneli' => 'Müşteri Paneli'
+            'musteri-paneli' => 'MÃ¼ÅŸteri Paneli'
         );
         foreach ( $fixes as $slug => $correct_title ) {
             $page = get_page_by_path( $slug );
@@ -147,3 +147,4 @@ add_action( 'init', function() {
         update_option( 'mis360_360_db_pages_fixed_v2', true );
     }
 } );
+
