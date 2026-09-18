@@ -1,206 +1,226 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html <?php language_attributes(); ?>>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/webp" href="<?php echo get_template_directory_uri(); ?>/assets/img/favicon.webp">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-        <title>Mis360-360 &#8211; WordPress Dijital Ajans Teması</title>
-<meta name='robots' content='max-image-preview:large' >
+    <title><?php wp_title('|', true, 'right'); ?></title>
+    
+    <!-- Preconnect & Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <?php wp_head(); ?>
 
+    <style>
+        /* AsistanX Header & Nav Base Styles */
+        body { margin: 0; font-family: 'Inter', sans-serif; }
+        
+        .asx-header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
 
+        .asx-header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
 
+        .asx-logo a {
+            font-weight: 800;
+            font-size: 24px;
+            color: #1a1a1a;
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+        .asx-logo a span { color: #ea2845; }
 
-<link rel='stylesheet' id='mis360-360-main-css' href='<?php echo get_template_directory_uri(); ?>/assets/css/main.css?ver=1.0.0' media='all'>
-<link rel='stylesheet' id='mis360-360-dark-css' href='<?php echo get_template_directory_uri(); ?>/assets/css/dark.css?ver=1.0.0' media="print" onload="this.media='all'">
-<noscript><link rel='stylesheet' id='mis360-360-dark-css' href='<?php echo get_template_directory_uri(); ?>/assets/css/dark.css?ver=1.0.0' media='all'>
-</noscript>    <?php wp_head(); ?>
+        /* Desktop Nav */
+        .asx-desktop-nav {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+        .asx-nav-menu {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .asx-nav-menu li a {
+            text-decoration: none;
+            color: #4b5563;
+            font-weight: 500;
+            font-size: 14.5px;
+            transition: color 0.2s;
+        }
+        .asx-nav-menu li a:hover { color: #ea2845; }
 
-<style>
-.asx-nav-menu { display:flex; gap:24px; list-style:none; margin:0; padding:0; }
-.asx-nav-menu li a { text-decoration:none; color:#1a1a1a; font-weight:500; font-size:14.5px; transition:color 0.2s; }
-.asx-nav-menu li a:hover { color:#ea2845; }
-</style>
+        .asx-header-actions {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        /* Buttons */
+        .asx-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 20px;
+            border-radius: 99px;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        .asx-btn-ghost { color: #1a1a1a; background: transparent; }
+        .asx-btn-ghost:hover { background: rgba(0,0,0,0.04); }
+        .asx-btn-primary { background: #ea2845; color: #fff; box-shadow: 0 4px 15px rgba(234, 40, 69, 0.3); }
+        .asx-btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(234, 40, 69, 0.4); }
+
+        /* Mobile Hamburger */
+        .asx-mobile-toggle {
+            display: none;
+            background: transparent;
+            border: none;
+            font-size: 24px;
+            color: #1a1a1a;
+            cursor: pointer;
+            padding: 5px;
+        }
+
+        /* Mobile Menu Overlay */
+        .asx-mobile-overlay {
+            position: fixed;
+            top: 70px; /* Below header */
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: #ffffff;
+            z-index: 999;
+            display: none;
+            flex-direction: column;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        .asx-mobile-overlay.active { display: flex; }
+
+        .asx-mobile-nav { margin-bottom: 30px; }
+        .asx-mobile-nav .asx-nav-menu {
+            flex-direction: column;
+            gap: 0;
+        }
+        .asx-mobile-nav .asx-nav-menu li {
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+        .asx-mobile-nav .asx-nav-menu li a {
+            display: block;
+            padding: 16px 0;
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        .asx-mobile-actions { display: flex; flex-direction: column; gap: 12px; }
+        .asx-mobile-actions .asx-btn { width: 100%; box-sizing: border-box; }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 992px) {
+            .asx-desktop-nav { display: none; }
+            .asx-header-actions { display: none; }
+            .asx-mobile-toggle { display: block; }
+        }
+    </style>
 </head>
-<body>
-            <header class="mis360-360-header asx-header">
-        <div class="mis360-360-header-container" style="display:flex; justify-content:space-between; align-items:center; height:70px; max-width:1200px; margin:0 auto; padding:0 20px;">
-            <div class="mis360-360-logo">
-                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" style="font-weight:800; font-size:24px; color:#1a1a1a; text-decoration:none;">
-                    mis<span style="color:#ea2845;">360</span>
-                </a>
-            </div>
+<body <?php body_class(); ?>>
 
-            <nav class="mis360-360-nav" style="flex:1; display:flex; justify-content:center;">
-                <?php
-                wp_nav_menu( array(
-                    'theme_location' => 'menu-1',
-                    'menu_id'        => 'primary-menu',
-                    'container'      => false,
-                    'menu_class'     => 'asx-nav-menu',
-                ) );
-                ?>
-            </nav>
-
-            <div class="asx-header-actions" style="display:flex; gap:12px; align-items:center;">
-                <a href="<?php echo esc_url( home_url( '/iletisim/' ) ); ?>" class="asx-btn asx-btn-ghost" style="padding:8px 16px; font-size:14px;">Destek Talebi</a>
-                <a href="<?php echo esc_url( home_url( '/teklif/' ) ); ?>" class="asx-btn asx-btn-primary" style="padding:8px 16px; font-size:14px;">Demo Talep Et &rarr;</a>
-            </div>
-        </div>
-    </header>
-
-<!-- MOBILE MENU BLOCK -->
-<div class="mis360-360-mobile-sidebar" id="mobileSidebar">
-        <div class="mis360-360-mobile-sidebar-header">
-            <div class="mis360-360-mobile-logo">
-                <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="Mis Teknoloji 360 Logo" class="mis360-360-mobile-logo-img">
-                </a>
-            </div>
-            <button class="mis360-360-mobile-close-btn" id="mobileCloseBtn" aria-label="Menüyü kapat">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
-                    <path d="M6 6L18 18M6 18L18 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-            </button>
-        </div>
-        
-        <nav class="mobile-nav" aria-label="Ana menü">
-                        <div class="mobile-nav-musteri-panel">
-                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="mobile-nav-musteri-panel-btn">
-                    <i class="fas fa-user-circle"></i>
-                    <span>Müşteri Paneli</span>
-                    <i class="fas fa-chevron-right"></i>
-                </a>
-            </div>
-                        
-            <ul class="mobile-nav-list"><li><a class="mobile-nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" aria-expanded="false"><i class="fas fa-home"></i><span class="mobile-nav-text">Ana Sayfa</span></a></li>
-<li class="mobile-nav-item-has-submenu"><a class="mobile-nav-link mobile-submenu-toggle" href="javascript:void(0);" aria-expanded="false" onclick="return false;"><i class="fas fa-home"></i><span class="mobile-nav-text">Kurumsal</span><i class="fas fa-chevron-down mobile-submenu-arrow"></i></a>
-<ul class="mobile-submenu">
-	<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><span class="mobile-submenu-dot"></span><span>Hakkımızda</span></a></li>
-	<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><span class="mobile-submenu-dot"></span><span>Banka Bilgileri</span></a></li>
-	<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><span class="mobile-submenu-dot"></span><span>Sık Sorulan Sorular</span></a></li>
-</ul>
-</li>
-<li><a class="mobile-nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" aria-expanded="false"><i class="fas fa-home"></i><span class="mobile-nav-text">Hizmetlerimiz</span></a></li>
-<li><a class="mobile-nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" aria-expanded="false"><i class="fas fa-home"></i><span class="mobile-nav-text">Projeler</span></a></li>
-</ul>            
-                        <div class="mobile-nav-cards">
-                                <a href="<?php echo esc_url( home_url( "/teklif/" ) ); ?>" class="mobile-nav-card">
-                    <div class="mobile-nav-card-icon">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <div class="mobile-nav-card-content">
-                        <span class="mobile-nav-card-title">Ücretsiz Teklif Al</span>
-                                                <p class="mobile-nav-card-desc">Projeniz için özel fiyat teklifi</p>
-                                            </div>
-                    <i class="fas fa-chevron-right mobile-nav-card-arrow"></i>
-                </a>
-                                <a href="<?php echo esc_url( home_url( "/iletisim/" ) ); ?>" class="mobile-nav-card">
-                    <div class="mobile-nav-card-icon">
-                        <i class="fas fa-headset"></i>
-                    </div>
-                    <div class="mobile-nav-card-content">
-                        <span class="mobile-nav-card-title">7/24 Destek</span>
-                                                <p class="mobile-nav-card-desc">Hemen iletişime geçin</p>
-                                            </div>
-                    <i class="fas fa-chevron-right mobile-nav-card-arrow"></i>
-                </a>
-                                <a href="<?php echo esc_url( home_url( "/teklif/" ) ); ?>" class="mobile-nav-card">
-                    <div class="mobile-nav-card-icon">
-                        <i class="fas fa-trophy"></i>
-                    </div>
-                    <div class="mobile-nav-card-content">
-                        <span class="mobile-nav-card-title">Portföyümüz</span>
-                                                <p class="mobile-nav-card-desc">Tamamlanan projelerimizi görün</p>
-                                            </div>
-                    <i class="fas fa-chevron-right mobile-nav-card-arrow"></i>
-                </a>
-                            </div>
-                        
-                        <div class="mobile-nav-social">
-                <div class="mobile-nav-social-icons">
-                                        <a href="https://facebook.com/Mis Teknoloji 360" class="mobile-nav-social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                                        <a href="https://instagram.com/Mis Teknoloji 360" class="mobile-nav-social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                                        <a href="https://linkedin.com/company/Mis Teknoloji 360" class="mobile-nav-social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                                    </div>
-            </div>
-                    </nav>
-        
-                <div class="mis360-360-mobile-actions">
-                        <a href="<?php echo esc_url( home_url( "/teklif/" ) ); ?>" class="mis360-360-mobile-action-btn mis360-360-mobile-quote-btn">
-                <i class="fas fa-star"></i>
-                <span>Teklif Al</span>
+<header class="asx-header">
+    <div class="asx-header-container">
+        <!-- Logo -->
+        <div class="asx-logo">
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+                mis<span>360</span>
             </a>
-                        
-                        <a href="<?php echo esc_url( home_url( "/iletisim/" ) ); ?>" class="mis360-360-mobile-action-btn mis360-360-mobile-contact-btn">
-                <i class="fas fa-envelope"></i>
-                <span>İletişim</span>
-            </a>
-                        
-                        <button class="mis360-360-mobile-action-btn mis360-360-mobile-theme-toggle mis360-360-theme-toggle" aria-label="Tema Değiştir">
-                <svg class="mis360-360-sun-icon" width="16" height="16" viewBox="0 0 20 20" fill="none">
-                    <circle cx="10" cy="10" r="4" stroke="currentColor" stroke-width="2"/>
-                    <path d="M10 1V3M10 17V19M19 10H17M3 10H1M16.5 3.5L15 5M5 15L3.5 16.5M16.5 16.5L15 15M5 5L3.5 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-                <svg class="mis360-360-moon-icon" width="16" height="16" viewBox="0 0 20 20" fill="none" style="display: none;">
-                    <path d="M18 10C18 14.4 14.4 18 10 18C6.5 18 3.5 15.5 2.5 12C3.5 13 5 13.5 6.5 13.5C10 13.5 13 10.5 13 7C13 5.5 12.5 4 11.5 2.5C15 3.5 18 6.5 18 10Z" stroke="currentColor" stroke-width="2"/>
-                </svg>
-            </button>
-                    </div>
-            </div>
-
-    <div class="mis360-360-mobile-overlay" id="mobileOverlay"></div>
-
-        <div class="mis360-360-notification-panel" id="notificationPanel">
-        <div class="mis360-360-notification-header">
-            <h3 class="mis360-360-notification-title">Bildirimler</h3>
-            <button class="mis360-360-notification-close" id="notificationClose" aria-label="Kapat">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <path d="M15 5L5 15M5 5L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-            </button>
         </div>
-        <div class="mis360-360-notification-content" id="notificationContent">
-                                            <div class="mis360-360-notification-item unread" data-notification-id="notification_0">
-                    <div class="mis360-360-notification-icon">
-                        <i class="fas fa-bell"></i>
-                    </div>
-                    <div class="mis360-360-notification-body">
-                        <div class="mis360-360-notification-title-text">Hoş Geldiniz!</div>
-                        <div class="mis360-360-notification-text">Mis360-360 temasına hoş geldiniz. Tema ayarlarından bildirimlerinizi yönetebilirsiniz.</div>
-                        <div class="mis360-360-notification-time">24 Mart 2026</div>
-                    </div>
-                </div>
-                                <div class="mis360-360-notification-item unread" data-notification-id="notification_1">
-                    <div class="mis360-360-notification-icon">
-                        <i class="fas fa-info-circle"></i>
-                    </div>
-                    <div class="mis360-360-notification-body">
-                        <div class="mis360-360-notification-title-text">Tema Güncellemesi</div>
-                        <div class="mis360-360-notification-text">Yeni özellikler ve iyileştirmeler için tema ayarlarını kontrol edin.</div>
-                        <div class="mis360-360-notification-time">24 Mart 2026</div>
-                    </div>
-                </div>
-                                <div class="mis360-360-notification-item unread" data-notification-id="notification_2">
-                    <div class="mis360-360-notification-icon">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <div class="mis360-360-notification-body">
-                        <div class="mis360-360-notification-title-text">Önemli Duyuru</div>
-                        <div class="mis360-360-notification-text">Tema ile ilgili önemli bilgiler ve ipuçları için bildirimlerinizi takip edin.</div>
-                        <div class="mis360-360-notification-time">24 Mart 2026</div>
-                    </div>
-                </div>
-                                    </div>
-                <div class="mis360-360-notification-footer">
-            <button class="mis360-360-notification-clear" id="notificationClear">Tümünü Okundu İşaretle</button>
-        </div>
-            </div>
-<!-- END MOBILE MENU BLOCK -->
 
+        <!-- Desktop Nav -->
+        <nav class="asx-desktop-nav">
+            <?php
+            wp_nav_menu( array(
+                'theme_location' => 'menu-1',
+                'menu_id'        => 'primary-menu',
+                'container'      => false,
+                'menu_class'     => 'asx-nav-menu',
+                'fallback_cb'    => false
+            ) );
+            ?>
+        </nav>
+
+        <!-- Desktop Actions -->
+        <div class="asx-header-actions">
+            <a href="<?php echo esc_url( home_url( '/iletisim/' ) ); ?>" class="asx-btn asx-btn-ghost">Destek Talebi</a>
+            <a href="<?php echo esc_url( home_url( '/teklif/' ) ); ?>" class="asx-btn asx-btn-primary">Demo Talep Et &rarr;</a>
+        </div>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="asx-mobile-toggle" id="asxMobileToggle" aria-label="Menüyü Aç/Kapat">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </button>
+    </div>
+</header>
+
+<!-- Mobile Full-Screen Overlay Menu -->
+<div class="asx-mobile-overlay" id="asxMobileOverlay">
+    <nav class="asx-mobile-nav">
+        <?php
+        wp_nav_menu( array(
+            'theme_location' => 'menu-1',
+            'menu_id'        => 'mobile-menu',
+            'container'      => false,
+            'menu_class'     => 'asx-nav-menu',
+            'fallback_cb'    => false
+        ) );
+        ?>
+    </nav>
+    <div class="asx-mobile-actions">
+        <a href="<?php echo esc_url( home_url( '/iletisim/' ) ); ?>" class="asx-btn asx-btn-ghost" style="border:1px solid rgba(0,0,0,0.1);">Destek Talebi</a>
+        <a href="<?php echo esc_url( home_url( '/teklif/' ) ); ?>" class="asx-btn asx-btn-primary">Demo Talep Et &rarr;</a>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const toggleBtn = document.getElementById('asxMobileToggle');
+        const overlay = document.getElementById('asxMobileOverlay');
+        
+        if (toggleBtn && overlay) {
+            toggleBtn.addEventListener('click', function() {
+                overlay.classList.toggle('active');
+                
+                // Change icon
+                if (overlay.classList.contains('active')) {
+                    toggleBtn.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>';
+                    document.body.style.overflow = 'hidden'; // Prevent scrolling
+                } else {
+                    toggleBtn.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>';
+                    document.body.style.overflow = ''; // Restore scrolling
+                }
+            });
+        }
+    });
+</script>
